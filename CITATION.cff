@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite the manuscript below."
+authors:
+  - family-names: Chang
+    given-names: Hung-Chi
+title: "Data and code for: The geography of geocoding failure"
+version: 1.0.0
+date-released: 2026-08-14
+url: "https://github.com/tiger-lab-png/geocoding-failure-openalex"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Chang
+      given-names: Hung-Chi
+  title: "The geography of geocoding failure: non-random missingness in open-infrastructure spatial scientometrics, and the limits of its correction by inverse-probability weighting"
+  year: 2026
+  notes: "Manuscript submitted for publication"

@@ -1,0 +1,431 @@
+{
+ "n_strings": 80176,
+ "n_success": 69455,
+ "fail_rate_overall": 0.1337,
+ "country_known_pct": 91.8,
+ "country_known_failed_pct": 90.6,
+ "chi2": 2098.2,
+ "chi2_dof": 137,
+ "cramer_v": 0.169,
+ "M1": {
+  "Intercept": {
+   "OR": 0.1674,
+   "lo": 0.1153,
+   "hi": 0.2431,
+   "p": 0.0
+  },
+  "global_south": {
+   "OR": 1.4083,
+   "lo": 1.0677,
+   "hi": 1.8575,
+   "p": 0.0154
+  },
+  "non_latin": {
+   "OR": 0.6542,
+   "lo": 0.4968,
+   "hi": 0.8615,
+   "p": 0.0025
+  },
+  "log_papers": {
+   "OR": 0.7238,
+   "lo": 0.5121,
+   "hi": 1.0229,
+   "p": 0.067
+  }
+ },
+ "M3": {
+  "Intercept": {
+   "OR": 0.726,
+   "lo": 0.4829,
+   "hi": 1.0915,
+   "p": 0.1238
+  },
+  "global_south": {
+   "OR": 1.0893,
+   "lo": 0.81,
+   "hi": 1.4647,
+   "p": 0.5715
+  },
+  "non_latin": {
+   "OR": 0.5817,
+   "lo": 0.4318,
+   "hi": 0.7835,
+   "p": 0.0004
+  },
+  "log_papers": {
+   "OR": 0.583,
+   "lo": 0.4677,
+   "hi": 0.7268,
+   "p": 0.0
+  },
+  "strlen": {
+   "OR": 1.0262,
+   "lo": 1.0207,
+   "hi": 1.0318,
+   "p": 0.0
+  },
+  "n_commas": {
+   "OR": 0.2335,
+   "lo": 0.2025,
+   "hi": 0.2693,
+   "p": 0.0
+  }
+ },
+ "M2": {
+  "Intercept": {
+   "OR": 0.0889,
+   "lo": 0.0823,
+   "hi": 0.0959,
+   "p": 0.0
+  },
+  "East Asia": {
+   "OR": 1.4503,
+   "lo": 1.323,
+   "hi": 1.59,
+   "p": 0.0
+  },
+  "Eastern Europe & Central Asia": {
+   "OR": 1.5037,
+   "lo": 1.2185,
+   "hi": 1.8557,
+   "p": 0.0001
+  },
+  "Latin America & Caribbean": {
+   "OR": 3.6329,
+   "lo": 3.122,
+   "hi": 4.2276,
+   "p": 0.0
+  },
+  "Middle East": {
+   "OR": 2.8073,
+   "lo": 2.1272,
+   "hi": 3.7049,
+   "p": 0.0
+  },
+  "North Africa": {
+   "OR": 2.7839,
+   "lo": 2.2605,
+   "hi": 3.4286,
+   "p": 0.0
+  },
+  "Oceania": {
+   "OR": 1.7138,
+   "lo": 1.403,
+   "hi": 2.0934,
+   "p": 0.0
+  },
+  "South Asia": {
+   "OR": 1.7368,
+   "lo": 1.5864,
+   "hi": 1.9014,
+   "p": 0.0
+  },
+  "Southeast Asia": {
+   "OR": 2.2968,
+   "lo": 1.2855,
+   "hi": 4.1037,
+   "p": 0.005
+  },
+  "Sub-Saharan Africa": {
+   "OR": 1.8469,
+   "lo": 0.9997,
+   "hi": 3.4123,
+   "p": 0.0501
+  },
+  "Western Europe": {
+   "OR": 2.5164,
+   "lo": 1.7954,
+   "hi": 3.5268,
+   "p": 0.0
+  },
+  "log_papers": {
+   "OR": 0.7316,
+   "lo": 0.5201,
+   "hi": 1.029,
+   "p": 0.0726
+  }
+ },
+ "M2_noent": {
+  "Intercept": {
+   "OR": 0.0871,
+   "lo": 0.0814,
+   "hi": 0.0932,
+   "p": 0.0
+  },
+  "East Asia": {
+   "OR": 1.3124,
+   "lo": 1.229,
+   "hi": 1.4014,
+   "p": 0.0
+  },
+  "Eastern Europe & Central Asia": {
+   "OR": 1.4382,
+   "lo": 1.179,
+   "hi": 1.7544,
+   "p": 0.0003
+  },
+  "Latin America & Caribbean": {
+   "OR": 2.6786,
+   "lo": 2.2108,
+   "hi": 3.2453,
+   "p": 0.0
+  },
+  "Middle East": {
+   "OR": 2.6599,
+   "lo": 1.8791,
+   "hi": 3.765,
+   "p": 0.0
+  },
+  "North Africa": {
+   "OR": 2.767,
+   "lo": 2.2271,
+   "hi": 3.4378,
+   "p": 0.0
+  },
+  "Oceania": {
+   "OR": 1.7552,
+   "lo": 1.5039,
+   "hi": 2.0485,
+   "p": 0.0
+  },
+  "South Asia": {
+   "OR": 1.7449,
+   "lo": 1.6083,
+   "hi": 1.8932,
+   "p": 0.0
+  },
+  "Southeast Asia": {
+   "OR": 2.2693,
+   "lo": 1.2584,
+   "hi": 4.0922,
+   "p": 0.0065
+  },
+  "Sub-Saharan Africa": {
+   "OR": 1.6879,
+   "lo": 0.9762,
+   "hi": 2.9184,
+   "p": 0.061
+  },
+  "Western Europe": {
+   "OR": 2.4867,
+   "lo": 1.7484,
+   "hi": 3.5368,
+   "p": 0.0
+  },
+  "log_papers": {
+   "OR": 0.7128,
+   "lo": 0.4736,
+   "hi": 1.0728,
+   "p": 0.1046
+  }
+ },
+ "strings_0or1_comma_pct": 13.1,
+ "failures_from_0or1_comma_pct": 62.1,
+ "html_ent_pct": 3.67,
+ "fail_html_ent": 36.3,
+ "fail_no_ent": 12.3,
+ "ipw_weight_cap": 2.634,
+ "composition": {
+  "East Asia": [
+   33.87,
+   34.78,
+   33.97
+  ],
+  "Western Europe": [
+   21.86,
+   20.76,
+   21.77
+  ],
+  "Northern America": [
+   15.51,
+   16.47,
+   15.7
+  ],
+  "South Asia": [
+   10.86,
+   10.89,
+   10.83
+  ],
+  "Eastern Europe & Central Asia": [
+   4.59,
+   4.68,
+   4.63
+  ],
+  "Middle East": [
+   4.33,
+   4.03,
+   4.17
+  ],
+  "Latin America & Caribbean": [
+   3.01,
+   2.64,
+   2.94
+  ],
+  "Southeast Asia": [
+   2.35,
+   2.26,
+   2.38
+  ],
+  "North Africa": [
+   1.87,
+   1.73,
+   1.87
+  ],
+  "Oceania": [
+   1.16,
+   1.17,
+   1.14
+  ],
+  "Sub-Saharan Africa": [
+   0.59,
+   0.59,
+   0.6
+  ]
+ },
+ "n_pairs": 110112,
+ "n_papers_pairs": 26189,
+ "ipw_metrics": {
+  "mean_dist_raw": 2127.5941,
+  "mean_dist_ipw": 2151.4321,
+  "median_raw": 339.7776,
+  "median_ipw": 351.7544,
+  "intl_share_raw": 0.2758,
+  "intl_share_ipw": 0.2816,
+  "invshare_raw::Latin America & Caribbean": 0.025,
+  "invshare_ipw::Latin America & Caribbean": 0.0286,
+  "invshare_raw::North Africa": 0.0186,
+  "invshare_ipw::North Africa": 0.0199,
+  "invshare_raw::Middle East": 0.0592,
+  "invshare_ipw::Middle East": 0.0589,
+  "invshare_raw::Sub-Saharan Africa": 0.008,
+  "invshare_ipw::Sub-Saharan Africa": 0.0082,
+  "LA_share_of_intl_raw": 0.0421,
+  "LA_share_of_intl_ipw": 0.0446
+ },
+ "unresolved_overall_pct": 7.94,
+ "geocode_fail_by_resolution": [
+  15.5,
+  13.2
+ ],
+ "reverse_geo_agreement_pct": 94.6,
+ "resolution_model": {
+  "Intercept": {
+   "OR": 0.0719,
+   "lo": 0.0654,
+   "hi": 0.0789,
+   "p": 0.0
+  },
+  "East Asia": {
+   "OR": 1.3199,
+   "lo": 0.9766,
+   "hi": 1.784,
+   "p": 0.071
+  },
+  "Eastern Europe & Central Asia": {
+   "OR": 1.0363,
+   "lo": 0.8069,
+   "hi": 1.3311,
+   "p": 0.7799
+  },
+  "Latin America & Caribbean": {
+   "OR": 0.5581,
+   "lo": 0.4755,
+   "hi": 0.655,
+   "p": 0.0
+  },
+  "Middle East": {
+   "OR": 0.478,
+   "lo": 0.3227,
+   "hi": 0.708,
+   "p": 0.0002
+  },
+  "North Africa": {
+   "OR": 0.5466,
+   "lo": 0.3236,
+   "hi": 0.9232,
+   "p": 0.0239
+  },
+  "Oceania": {
+   "OR": 0.5702,
+   "lo": 0.4789,
+   "hi": 0.6789,
+   "p": 0.0
+  },
+  "South Asia": {
+   "OR": 2.8139,
+   "lo": 2.4074,
+   "hi": 3.2891,
+   "p": 0.0
+  },
+  "Southeast Asia": {
+   "OR": 0.8957,
+   "lo": 0.6182,
+   "hi": 1.2977,
+   "p": 0.5603
+  },
+  "Sub-Saharan Africa": {
+   "OR": 0.4097,
+   "lo": 0.196,
+   "hi": 0.8564,
+   "p": 0.0177
+  },
+  "Western Europe": {
+   "OR": 0.9825,
+   "lo": 0.8241,
+   "hi": 1.1713,
+   "p": 0.8439
+  },
+  "log_papers": {
+   "OR": 0.5678,
+   "lo": 0.5066,
+   "hi": 0.6364,
+   "p": 0.0
+  }
+ },
+ "unresolved_by_region": {
+  "East Asia": [
+   24231,
+   8.01
+  ],
+  "Eastern Europe & Central Asia": [
+   3164,
+   6.57
+  ],
+  "Latin America & Caribbean": [
+   1904,
+   3.68
+  ],
+  "Middle East": [
+   2659,
+   3.08
+  ],
+  "North Africa": [
+   1320,
+   3.64
+  ],
+  "Northern America": [
+   10902,
+   6.22
+  ],
+  "Oceania": [
+   828,
+   3.62
+  ],
+  "South Asia": [
+   8493,
+   15.98
+  ],
+  "Southeast Asia": [
+   1615,
+   5.7
+  ],
+  "Sub-Saharan Africa": [
+   369,
+   2.71
+  ],
+  "Western Europe": [
+   13909,
+   6.18
+  ]
+ }
+}
