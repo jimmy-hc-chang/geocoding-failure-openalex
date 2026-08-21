@@ -4,13 +4,17 @@ Data and code for the manuscript:
 
 > **The geography of geocoding failure: non-random missingness in open-infrastructure
 > spatial scientometrics, and the limits of its correction by inverse-probability weighting**
-> (Hung-Chi Chang, submitted to *Journal of Informetrics*, 2026)
+> (Hung-Chi Chang, Short Communication under review at *Journal of Informetrics*, 2026)
 
 The paper audits geocoding failure (Nominatim/OpenStreetMap) and institution
 non-resolution (OpenAlex) across all 80,176 unique affiliation strings of a complete
 OpenAlex field corpus, diagnoses the missingness as MAR given observables, and
 corrects downstream spatial statistics by inverse-probability weighting, with a
 mechanism replication in a second field (CAR-T cell therapy).
+
+Because the manuscript is a Short Communication, most of the supporting evidence is
+reported in its Supplementary Material rather than the main text. The mapping below
+therefore names both.
 
 ## Relationship to a companion project
 
@@ -20,36 +24,60 @@ deposited at <https://github.com/tiger-lab-png/scpark-network>. All research
 questions and inferential analyses are disjoint; the present repository hosts the
 full corpora and every script behind the geocoding-failure manuscript.
 
+## Repository layout
+
+```
+full_run/     silicon-carbide corpus, geocoding results and caches
+cart_run/     CAR-T replication corpus, same schema
+analysis/     16-19: statistics, diagnostics, robustness, pre-submission checks
+figures/      20: regenerates every figure from the deposited data
+results/      precomputed outputs (JSON/CSV)
+```
+
 ## Data
 
-All CSV files are UTF-8 (`utf-8-sig`). Files over 3 MB are stored gzipped.
+All CSV files are UTF-8 (`utf-8-sig`). Files over 3 MB are stored gzipped;
+`full_run/affil_full.csv.gz` is split into three parts, with reassembly
+instructions in `full_run/REASSEMBLE.md`.
 
-| Directory | Contents |
+| Directory   | Contents |
 |---|---|
-| `data/full_run/` | Silicon-carbide corpus (OpenAlex Topic T10361, 2018–2024): 54,671 works, 319,968 affiliation rows, 80,176 unique raw strings; Nominatim geocoding results and caches (retrieved 2026-07, 1 req/s); Overpass/Wikidata provenance files. |
-| `data/cart_run/` | CAR-T cell-therapy replication corpus (capped sample): 36,892 unique strings, same schema. |
+| `full_run/` | Silicon-carbide corpus (OpenAlex Topic T10361, 2018–2024): 54,671 works, 319,968 affiliation rows, 80,176 unique raw strings. Nominatim geocoding results and caches, retrieved July 2026 at 1 request/second against the public API. Overpass and Wikidata provenance files. |
+| `cart_run/` | CAR-T cell-therapy replication corpus: 36,892 unique raw strings, same schema, retrieved with the identical pipeline. |
 
-See the data dictionary comments at the top of each analysis script for
-column-level documentation.
+Column-level documentation is in the data-dictionary comments at the top of each
+analysis script.
 
 ## Reproducing the manuscript
 
-Run from `data/full_run/` (with `data/cart_run/` as a sibling directory), in order:
+Run from `full_run/`, with `cart_run/` as a sibling directory, in this order.
+"S" numbers refer to sections and tables of the Supplementary Material.
 
 | Script | Reproduces |
 |---|---|
-| `analysis/16_geocoding_mar_analysis.py` | Descriptive failure geography (Table 1, Fig. 1), MCAR test, logistic models M1–M3 (Tables 2–3, Fig. 2a), IPW correction and pair statistics (Table 4, Fig. 4), entity-resolution audit (Table 5, Fig. 2b) |
-| `analysis/17_reviewer_diagnostics.py` | CAR-T replication (Section 4.6), weight diagnostics/ESS/calibration, within-work dependence (κ), Wilson CIs, unknown-country bounds, MNAR tipping point |
-| `analysis/18_minor_revision_checks.py` | Propensity-model robustness battery (interactions, trimming sweep, stabilized weights), mechanism decomposition (structure-side vs place-level failures), reverse-geocode reclamation, 2,000-rep bootstrap on the augmented sample |
-| `analysis/19_presubmission_pass.py` | Country-fixed-effects propensity specification with per-country calibration; primary 2,000-replicate cluster bootstrap with the propensity model re-fit inside every replicate |
-| `figures/20_make_figures.py` | All four manuscript figures, regenerated deterministically from the deposited data (requires `countries.geo.json`, e.g. from github.com/johan/world.geo.json, in the working directory) |
+| `analysis/16_geocoding_mar_analysis.py` | Failure geography (Table 1, Figure 1); country × failure contingency test; logistic models M1–M3 (Table S1) and the regional model M2 (Table 2); IPW correction and within-paper pair statistics (Table 3, Figure 3); entity-resolution audit (Table S3, Figure S1) |
+| `analysis/17_reviewer_diagnostics.py` | CAR-T replication (Section 3.5, Table S2); weight diagnostics, effective sample size and calibration (Section S3); within-work dependence of endpoint selection (Section S4.3); Wilson intervals for Table 1; bounds for strings without catalogue country (Section S6.4); attenuation of the modelled region effect (Section S4.4) |
+| `analysis/18_minor_revision_checks.py` | Propensity-specification battery and stabilized weights (Section S4.1); trimming sweep (Section S4.2); mechanism decomposition into structure-side and place-level failures (Section 3.3); reverse-geocode reclamation and the augmented-sample bootstrap (Section S4.5); HTML-entity decode counterfactual (Section S4.6) |
+| `analysis/19_presubmission_pass.py` | Country-fixed-effects propensity specification with per-country calibration (Section S4.1 and the corresponding row of Table 3); primary 2,000-replicate cluster bootstrap with the propensity model re-fit inside every replicate (Table 3) |
+| `figures/20_make_figures.py` | Figures 1–3 of the main text and Supplementary Figure S1, regenerated deterministically from the deposited data |
 
-Precomputed outputs are in `results/`. All random seeds are fixed module
-constants (20260811); no script requires new API calls.
+Precomputed outputs are in `results/`. All random seeds are fixed module constants
+(20260811); no script requires new API calls.
+
+`20_make_figures.py` needs one file that is not redistributed here: a world-country
+GeoJSON at `countries.geo.json` in the working directory, for the choropleth in
+Figure 1. Any equivalent country-boundary GeoJSON works; the version used was
+`countries.geo.json` from <https://github.com/johan/world.geo.json>. Every other
+output requires nothing beyond this repository.
 
 Analysis scripts were drafted with LLM assistance and verified by the author
 against the deposited data; every reported number, table, and figure in the
 manuscript is deterministic and fully reproducible from this repository.
+
+## Citing this deposit
+
+Release `v1.0-joi-submission` archives the version of the data and code used for
+the manuscript. See `CITATION.cff`, or use GitHub's "Cite this repository".
 
 ## Environment
 
