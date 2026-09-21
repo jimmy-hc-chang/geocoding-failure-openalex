@@ -2,27 +2,28 @@
 """
 20_make_figures.py
 
-Regenerates all four manuscript figures directly from the deposited data.
+Regenerates every figure in the manuscript directly from the deposited data.
 No figure element is drawn from anything other than the computed statistics;
 every panel is a deterministic matplotlib rendering of numbers reproducible
 via scripts 16-19.
 
-  Figure 1  figs/fig1_choropleth.png   country geocoding-failure choropleth
-  Figure 2  figs/fig2_forest.png       regional odds ratios, both layers
-  Figure 3  figs/fig3_mechanism.png    comma gradient + HTML-entity scatter
-  Figure 4  figs/fig4_ipw.png          composition distortion + IPW correction
+  Figure 1   figs/fig1_choropleth.png   country geocoding-failure choropleth
+  Figure 2   figs/fig2_mechanism.png    comma gradient + HTML-entity scatter
+  Figure 3   figs/fig3_ipw.png          composition distortion + IPW correction
+  Figure S1  figs/figS1_forest.png      regional odds ratios, both layers
 
-Run from data/full_run/ AFTER 16_geocoding_mar_analysis.py (which writes
-country_failure_table.csv, or_geocode.csv, or_resolution.csv, ipw_metrics.csv,
-strings-level inputs are rebuilt here from the raw deposits).
+Run from full_run/ AFTER 16_geocoding_mar_analysis.py, which writes
+country_failure_table.csv, or_geocode.csv, or_resolution.csv and
+ipw_metrics.csv; string-level inputs are rebuilt here from the raw deposits.
 
-World geometry for Figure 1: place countries.geo.json (public-domain world
+World geometry for Figure 1: place countries.geo.json (a public-domain world
 GeoJSON with ISO-3166 alpha-3 feature ids, e.g. from
-https://github.com/johan/world.geo.json) in the working directory.
+https://github.com/johan/world.geo.json) in the working directory. It is the
+only input not redistributed in this repository.
 
 Environment used for the manuscript versions: Python 3.10, matplotlib 3.x,
-pandas, numpy, pycountry, reverse_geocoder. All colours are colorblind-safe
-single-hue ramps (YlOrRd) or a two-colour palette (#00539b / #b3282d).
+pandas, numpy, pycountry. All colours are colourblind-safe single-hue ramps
+(YlOrRd) or a two-colour palette (#00539b / #b3282d).
 """
 import json
 
@@ -121,7 +122,7 @@ for ax, o, title in [(axes[0], o1, "(a) Geocoding failure (Nominatim)"),
     ax.set_xlabel("Odds ratio vs. Northern America (log scale)")
     ax.set_yticks(ypos); ax.set_yticklabels(o.index)
     ax.set_title(title, fontsize=10); ax.grid(axis="x", alpha=0.25)
-plt.tight_layout(); plt.savefig("figs/fig2_forest.png", bbox_inches="tight"); plt.close()
+plt.tight_layout(); plt.savefig("figs/figS1_forest.png", bbox_inches="tight"); plt.close()
 
 # ------------------------------------------------ Figure 3: mechanisms
 fig, axes = plt.subplots(1, 2, figsize=(9, 3.6), dpi=300)
@@ -140,7 +141,7 @@ for name, row in regions.iterrows():
 axes[1].set_xlabel("Share of strings with unescaped HTML entities (%)")
 axes[1].set_ylabel("Failure rate (%)")
 axes[1].set_title("(b) Encoding artefacts vs failure, by region", fontsize=10)
-plt.tight_layout(); plt.savefig("figs/fig3_mechanism.png", bbox_inches="tight"); plt.close()
+plt.tight_layout(); plt.savefig("figs/fig2_mechanism.png", bbox_inches="tight"); plt.close()
 
 # ------------------------------------------------ Figure 4: composition + IPW
 true_comp = dr.region.value_counts(normalize=True)
@@ -167,6 +168,6 @@ axes[1].bar(x + w / 2, [v[1] for v in pairs.values()], w, label="IPW-corrected",
 axes[1].set_xticks(x); axes[1].set_xticklabels(pairs.keys(), fontsize=8)
 axes[1].set_ylabel("Share of collaboration pairs (%)"); axes[1].legend(frameon=False)
 axes[1].set_title("(b) Region involvement in co-affiliation pairs", fontsize=10)
-plt.tight_layout(); plt.savefig("figs/fig4_ipw.png", bbox_inches="tight"); plt.close()
+plt.tight_layout(); plt.savefig("figs/fig3_ipw.png", bbox_inches="tight"); plt.close()
 
 print("figures written to figs/")
