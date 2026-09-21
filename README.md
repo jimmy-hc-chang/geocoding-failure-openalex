@@ -14,7 +14,8 @@ mechanism replication in a second field (CAR-T cell therapy).
 
 Because the manuscript is a Short Communication, most of the supporting evidence is
 reported in its Supplementary Material rather than the main text. The mapping below
-therefore names both.
+therefore names both. "S" numbers refer to sections, tables and figures of the
+Supplementary Material.
 
 ## Relationship to a companion project
 
@@ -29,7 +30,7 @@ full corpora and every script behind the geocoding-failure manuscript.
 ```
 full_run/     silicon-carbide corpus, geocoding results and caches
 cart_run/     CAR-T replication corpus, same schema
-analysis/     16-19: statistics, diagnostics, robustness, pre-submission checks
+analysis/     16-19: primary analysis, diagnostics, robustness, final checks
 figures/      20: regenerates every figure from the deposited data
 results/      precomputed outputs (JSON/CSV)
 ```
@@ -38,7 +39,7 @@ results/      precomputed outputs (JSON/CSV)
 
 All CSV files are UTF-8 (`utf-8-sig`). Files over 3 MB are stored gzipped;
 `full_run/affil_full.csv.gz` is split into three parts, with reassembly
-instructions in `full_run/REASSEMBLE.md`.
+instructions and an MD5 checksum in `full_run/REASSEMBLE.md`.
 
 | Directory   | Contents |
 |---|---|
@@ -50,14 +51,22 @@ analysis script.
 
 ## Reproducing the manuscript
 
-Run from `full_run/`, with `cart_run/` as a sibling directory, in this order.
-"S" numbers refer to sections and tables of the Supplementary Material.
+Run from `full_run/`, with `cart_run/` as a sibling directory, in this order:
+
+```
+cd full_run
+python ../analysis/16_geocoding_mar_analysis.py
+python ../analysis/17_diagnostics_and_replication.py
+python ../analysis/18_robustness_checks.py
+python ../analysis/19_presubmission_pass.py
+python ../figures/20_make_figures.py
+```
 
 | Script | Reproduces |
 |---|---|
 | `analysis/16_geocoding_mar_analysis.py` | Failure geography (Table 1, Figure 1); country × failure contingency test; logistic models M1–M3 (Table S1) and the regional model M2 (Table 2); IPW correction and within-paper pair statistics (Table 3, Figure 3); entity-resolution audit (Table S3, Figure S1) |
-| `analysis/17_reviewer_diagnostics.py` | CAR-T replication (Section 3.5, Table S2); weight diagnostics, effective sample size and calibration (Section S3); within-work dependence of endpoint selection (Section S4.3); Wilson intervals for Table 1; bounds for strings without catalogue country (Section S6.4); attenuation of the modelled region effect (Section S4.4) |
-| `analysis/18_minor_revision_checks.py` | Propensity-specification battery and stabilized weights (Section S4.1); trimming sweep (Section S4.2); mechanism decomposition into structure-side and place-level failures (Section 3.3); reverse-geocode reclamation and the augmented-sample bootstrap (Section S4.5); HTML-entity decode counterfactual (Section S4.6) |
+| `analysis/17_diagnostics_and_replication.py` | CAR-T replication (Section 3.5, Table S2); weight diagnostics, effective sample size and calibration (Section S3); within-work dependence of endpoint selection (Section S4.3); Wilson intervals for Table 1; bounds for strings without catalogue country (Section S6.4); sensitivity to the magnitude of the modelled region effect (Section S4.4) |
+| `analysis/18_robustness_checks.py` | Propensity-specification battery and stabilized weights (Section S4.1); trimming sweep (Section S4.2); decomposition of failures into delimiter-poor and place-level cases (Section 3.3); reverse-geocode reclamation and the augmented-sample bootstrap (Section S4.5); HTML-entity decode counterfactual (Section S4.6) |
 | `analysis/19_presubmission_pass.py` | Country-fixed-effects propensity specification with per-country calibration (Section S4.1 and the corresponding row of Table 3); primary 2,000-replicate cluster bootstrap with the propensity model re-fit inside every replicate (Table 3) |
 | `figures/20_make_figures.py` | Figures 1–3 of the main text and Supplementary Figure S1, regenerated deterministically from the deposited data |
 
