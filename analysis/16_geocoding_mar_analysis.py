@@ -2,21 +2,23 @@
 """
 16_geocoding_mar_analysis.py
 
-Reproduces every number, table, and figure in:
+Primary analysis for the manuscript:
   "The geography of geocoding failure: non-random missingness in
-   open-infrastructure spatial scientometrics and its correction by
-   inverse-probability weighting"
+   open-infrastructure spatial scientometrics, and the limits of its
+   correction by inverse-probability weighting"
 
-Run from data/full_run/ (after `python prepare_data.py` at repo root):
-    cd data/full_run
-    python ../../16_geocoding_mar_analysis.py
+Run from full_run/ (cart_run/ must be a sibling directory):
+    cd full_run
+    python ../analysis/16_geocoding_mar_analysis.py
 
 Inputs : affil_full.csv, geocoded.csv
 Outputs: geo_mar_results.json, country_failure_table.csv,
-         or_geocode.csv, or_resolution.csv, ipw_metrics.csv,
-         figs/fig1_choropleth.png ... figs/fig4_ipw.png (if world geojson present)
+         or_geocode.csv, or_resolution.csv, ipw_metrics.csv
 
-Dependencies: pandas, numpy, scipy, statsmodels, reverse_geocoder, matplotlib, pycountry
+This script produces no figures. Every figure is drawn by 20_make_figures.py
+from these outputs and from the raw deposits.
+
+Dependencies: pandas, numpy, scipy, statsmodels, reverse_geocoder
 """
 import itertools
 import json

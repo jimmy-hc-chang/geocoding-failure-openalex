@@ -2,16 +2,16 @@
 """
 19_presubmission_pass.py
 
-Final pre-submission analyses (v7 -> v8):
-  (4) Country-level propensity specification (country fixed effects,
-      thin cells (<50 strings) pooled to region) + per-country calibration
-      for AR, CO, FR, NP  -> corrected Latin-America pair share
-  (5) Primary cluster bootstrap at 2,000 replicates WITH the propensity
-      model re-fit inside every replicate (paper-level resampling;
-      strings enter each replicate's fit with frequency weights equal to
-      the number of sampled works containing them)
+Country-level specification and the primary bootstrap reported in Table 3:
+  (4) Country fixed-effects propensity specification (cells with fewer than
+      50 strings pooled to their region), with per-country calibration for
+      AR, CO, FR and NP -> corrected Latin-America pair share
+  (5) Primary cluster bootstrap at 2,000 replicates with the propensity model
+      re-fit inside every replicate (paper-level resampling; strings enter
+      each replicate's fit with frequency weights equal to the number of
+      sampled works containing them)
 
-Run from data/full_run/. Seed 20260811. Output: presubmission_pass.json
+Run from full_run/. Seed 20260811. Output: presubmission_pass.json
 """
 import itertools
 import json
