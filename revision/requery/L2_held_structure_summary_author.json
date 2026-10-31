@@ -1,0 +1,200 @@
+{
+ "annotation": "author",
+ "source_file": "地名標註_300_作者.xlsx",
+ "n": 300,
+ "n_uncertain_rows": 0,
+ "run_date": "2026-10-25",
+ "overall": {
+  "parser_side": {
+   "n": 196,
+   "pct": 65.3,
+   "wilson95": [
+    59.8,
+    70.5
+   ]
+  },
+  "no_place_name": {
+   "n": 42,
+   "pct": 14.0,
+   "wilson95": [
+    10.5,
+    18.4
+   ]
+  },
+  "parser_side_no_catalogue_country": {
+   "n": 20,
+   "pct": 6.7,
+   "wilson95": [
+    4.4,
+    10.1
+   ]
+  },
+  "found_wrong_country": {
+   "n": 15,
+   "pct": 5.0,
+   "wilson95": [
+    3.1,
+    8.1
+   ]
+  },
+  "hygiene_side": {
+   "n": 15,
+   "pct": 5.0,
+   "wilson95": [
+    3.1,
+    8.1
+   ]
+  },
+  "gazetteer_side": {
+   "n": 12,
+   "pct": 4.0,
+   "wilson95": [
+    2.3,
+    6.9
+   ]
+  }
+ },
+ "by_region": {
+  "East Asia": {
+   "found_wrong_country": 10.0,
+   "parser_side": 67.5,
+   "no_place_name": 7.5,
+   "parser_side_no_catalogue_country": 0.0,
+   "hygiene_side": 5.0,
+   "gazetteer_side": 10.0,
+   "n": 40
+  },
+  "Eastern Europe & Central Asia": {
+   "found_wrong_country": 13.3,
+   "parser_side": 66.7,
+   "no_place_name": 20.0,
+   "parser_side_no_catalogue_country": 0.0,
+   "hygiene_side": 0.0,
+   "gazetteer_side": 0.0,
+   "n": 15
+  },
+  "Latin America & Caribbean": {
+   "found_wrong_country": 3.3,
+   "parser_side": 56.7,
+   "no_place_name": 10.0,
+   "parser_side_no_catalogue_country": 0.0,
+   "hygiene_side": 26.7,
+   "gazetteer_side": 3.3,
+   "n": 30
+  },
+  "Middle East": {
+   "found_wrong_country": 0.0,
+   "parser_side": 90.0,
+   "no_place_name": 5.0,
+   "parser_side_no_catalogue_country": 0.0,
+   "hygiene_side": 0.0,
+   "gazetteer_side": 5.0,
+   "n": 20
+  },
+  "North Africa": {
+   "found_wrong_country": 0.0,
+   "parser_side": 90.9,
+   "no_place_name": 4.5,
+   "parser_side_no_catalogue_country": 0.0,
+   "hygiene_side": 0.0,
+   "gazetteer_side": 4.5,
+   "n": 22
+  },
+  "Northern America": {
+   "found_wrong_country": 5.0,
+   "parser_side": 60.0,
+   "no_place_name": 30.0,
+   "parser_side_no_catalogue_country": 0.0,
+   "hygiene_side": 5.0,
+   "gazetteer_side": 0.0,
+   "n": 20
+  },
+  "Oceania": {
+   "found_wrong_country": 0.0,
+   "parser_side": 93.3,
+   "no_place_name": 6.7,
+   "parser_side_no_catalogue_country": 0.0,
+   "hygiene_side": 0.0,
+   "gazetteer_side": 0.0,
+   "n": 15
+  },
+  "South Asia": {
+   "found_wrong_country": 3.6,
+   "parser_side": 75.0,
+   "no_place_name": 17.9,
+   "parser_side_no_catalogue_country": 0.0,
+   "hygiene_side": 0.0,
+   "gazetteer_side": 3.6,
+   "n": 28
+  },
+  "Southeast Asia": {
+   "found_wrong_country": 13.3,
+   "parser_side": 86.7,
+   "no_place_name": 0.0,
+   "parser_side_no_catalogue_country": 0.0,
+   "hygiene_side": 0.0,
+   "gazetteer_side": 0.0,
+   "n": 15
+  },
+  "Sub-Saharan Africa": {
+   "found_wrong_country": 4.0,
+   "parser_side": 64.0,
+   "no_place_name": 24.0,
+   "parser_side_no_catalogue_country": 0.0,
+   "hygiene_side": 4.0,
+   "gazetteer_side": 4.0,
+   "n": 25
+  },
+  "Unknown / tied": {
+   "found_wrong_country": 0.0,
+   "parser_side": 0.0,
+   "no_place_name": 30.0,
+   "parser_side_no_catalogue_country": 66.7,
+   "hygiene_side": 0.0,
+   "gazetteer_side": 3.3,
+   "n": 30
+  },
+  "Western Europe": {
+   "found_wrong_country": 7.5,
+   "parser_side": 70.0,
+   "no_place_name": 10.0,
+   "parser_side_no_catalogue_country": 0.0,
+   "hygiene_side": 7.5,
+   "gazetteer_side": 5.0,
+   "n": 40
+  }
+ },
+ "by_comma": {
+  "0": {
+   "found_wrong_country": 2.5,
+   "parser_side": 69.7,
+   "no_place_name": 24.6,
+   "parser_side_no_catalogue_country": 2.5,
+   "hygiene_side": 0.0,
+   "gazetteer_side": 0.8,
+   "n": 122
+  },
+  "1": {
+   "found_wrong_country": 3.2,
+   "parser_side": 67.7,
+   "no_place_name": 14.5,
+   "parser_side_no_catalogue_country": 14.5,
+   "hygiene_side": 0.0,
+   "gazetteer_side": 0.0,
+   "n": 62
+  },
+  ">=2": {
+   "found_wrong_country": 8.6,
+   "parser_side": 59.5,
+   "no_place_name": 2.6,
+   "parser_side_no_catalogue_country": 6.9,
+   "hygiene_side": 12.9,
+   "gazetteer_side": 9.5,
+   "n": 116
+  }
+ },
+ "gazetteer_side_bounds_pct": {
+  "lower_uncertain_as_no_place": 4.0,
+  "upper_uncertain_as_gazetteer": 4.0
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "n_entity_strings": 3098,
+ "n_failed_original": 1143,
+ "n_requeried": 1142,
+ "n_network_fail": 1,
+ "rescued_by_decoding": 791,
+ "rescued_pct_of_failed_entity_strings": 69.3,
+ "rescued_by_step": {
+  "last_2_segments": 472,
+  "last_3_segments": 233,
+  "raw": 84,
+  "email_stripped": 1,
+  "from_last_institution_segment": 1
+ },
+ "run_date": "2026-10-24"
+}

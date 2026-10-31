@@ -2,16 +2,18 @@ cff-version: 1.2.0
 message: "If you use these data or code, please cite the manuscript below."
 authors:
   - family-names: Chang
-    given-names: Hung-Chi
+    given-names: Jimmy Hung-Chi
+    orcid: "https://orcid.org/0000-0002-1326-0675"
 title: "Data and code for: The geography of geocoding failure"
-version: 1.0.0
-date-released: 2026-08-14
-url: "https://github.com/tiger-lab-png/geocoding-failure-openalex"
+version: 1.1.0
+date-released: 2026-11-01
+url: "https://github.com/jimmy-hc-chang/geocoding-failure-openalex"
 preferred-citation:
   type: article
   authors:
     - family-names: Chang
-      given-names: Hung-Chi
-  title: "The geography of geocoding failure: non-random missingness in open-infrastructure spatial scientometrics, and the limits of its correction by inverse-probability weighting"
+      given-names: Jimmy Hung-Chi
+      orcid: "https://orcid.org/0000-0002-1326-0675"
+  title: "The geography of geocoding failure: missingness in OpenAlex affiliation strings is non-random and driven by writing conventions rather than map coverage"
   year: 2026
-  notes: "Manuscript submitted for publication"
+  notes: "Manuscript under review at Journal of Informetrics"

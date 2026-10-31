@@ -1,0 +1,135 @@
+{
+ "pv_total_strings": 57402,
+ "pv_total_failed": 12903,
+ "pv_overall_rate": 22.48,
+ "pv_unknown_n": 2457,
+ "pv_unknown_failed": 512,
+ "pv_country_known_pct": 95.7,
+ "pv_regions": {
+  "Western Europe": {
+   "n": 12123,
+   "failed": 3250,
+   "rate": 26.8,
+   "ci": [
+    26.0,
+    27.6
+   ],
+   "ratio_NA": 1.49
+  },
+  "East Asia": {
+   "n": 17763,
+   "failed": 4716,
+   "rate": 26.5,
+   "ci": [
+    25.9,
+    27.2
+   ],
+   "ratio_NA": 1.47
+  },
+  "Oceania": {
+   "n": 1620,
+   "failed": 339,
+   "rate": 20.9,
+   "ci": [
+    19.0,
+    23.0
+   ],
+   "ratio_NA": 1.16
+  },
+  "Eastern Europe & Central Asia": {
+   "n": 1988,
+   "failed": 394,
+   "rate": 19.8,
+   "ci": [
+    18.1,
+    21.6
+   ],
+   "ratio_NA": 1.1
+  },
+  "North Africa": {
+   "n": 1636,
+   "failed": 322,
+   "rate": 19.7,
+   "ci": [
+    17.8,
+    21.7
+   ],
+   "ratio_NA": 1.09
+  },
+  "Northern America": {
+   "n": 7203,
+   "failed": 1299,
+   "rate": 18.0,
+   "ci": [
+    17.2,
+    18.9
+   ],
+   "ratio_NA": 1.0
+  },
+  "Middle East": {
+   "n": 4032,
+   "failed": 719,
+   "rate": 17.8,
+   "ci": [
+    16.7,
+    19.0
+   ],
+   "ratio_NA": 0.99
+  },
+  "Sub-Saharan Africa": {
+   "n": 682,
+   "failed": 113,
+   "rate": 16.6,
+   "ci": [
+    14.0,
+    19.5
+   ],
+   "ratio_NA": 0.92
+  },
+  "Latin America & Caribbean": {
+   "n": 974,
+   "failed": 158,
+   "rate": 16.2,
+   "ci": [
+    14.0,
+    18.7
+   ],
+   "ratio_NA": 0.9
+  },
+  "Southeast Asia": {
+   "n": 2182,
+   "failed": 345,
+   "rate": 15.8,
+   "ci": [
+    14.3,
+    17.4
+   ],
+   "ratio_NA": 0.88
+  },
+  "South Asia": {
+   "n": 4738,
+   "failed": 736,
+   "rate": 15.5,
+   "ci": [
+    14.5,
+    16.6
+   ],
+   "ratio_NA": 0.86
+  }
+ },
+ "pv_LA_vs_NA": {
+  "LA": [
+   158,
+   974,
+   16.2
+  ],
+  "NA": [
+   1299,
+   7203,
+   18.0
+  ],
+  "chi2": 1.8,
+  "p": 0.1794,
+  "ci_overlap": true
+ }
+}

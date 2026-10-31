@@ -1,0 +1,7 @@
+{
+ "n_fail": 12903,
+ "fail_le1_comma_pct": 74.1,
+ "fail_ge2_comma_pct": 25.9,
+ "rescued_by_simplification_pct": 91.7,
+ "unresolved_pct": 0.0
+}

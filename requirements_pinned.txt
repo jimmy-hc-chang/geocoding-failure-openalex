@@ -1,0 +1,13 @@
+# Versions used for the revision analyses (sandbox: Linux, Python 3.10.12), 2026-10-22.
+# With TIE_RULE=exclude (primary) the country assignment no longer depends on sort-algorithm
+# behaviour, so results are environment-independent; versions are pinned for exact reproduction.
+pandas==2.3.3
+numpy==2.2.6
+scipy==1.15.3
+statsmodels==0.14.6
+patsy==1.0.2
+reverse_geocoder==1.5.1
+pycountry==26.2.16
+openpyxl==3.1.5
+requests>=2.31
+matplotlib==3.10.9

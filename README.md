@@ -2,98 +2,72 @@
 
 Data and code for the manuscript:
 
-> **The geography of geocoding failure: non-random missingness in open-infrastructure
-> spatial scientometrics, and the limits of its correction by inverse-probability weighting**
-> (Hung-Chi Chang, Short Communication under review at *Journal of Informetrics*, 2026)
+> **The geography of geocoding failure: missingness in OpenAlex affiliation strings is non-random and driven by writing conventions rather than map coverage**
+> (Jimmy Hung-Chi Chang, Short Communication under review at *Journal of Informetrics*, 2026)
 
-The paper audits geocoding failure (Nominatim/OpenStreetMap) and institution
-non-resolution (OpenAlex) across all 80,176 unique affiliation strings of a complete
-OpenAlex field corpus, diagnoses the missingness as MAR given observables, and
-corrects downstream spatial statistics by inverse-probability weighting, with a
-mechanism replication in a second field (CAR-T cell therapy).
+The paper audits geocoding failure (Nominatim/OpenStreetMap) across all 80,176 unique raw affiliation strings of a complete OpenAlex field corpus (silicon carbide, 2018–2024), traces it to address structure and text hygiene, validates an inverse-probability-weighting correction against a catalogue-region ground truth, benchmarks distance indicators against OpenAlex institution coordinates, and replicates the mechanisms in two further corpora.
 
-Because the manuscript is a Short Communication, most of the supporting evidence is
-reported in its Supplementary Material rather than the main text. The mapping below
-therefore names both. "S" numbers refer to sections, tables and figures of the
-Supplementary Material.
-
-## Relationship to a companion project
-
-The raw OpenAlex extraction (and one descriptive failure-by-country tabulation) is
-shared with a companion manuscript on science-park location and network centrality,
-deposited at <https://github.com/tiger-lab-png/scpark-network>. All research
-questions and inferential analyses are disjoint; the present repository hosts the
-full corpora and every script behind the geocoding-failure manuscript.
+Release **`v1.1-joi-revision`** archives the version used for the revised manuscript. Release `v1.0-joi-submission` archives the originally submitted version. Section, table and figure numbers below refer to the revised manuscript; "S" refers to its Supplementary Material.
 
 ## Repository layout
 
 ```
-full_run/     silicon-carbide corpus, geocoding results and caches
-cart_run/     CAR-T replication corpus, same schema
-analysis/     16-19: primary analysis, diagnostics, robustness, final checks
-figures/      20: regenerates every figure from the deposited data
-results/      precomputed outputs (JSON/CSV)
+full_run/                  silicon-carbide corpus, geocoding results and caches (unchanged since v1.0)
+cart_run/                  CAR-T corpus, same schema (unchanged since v1.0)
+analysis/, figures/, results/   scripts and outputs of the submitted version (v1.0)
+revision/                  everything added for the revision (v1.1):
+  analysis/                  scripts 16–28, 19b and country_rule.py (explicit tie rule)
+  results_revised_rule/      all outputs under the revised country rule (TIE_RULE=exclude)
+  results_submitted_rule/    outputs under the submitted version's sort-dependent rule
+  requery/                   L1–L4 Nominatim re-queries (decode-and-requery, held-structure test,
+                             cascade-step, drift control) with inputs, results and caches
+  scopus_comparison/         scripts and aggregate results of the OpenAlex–Scopus comparison
+  hand_coding/               the author's hand coding: held-structure place names (300),
+                             tied strings (100), discordant geocodes (100); instructions in sheet 先看這頁
+  held_structure/            sampling design of the held-structure test
+  photovoltaics_tables/      derived regional and mechanism tables of the third corpus
+requirements_pinned.txt    exact package versions used for the revision
 ```
 
-## Data
+## Country assignment (revision)
 
-All CSV files are UTF-8 (`utf-8-sig`). Files over 3 MB are stored gzipped;
-`full_run/affil_full.csv.gz` is split into three parts, with reassembly
-instructions and an MD5 checksum in `full_run/REASSEMBLE.md`.
+Each string is assigned the modal catalogue country across its rows. In the submitted version a tied mode was broken by the default sort order, so results depended on the sorting algorithm. The revision uses an explicit rule (`revision/analysis/country_rule.py`, `TIE_RULE=exclude`): tied strings receive no country (Section 2.2, Supplementary Section S7.3). `TIE_RULE=quicksort` reproduces the submitted numbers.
 
-| Directory   | Contents |
-|---|---|
-| `full_run/` | Silicon-carbide corpus (OpenAlex Topic T10361, 2018–2024): 54,671 works, 319,968 affiliation rows, 80,176 unique raw strings. Nominatim geocoding results and caches, retrieved July 2026 at 1 request/second against the public API. Overpass and Wikidata provenance files. |
-| `cart_run/` | CAR-T cell-therapy replication corpus: 36,892 unique raw strings, same schema, retrieved with the identical pipeline. |
+## Reproducing the revised manuscript
 
-Column-level documentation is in the data-dictionary comments at the top of each
-analysis script.
-
-## Reproducing the manuscript
-
-Run from `full_run/`, with `cart_run/` as a sibling directory, in this order:
+Environment: Python 3.10+, `pip install -r requirements_pinned.txt` (pandas 2.3.3, numpy 2.2.6, scipy 1.15.3, statsmodels 0.14.6, patsy 1.0.2, reverse_geocoder 1.5.1, pycountry 26.2.16, openpyxl 3.1.5, matplotlib 3.10.9). Reassemble `full_run/affil_full.csv.gz` as described in `full_run/REASSEMBLE.md`, then:
 
 ```
 cd full_run
-python ../analysis/16_geocoding_mar_analysis.py
-python ../analysis/17_diagnostics_and_replication.py
-python ../analysis/18_robustness_checks.py
-python ../analysis/19_presubmission_pass.py
-python ../figures/20_make_figures.py
+export TIE_RULE=exclude
+python ../revision/analysis/16_geocoding_mar_analysis.py      # failure geography, M1–M3, M2, IPW
+python ../revision/analysis/17_diagnostics_and_replication.py # weights, CAR-T replication
+python ../revision/analysis/18_robustness_checks.py           # specification, trimming, augmented sample
+python ../revision/analysis/19_presubmission_pass.py          # country-FE propensity; bootstrap chunks (B_REPS, B_SEED, B_DUMP)
+python ../revision/analysis/19b_pool_bootstrap.py boot19_*.npy  # pools five 400-replicate chunks into Table 2's intervals
+python ../revision/analysis/21_validation_ground_truth.py     # Table 2 upper panel, Table S7
+python ../revision/analysis/22_country_discordance.py         # S4.5, Table S5
+python ../revision/analysis/23_models_and_classification.py   # S2: World Bank, categorical commas, wild bootstrap, random intercept
+python ../revision/analysis/24_paper_level_and_minor.py       # S3.2–S3.3, Table S1, regional scheme
+python ../revision/analysis/25_institution_coordinates.py     # S4.7, Table 2 lower panel (needs INST_DIR, see below)
+python ../revision/analysis/26_region_recovery_diagnosis.py   # S4.8 (Middle East)
+python ../revision/analysis/27_estimand_weighted_propensity.py # S4.2 trimming by region
+python ../revision/analysis/28_mechanism_all_strings.py       # Section 3.3 statistics on all strings
+python ../revision/analysis/20_make_figures.py                # Figures 1–3
 ```
 
-| Script | Reproduces |
-|---|---|
-| `analysis/16_geocoding_mar_analysis.py` | Failure geography (Table 1, Figure 1); country × failure contingency test; logistic models M1–M3 (Table S1) and the regional model M2 (Table 2); IPW correction and within-paper pair statistics (Table 3, Figure 3); entity-resolution audit (Table S3, Figure S1) |
-| `analysis/17_diagnostics_and_replication.py` | CAR-T replication (Section 3.5, Table S2); weight diagnostics, effective sample size and calibration (Section S3); within-work dependence of endpoint selection (Section S4.3); Wilson intervals for Table 1; bounds for strings without catalogue country (Section S6.4); sensitivity to the magnitude of the modelled region effect (Section S4.4) |
-| `analysis/18_robustness_checks.py` | Propensity-specification battery and stabilized weights (Section S4.1); trimming sweep (Section S4.2); decomposition of failures into delimiter-poor and place-level cases (Section 3.3); reverse-geocode reclamation and the augmented-sample bootstrap (Section S4.5); HTML-entity decode counterfactual (Section S4.6) |
-| `analysis/19_presubmission_pass.py` | Country-fixed-effects propensity specification with per-country calibration (Section S4.1 and the corresponding row of Table 3); primary 2,000-replicate cluster bootstrap with the propensity model re-fit inside every replicate (Table 3) |
-| `figures/20_make_figures.py` | Figures 1–3 of the main text and Supplementary Figure S1, regenerated deterministically from the deposited data |
+For CAR-T statistics on all strings, run script 28 inside `cart_run/` with `CORPUS=cart`.
 
-Precomputed outputs are in `results/`. All random seeds are fixed module constants
-(20260811); no script requires new API calls.
+Script 25 needs the public OpenAlex institutions snapshot (June 2026; `s3://openalex/data/institutions/`) in the directory given by `INST_DIR`. Script 20 needs Natural Earth 1:110m admin-0 countries (`ne_110m_admin_0_countries.geojson`, public domain) in the working directory, or a path in `WORLD_GEOJSON`. All other scripts run on this repository alone. The scripts in `revision/requery/` call the public Nominatim service (1 request/second); their caches are included, so re-running them reuses the cached responses. The Scopus comparison needs Scopus API access; Scopus records are not redistributed, only the scripts and aggregate results.
 
-`20_make_figures.py` needs one file that is not redistributed here: a world-country
-GeoJSON at `countries.geo.json` in the working directory, for the choropleth in
-Figure 1. Any equivalent country-boundary GeoJSON works; the version used was
-`countries.geo.json` from <https://github.com/johan/world.geo.json>. Every other
-output requires nothing beyond this repository.
+## Data
 
-Analysis scripts were drafted with LLM assistance and verified by the author
-against the deposited data; every reported number, table, and figure in the
-manuscript is deterministic and fully reproducible from this repository.
+All CSV files are UTF-8. See `full_run/` and `cart_run/` for the corpora (unchanged since v1.0). Data are derived from OpenAlex (CC0), OpenStreetMap/Nominatim (ODbL) and Wikidata (CC0); attribution notices apply per source.
 
 ## Citing this deposit
 
-Release `v1.0-joi-submission` archives the version of the data and code used for
-the manuscript. See `CITATION.cff`, or use GitHub's "Cite this repository".
-
-## Environment
-
-Python ≥ 3.10; `pip install -r requirements.txt`
-(pandas, numpy, scipy, statsmodels, patsy, matplotlib, pycountry, reverse_geocoder).
+See `CITATION.cff`, or use GitHub's "Cite this repository".
 
 ## License
 
-MIT (code). Data are derived from OpenAlex (CC0), OpenStreetMap/Nominatim
-(ODbL), and Wikidata (CC0); attribution notices apply per source.
+MIT (code).

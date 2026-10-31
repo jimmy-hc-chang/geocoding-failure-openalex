@@ -1,0 +1,33 @@
+{
+ "n_failed": 10721,
+ "allocation": {
+  "Western Europe": 40,
+  "East Asia": 40,
+  "Unknown / tied": 30,
+  "South Asia": 28,
+  "Northern America": 20,
+  "Middle East": 20,
+  "Latin America & Caribbean": 30,
+  "Eastern Europe & Central Asia": 15,
+  "North Africa": 22,
+  "Southeast Asia": 15,
+  "Oceania": 15,
+  "Sub-Saharan Africa": 25
+ },
+ "seed": 20260811,
+ "n_sample": 300,
+ "failures_by_region": {
+  "Western Europe": 2707,
+  "East Asia": 2661,
+  "Unknown / tied": 1497,
+  "South Asia": 1007,
+  "Northern America": 769,
+  "Middle East": 538,
+  "Latin America & Caribbean": 524,
+  "Eastern Europe & Central Asia": 361,
+  "North Africa": 253,
+  "Southeast Asia": 252,
+  "Oceania": 105,
+  "Sub-Saharan Africa": 47
+ }
+}

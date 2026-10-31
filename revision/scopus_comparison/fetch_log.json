@@ -1,0 +1,17 @@
+{
+ "n_works": 2000,
+ "seed": 20260811,
+ "topic": "T10361",
+ "scopus_found": 1806,
+ "scopus_404": 194,
+ "scopus_error": 0,
+ "works_with_city_and_country": 1801,
+ "scopus_affil_rows": 3793,
+ "openalex_affil_rows": 15420,
+ "last_quota_headers": {
+  "X-RateLimit-Limit": "10000",
+  "X-RateLimit-Remaining": "7955",
+  "X-RateLimit-Reset": "1793009294"
+ },
+ "fetched_at": "2026-10-21 04:37:53"
+}

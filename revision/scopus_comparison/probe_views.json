@@ -1,0 +1,134 @@
+[
+ {
+  "view": null,
+  "field": null,
+  "status": 200,
+  "has_source_text": false,
+  "has_author_group": false,
+  "has_affiliation": true,
+  "has_city": true,
+  "has_afid": false,
+  "paths": {
+   "affiliation": "/abstracts-retrieval-response/affiliation",
+   "affiliation-city": "/abstracts-retrieval-response/affiliation[0]/affiliation-city"
+  },
+  "error": ""
+ },
+ {
+  "view": null,
+  "field": "author-group",
+  "status": 400,
+  "has_source_text": false,
+  "has_author_group": false,
+  "has_affiliation": false,
+  "has_city": false,
+  "has_afid": false,
+  "paths": {},
+  "error": "Selected fields are either restricted for this service level"
+ },
+ {
+  "view": null,
+  "field": "author-group,affiliation",
+  "status": 200,
+  "has_source_text": false,
+  "has_author_group": false,
+  "has_affiliation": true,
+  "has_city": true,
+  "has_afid": false,
+  "paths": {
+   "affiliation": "/abstracts-retrieval-response/affiliation",
+   "affiliation-city": "/abstracts-retrieval-response/affiliation[0]/affiliation-city"
+  },
+  "error": ""
+ },
+ {
+  "view": null,
+  "field": "affiliation,author,dc:identifier",
+  "status": 200,
+  "has_source_text": false,
+  "has_author_group": false,
+  "has_affiliation": true,
+  "has_city": true,
+  "has_afid": false,
+  "paths": {
+   "affiliation": "/abstracts-retrieval-response/affiliation",
+   "affiliation-city": "/abstracts-retrieval-response/affiliation[0]/affiliation-city"
+  },
+  "error": ""
+ },
+ {
+  "view": "META",
+  "field": null,
+  "status": 200,
+  "has_source_text": false,
+  "has_author_group": false,
+  "has_affiliation": true,
+  "has_city": true,
+  "has_afid": false,
+  "paths": {
+   "affiliation": "/abstracts-retrieval-response/affiliation",
+   "affiliation-city": "/abstracts-retrieval-response/affiliation[0]/affiliation-city"
+  },
+  "error": ""
+ },
+ {
+  "view": "META_ABS",
+  "field": null,
+  "status": 401,
+  "has_source_text": false,
+  "has_author_group": false,
+  "has_affiliation": false,
+  "has_city": false,
+  "has_afid": false,
+  "paths": {},
+  "error": "The requestor is not authorized to access the requested view"
+ },
+ {
+  "view": "META_ABS",
+  "field": "author-group",
+  "status": 401,
+  "has_source_text": false,
+  "has_author_group": false,
+  "has_affiliation": false,
+  "has_city": false,
+  "has_afid": false,
+  "paths": {},
+  "error": "The requestor is not authorized to access the requested view"
+ },
+ {
+  "view": "FULL",
+  "field": null,
+  "status": 401,
+  "has_source_text": false,
+  "has_author_group": false,
+  "has_affiliation": false,
+  "has_city": false,
+  "has_afid": false,
+  "paths": {},
+  "error": "The requestor is not authorized to access the requested view"
+ },
+ {
+  "view": "FULL",
+  "field": "author-group",
+  "status": 401,
+  "has_source_text": false,
+  "has_author_group": false,
+  "has_affiliation": false,
+  "has_city": false,
+  "has_afid": false,
+  "paths": {},
+  "error": "The requestor is not authorized to access the requested view"
+ },
+ {
+  "view": "ENTITLED",
+  "field": null,
+  "status": 401,
+  "has_source_text": false,
+  "has_author_group": false,
+  "has_affiliation": false,
+  "has_city": false,
+  "has_afid": false,
+  "paths": {},
+  "error": ""
+ }
+]

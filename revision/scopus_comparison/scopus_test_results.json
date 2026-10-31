@@ -1,0 +1,135 @@
+{
+ "coverage": {
+  "works_in_both": 1806,
+  "scopus_affiliation_rows": 3793,
+  "scopus_rows_with_city_and_country_pct": 99.9,
+  "scopus_rows_with_country_pct": 100.0,
+  "scopus_rows_with_afid_pct": 0.0,
+  "openalex_raw_strings": 14823,
+  "openalex_strings_with_institution_pct": 97.1,
+  "note": "Scopus raw affiliation text not available at this API service level; Scopus sets are structured fields"
+ },
+ "A_scopus_structured_full": {
+  "set": "A Scopus affilname, city, country",
+  "n_unique_strings": 1573,
+  "n_failed": 4,
+  "fail_rate_pct": 0.3,
+  "fail_rate_wilson95": [
+   0.1,
+   0.7
+  ],
+  "html_entity_share_pct": 0.0,
+  "mean_length": 54.2,
+  "mean_commas": 2.12,
+  "by_comma_bin": {
+   "0": {
+    "n": 0,
+    "fail_pct": null
+   },
+   "1": {
+    "n": 0,
+    "fail_pct": null
+   },
+   "2": {
+    "n": 1383,
+    "fail_pct": 0.3
+   },
+   "3+": {
+    "n": 190,
+    "fail_pct": 0.0
+   }
+  },
+  "rescued_by_variant_pct": 54.3,
+  "strings_le1_comma_pct": 0.0,
+  "failures_from_le1_comma_pct": 0.0
+ },
+ "B_openalex_raw": {
+  "set": "B OpenAlex raw_affiliation_strings",
+  "n_unique_strings": 3000,
+  "n_failed": 321,
+  "fail_rate_pct": 10.7,
+  "fail_rate_wilson95": [
+   9.6,
+   11.9
+  ],
+  "html_entity_share_pct": 1.7,
+  "mean_length": 98.9,
+  "mean_commas": 3.26,
+  "by_comma_bin": {
+   "0": {
+    "n": 276,
+    "fail_pct": 60.9
+   },
+   "1": {
+    "n": 85,
+    "fail_pct": 60.0
+   },
+   "2": {
+    "n": 296,
+    "fail_pct": 4.7
+   },
+   "3+": {
+    "n": 2343,
+    "fail_pct": 3.8
+   }
+  },
+  "rescued_by_variant_pct": 91.4,
+  "strings_le1_comma_pct": 12.0,
+  "failures_from_le1_comma_pct": 68.2
+ },
+ "C_scopus_structured": {
+  "set": "C Scopus city, country",
+  "n_unique_strings": 766,
+  "n_failed": 4,
+  "fail_rate_pct": 0.5,
+  "fail_rate_wilson95": [
+   0.2,
+   1.3
+  ],
+  "html_entity_share_pct": 0.0,
+  "mean_length": 18.0,
+  "mean_commas": 1.0,
+  "by_comma_bin": {
+   "0": {
+    "n": 0,
+    "fail_pct": null
+   },
+   "1": {
+    "n": 764,
+    "fail_pct": 0.5
+   },
+   "2": {
+    "n": 2,
+    "fail_pct": 0.0
+   },
+   "3+": {
+    "n": 0,
+    "fail_pct": null
+   }
+  },
+  "rescued_by_variant_pct": 0.0,
+  "strings_le1_comma_pct": 99.7,
+  "failures_from_le1_comma_pct": 100.0
+ },
+ "design": {
+  "topic": "T10361 2018-2024",
+  "seed": 20260811,
+  "max_per_set": 3000,
+  "cascade": "clean_address_variants (identical to manuscript)",
+  "geocoder": "Nominatim public, 1 req/s",
+  "run_date": "2026-10-22"
+ },
+ "paired_works": {
+  "n_works": 1529,
+  "all_strings_geocoded_A_pct": 99.7,
+  "all_strings_geocoded_B_pct": 85.9,
+  "A_ok_B_fail_pct": 14.0,
+  "B_ok_A_fail_pct": 0.2
+ },
+ "country_set_agreement_openalex_vs_scopus": {
+  "n_works": 1747,
+  "exact_set_agreement_pct": 96.6,
+  "mean_jaccard": 0.984,
+  "note": "catalogue country set per work (OpenAlex institutions) vs Scopus affiliation-country set per work; computed 2026-10-25"
+ }
+}
