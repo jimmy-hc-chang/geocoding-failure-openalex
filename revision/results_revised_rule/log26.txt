@@ -1,0 +1,72 @@
+                       region  share_obs  share_ipw  share_full  share_recovery  numerator_recovery  region_mass_ratio_ipw_over_full  missing_in_works_with_lt2_geocoded_pct  both_fail_obs_over_exp  within_region_pair_pct
+                    East Asia     40.399     38.724      37.737           0.629               0.766                            0.962                                  23.196                   1.541                  79.192
+Eastern Europe & Central Asia      5.012      5.057       4.797          -0.209               0.935                            0.988                                  25.771                   1.232                  54.814
+    Latin America & Caribbean      2.586      2.973       2.929           1.129               0.843                            0.951                                  35.791                   1.433                  61.795
+                  Middle East      5.525      5.486       6.115          -0.067               0.458                            0.841                                  17.839                   1.432                  43.577
+                 North Africa      1.727      1.862       1.975           0.542               0.631                            0.883                                  25.993                   1.625                  48.707
+             Northern America     23.082     21.683      20.663           0.578               0.870                            0.984                                  17.630                   1.589                  65.992
+                      Oceania      2.107      2.102       2.184          -0.059               0.602                            0.902                                  16.807                   1.301                  28.026
+                   South Asia      8.523      8.512       8.733          -0.053               0.635                            0.914                                  23.038                   1.531                  65.600
+               Southeast Asia      2.778      2.897       2.860           1.451               0.789                            0.949                                  17.923                   1.317                  40.599
+           Sub-Saharan Africa      0.658      0.657       0.688          -0.026               0.584                            0.895                                  22.511                   1.863                  32.533
+               Western Europe     27.116     29.636      31.154           0.624               0.661                            0.892                                  22.137                   1.737                  66.943
+
+total mass ratio ipw/full: 0.9373  obs/full: 0.7821
+
+H1 string level: {'East Asia': (10.8, 0.8918, 0.8918, 0.908), 'Eastern Europe & Central Asia': (11.1, 0.8886, 0.8886, 0.495), 'Latin America & Caribbean': (23.8, 0.7618, 0.7618, 0.8), 'Middle East': (18.2, 0.8176, 0.8176, 0.435), 'North Africa': (19.3, 0.8072, 0.8072, 1.037), 'Northern America': (7.1, 0.9288, 0.9288, 0.802), 'Oceania': (12.5, 0.8751, 0.8751, 5.333), 'South Asia': (12.8, 0.8725, 0.8725, 2.81), 'Southeast Asia': (15.7, 0.8425, 0.8425, 1.712), 'Sub-Saharan Africa': (12.7, 0.873, 0.873, -3.0), 'Western Europe': (17.4, 0.8261, 0.8261, 0.905)}
+calibration gap: {'East Asia': 0.0169, 'Eastern Europe & Central Asia': 0.0524, 'Latin America & Caribbean': 0.0768, 'Middle East': 0.0404, 'North Africa': 0.0591, 'Northern America': 0.0373, 'Oceania': 0.0317, 'South Asia': 0.0366, 'Southeast Asia': 0.0298, 'Sub-Saharan Africa': 0.0481, 'Western Europe': 0.0498}
+
+ME by pair type:
+                       full   obs       ipw  work_lost  obs_over_full  ipw_over_full
+type                                                                               
+ME with other region  4594  3423  4013.419      0.031          0.745          0.874
+within ME             3548  2331  2833.735      0.080          0.657          0.799
+
+ME by country:
+        full   obs       ipw  work_lost  obs_over_full  ipw_over_full
+me_cc                                                               
+IR     3124  2022  2343.664      0.070          0.647          0.750
+SA     1180   903  1113.267      0.034          0.765          0.943
+IL      902   767   866.347      0.009          0.850          0.960
+TR      842   682   869.157      0.075          0.810          1.032
+QA      817   462   527.018      0.051          0.565          0.645
+AE      448   337   395.414      0.074          0.752          0.883
+IQ      280   202   259.659      0.036          0.721          0.927
+LB      257   162   201.056      0.004          0.630          0.782
+JO      131   109   133.787      0.023          0.832          1.021
+KW       77    42    54.104      0.065          0.545          0.703
+
+ME strings by country:
+             n   fail  pred_fail
+country                        
+IR       1145  0.225      0.213
+TR        669  0.154      0.168
+SA        328  0.125      0.142
+IL        177  0.175      0.156
+AE        174  0.161      0.163
+IQ        163  0.141      0.161
+QA        100  0.240      0.224
+LB         77  0.130      0.138
+
+H5 pair degree:
+  East Asia                        fail/success degree 0.91  weighted/full degree 0.965  trimmed 0.79%   {'OR_log_degree_given_propensity': 1.016, 'p': 0.6633}
+  Eastern Europe & Central Asia    fail/success degree 0.82  weighted/full degree 0.996  trimmed 0.87%   {'OR_log_degree_given_propensity': 1.32, 'p': 0.0074}
+  Latin America & Caribbean        fail/success degree 0.96  weighted/full degree 0.923  trimmed 5.03%   {'OR_log_degree_given_propensity': 0.931, 'p': 0.4803}
+  Middle East                      fail/success degree 1.06  weighted/full degree 0.887  trimmed 1.44%   {'OR_log_degree_given_propensity': 1.004, 'p': 0.9673}
+  North Africa                     fail/success degree 1.13  weighted/full degree 0.923  trimmed 3.25%   {'OR_log_degree_given_propensity': 0.809, 'p': 0.0936}
+  Northern America                 fail/success degree 0.91  weighted/full degree 0.983  trimmed 0.17%   {'OR_log_degree_given_propensity': 1.138, 'p': 0.043}
+  Oceania                          fail/success degree 1.19  weighted/full degree 0.923  trimmed 0.12%   {'OR_log_degree_given_propensity': 1.439, 'p': 0.0824}
+  South Asia                       fail/success degree 1.18  weighted/full degree 0.937  trimmed 0.73%   {'OR_log_degree_given_propensity': 1.041, 'p': 0.5306}
+  Southeast Asia                   fail/success degree 0.93  weighted/full degree 0.960  trimmed 0.53%   {'OR_log_degree_given_propensity': 0.862, 'p': 0.1905}
+  Sub-Saharan Africa               fail/success degree 1.55  weighted/full degree 0.905  trimmed 0.59%   {'OR_log_degree_given_propensity': 0.468, 'p': 0.0056}
+  Western Europe                   fail/success degree 1.39  weighted/full degree 0.899  trimmed 2.21%   {'OR_log_degree_given_propensity': 0.813, 'p': 0.0}
+
+T1 recovery by propensity variant (ME / LA / WE / EA / NAm):
+  main                         ME -0.067  LA 1.129  WE 0.624  EA 0.629  NAm 0.578
+  categorical_comma            ME -0.051  LA 1.132  WE 0.649  EA 0.637  NAm 0.651
+  region_x_cat_comma           ME -0.059  LA 1.006  WE 0.587  EA 0.546  NAm 0.561
+  region_x_cat_comma_x_html    ME -0.095  LA 1.027  WE 0.613  EA 0.582  NAm 0.553
+  region_x_log_degree          ME -0.116  LA 1.149  WE 0.842  EA 0.821  NAm 0.662
+  degree_weighted_fit          ME -0.075  LA 1.238  WE 0.956  EA 0.903  NAm 0.758
+T2 ME hubs: {'top5_failed_share_of_missing_pct': 16.0, 'top5_strings': ['Department of Electrical Engineering Qatar University  Doha Qatar', 'Faculty of Electrical and Computer Engineering University of Tabriz  Tabriz Iran', 'Department of Electrical Engineering Qatar University Doha Qatar', 'Faculty of Electrical and Computer Engineering University of Tabriz Tabriz Iran', 'Center of Research Excellence in Renewable Energy and Power Systems King Abdulaziz Univers'], 'recovery': -0.067, 'recovery_without_top5': -0.121}
+T4 pair-weighted gap pp: {'East Asia': 0.2, 'Eastern Europe & Central Asia': 1.19, 'Latin America & Caribbean': -0.5, 'Middle East': -1.62, 'North Africa': -1.38, 'Northern America': 0.32, 'Oceania': 0.41, 'South Asia': -0.28, 'Southeast Asia': -1.01, 'Sub-Saharan Africa': -3.19, 'Western Europe': -2.89}

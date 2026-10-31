@@ -1,0 +1,9 @@
+{
+ "n": 300,
+ "now_succeed": 2,
+ "drift_pct": 0.7,
+ "by_step": {
+  "last_2_segments": 2
+ },
+ "run_date": "2026-10-25"
+}

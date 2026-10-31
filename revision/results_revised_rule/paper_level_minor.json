@@ -1,0 +1,458 @@
+{
+ "tie_rule": "exclude",
+ "fail_rate_unique_strings_pct": 13.37,
+ "fail_rate_work_string_appearances_pct": 11.99,
+ "fail_rate_authorship_rows_pct": 11.36,
+ "fail_by_string_frequency": {
+  "1": {
+   "n": 67926,
+   "fail_pct": 14.0
+  },
+  "2": {
+   "n": 6905,
+   "fail_pct": 10.7
+  },
+  "3-5": {
+   "n": 3693,
+   "fail_pct": 8.7
+  },
+  "6-20": {
+   "n": 1459,
+   "fail_pct": 8.4
+  },
+  ">20": {
+   "n": 193,
+   "fail_pct": 9.3
+  }
+ },
+ "regional_fail_unique_vs_appearance": {
+  "East Asia": [
+   10.8,
+   8.4
+  ],
+  "Eastern Europe & Central Asia": [
+   11.1,
+   9.8
+  ],
+  "Latin America & Caribbean": [
+   23.8,
+   21.5
+  ],
+  "Middle East": [
+   18.2,
+   15.6
+  ],
+  "North Africa": [
+   19.3,
+   18.1
+  ],
+  "Northern America": [
+   7.1,
+   5.8
+  ],
+  "Oceania": [
+   12.5,
+   9.8
+  ],
+  "South Asia": [
+   12.8,
+   10.9
+  ],
+  "Southeast Asia": [
+   15.8,
+   14.3
+  ],
+  "Sub-Saharan Africa": [
+   12.7,
+   11.4
+  ],
+  "Western Europe": [
+   17.4,
+   18.5
+  ]
+ },
+ "r1c3_fail_by_work_size": {
+  "1": {
+   "appearances": 17438,
+   "fail_pct": 9.3
+  },
+  "2-3": {
+   "appearances": 51757,
+   "fail_pct": 10.1
+  },
+  "4-9": {
+   "appearances": 43162,
+   "fail_pct": 14.7
+  },
+  "10+": {
+   "appearances": 4530,
+   "fail_pct": 18.1
+  }
+ },
+ "r1c3_fail_by_authors": {
+  "1-3": {
+   "appearances": 31544,
+   "fail_pct": 13.2
+  },
+  "4-6": {
+   "appearances": 55077,
+   "fail_pct": 11.8
+  },
+  "7-10": {
+   "appearances": 22644,
+   "fail_pct": 11.0
+  },
+  "11+": {
+   "appearances": 7364,
+   "fail_pct": 11.0
+  }
+ },
+ "r1c3_fail_intl_vs_domestic": {
+  "domestic": {
+   "appearances": 85182,
+   "fail_pct": 11.7
+  },
+  "international": {
+   "appearances": 31705,
+   "fail_pct": 12.8
+  }
+ },
+ "r1c3_logit_clustered_by_work": {
+  "East Asia": [
+   1.543,
+   1.399,
+   1.701
+  ],
+  "Eastern Europe & Central Asia": [
+   1.73,
+   1.486,
+   2.014
+  ],
+  "Latin America & Caribbean": [
+   4.25,
+   3.641,
+   4.961
+  ],
+  "Middle East": [
+   2.638,
+   2.316,
+   3.006
+  ],
+  "North Africa": [
+   3.213,
+   2.644,
+   3.906
+  ],
+  "Oceania": [
+   1.756,
+   1.35,
+   2.284
+  ],
+  "South Asia": [
+   1.752,
+   1.56,
+   1.967
+  ],
+  "Southeast Asia": [
+   2.641,
+   2.238,
+   3.117
+  ],
+  "Sub-Saharan Africa": [
+   1.945,
+   1.276,
+   2.965
+  ],
+  "Western Europe": [
+   3.677,
+   3.334,
+   4.056
+  ],
+  "intl": [
+   0.778,
+   0.727,
+   0.832
+  ],
+  "log_strings": [
+   1.929,
+   1.825,
+   2.039
+  ],
+  "log_authors": [
+   0.585,
+   0.552,
+   0.62
+  ]
+ },
+ "r1c3_cofailure": {
+  "P(b fails | a fails)": 45.2,
+  "P(b fails | a ok)": 9.3,
+  "same_region_P(b fails | a fails)": 46.7,
+  "diff_region_P(b fails | a fails)": 42.3
+ },
+ "r1c3_works_all_strings_failed_pct": 3.36,
+ "r1c4_unresolved_profile": {
+  "n_unresolved": 6362,
+  "unresolved_pct": 7.94,
+  "fail_unresolved_vs_resolved_pct": [
+   15.5,
+   13.2
+  ],
+  "unresolved_rate_by_geocoded_region": {
+   "East Asia": 8.0,
+   "Eastern Europe & Central Asia": 6.6,
+   "Latin America & Caribbean": 3.7,
+   "Middle East": 3.1,
+   "North Africa": 3.6,
+   "Northern America": 6.2,
+   "Oceania": 3.6,
+   "South Asia": 16.0,
+   "Southeast Asia": 5.7,
+   "Sub-Saharan Africa": 2.7,
+   "Western Europe": 6.2,
+   "not geocoded / unmapped": 1.6
+  },
+  "unresolved_rate_by_geocoded_country_top": {
+   "IN": 16.7,
+   "CH": 11.0,
+   "CN": 9.4,
+   "AT": 8.2,
+   "RU": 8.1,
+   "CA": 8.0,
+   "DE": 7.2,
+   "NL": 7.1,
+   "SE": 7.0,
+   "RO": 6.9,
+   "IT": 6.5,
+   "KR": 6.3,
+   "US": 6.0,
+   "ES": 5.8,
+   "FR": 5.4
+  },
+  "unresolved_rate_by_comma": {
+   "0": 9.2,
+   "1": 9.5,
+   "2": 13.8,
+   "3+": 6.4
+  },
+  "unresolved_rate_html_ent": {
+   "False": 7.7,
+   "True": 12.8
+  },
+  "mean_length_unresolved_vs_resolved": [
+   66.1,
+   88.9
+  ],
+  "unresolved_rate_by_type_keyword": {
+   "company": {
+    "n": 8499,
+    "unresolved_pct": 24.2
+   },
+   "hospital": {
+    "n": 1366,
+    "unresolved_pct": 1.3
+   },
+   "government": {
+    "n": 1585,
+    "unresolved_pct": 5.7
+   },
+   "university": {
+    "n": 44567,
+    "unresolved_pct": 2.4
+   },
+   "research_institute": {
+    "n": 18321,
+    "unresolved_pct": 6.2
+   },
+   "none": {
+    "n": 14059,
+    "unresolved_pct": 16.2
+   }
+  },
+  "share_of_unresolved_with_type": {
+   "company": 32.3,
+   "hospital": 0.3,
+   "government": 1.4,
+   "university": 17.1,
+   "research_institute": 17.8,
+   "none": 35.8
+  },
+  "unresolved_rate_non_ascii": {
+   "False": 8.2,
+   "True": 5.2
+  },
+  "logit_unresolved": {
+   "East Asia": [
+    1.889,
+    1.708,
+    2.09
+   ],
+   "Eastern Europe & Central Asia": [
+    2.178,
+    1.83,
+    2.592
+   ],
+   "Latin America & Caribbean": [
+    0.647,
+    0.499,
+    0.838
+   ],
+   "Middle East": [
+    1.216,
+    0.951,
+    1.555
+   ],
+   "North Africa": [
+    0.946,
+    0.69,
+    1.298
+   ],
+   "Oceania": [
+    1.589,
+    1.075,
+    2.349
+   ],
+   "South Asia": [
+    6.049,
+    5.415,
+    6.756
+   ],
+   "Southeast Asia": [
+    2.103,
+    1.653,
+    2.675
+   ],
+   "Sub-Saharan Africa": [
+    1.047,
+    0.54,
+    2.028
+   ],
+   "Western Europe": [
+    1.009,
+    0.903,
+    1.128
+   ],
+   "not geocoded / unmapped": [
+    0.221,
+    0.03,
+    1.642
+   ],
+   "0": [
+    0.381,
+    0.317,
+    0.457
+   ],
+   "1": [
+    0.41,
+    0.331,
+    0.508
+   ],
+   "3+": [
+    0.817,
+    0.756,
+    0.883
+   ],
+   "np.log(strlen)": [
+    0.449,
+    0.414,
+    0.487
+   ],
+   "html_ent": [
+    1.937,
+    1.66,
+    2.26
+   ],
+   "type_company": [
+    2.134,
+    1.968,
+    2.314
+   ],
+   "type_hospital": [
+    0.342,
+    0.213,
+    0.549
+   ],
+   "type_government": [
+    1.009,
+    0.802,
+    1.269
+   ],
+   "type_university": [
+    0.169,
+    0.155,
+    0.185
+   ],
+   "type_research_institute": [
+    0.432,
+    0.394,
+    0.473
+   ]
+  }
+ },
+ "r2m2_pair_filter": {
+  "works_excluded_gt60": 0,
+  "pairs_excluded_gt60": 0,
+  "with_filter_60": {
+   "n_pairs": 104139,
+   "n_works": 25828,
+   "LA_share_pct": 2.586
+  },
+  "no_filter": {
+   "n_pairs": 104139,
+   "n_works": 25828,
+   "LA_share_pct": 2.586
+  },
+  "filter_30": {
+   "n_pairs": 103319,
+   "n_works": 25827,
+   "LA_share_pct": 2.606
+  }
+ },
+ "r2m1_same_institution_pairs": {
+  "all_pairs": {
+   "n_pairs": 104139,
+   "n_works": 25828,
+   "LA_share_pct": 2.586
+  },
+  "excluding_same_institution": {
+   "n_pairs": 76266,
+   "n_works": 25828,
+   "LA_share_pct": 2.941
+  }
+ },
+ "table1_requested": {
+  "MX": {
+   "n": 374,
+   "fail_pct": 25.4,
+   "wilson_lo": 21.3,
+   "wilson_hi": 30.0
+  },
+  "IR": {
+   "n": 1145,
+   "fail_pct": 22.5,
+   "wilson_lo": 20.2,
+   "wilson_hi": 25.0
+  },
+  "IN": {
+   "n": 7274,
+   "fail_pct": 12.5,
+   "wilson_lo": 11.8,
+   "wilson_hi": 13.3
+  }
+ },
+ "boundary_cases": {
+  "IL": "Middle East",
+  "TR": "Middle East",
+  "SD": "North Africa",
+  "CY": "Western Europe",
+  "MT": "Western Europe",
+  "GR": "Western Europe",
+  "RU": "Eastern Europe & Central Asia",
+  "KZ": "Eastern Europe & Central Asia",
+  "AF": "South Asia",
+  "PK": "South Asia",
+  "EG": "North Africa",
+  "MR": "North Africa",
+  "MV": "South Asia"
+ }
+}

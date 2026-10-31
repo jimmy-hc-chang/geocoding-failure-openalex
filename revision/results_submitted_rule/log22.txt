@@ -1,0 +1,42 @@
+Loading formatted geocoded file...
+{
+ "n_success_with_country": 63879,
+ "agreement_pct": 94.62,
+ "discordance_pct": 5.38,
+ "discordant_adjacent_pct": 16.2,
+ "discordance_excl_adjacent_pct": 4.51,
+ "tied": {
+  "n_tied": 2217,
+  "n_tied_geocoded": 1725,
+  "geocoded_country_is_one_of_tied_pct": 93.9,
+  "geocode_fail_rate_tied_pct": 22.2,
+  "geocode_fail_rate_untied_pct": 13.1
+ }
+}
+by region: {'East Asia': 3.7, 'Eastern Europe & Central Asia': 6.0, 'Latin America & Caribbean': 3.0, 'Middle East': 5.8, 'North Africa': 3.7, 'Northern America': 8.2, 'Oceania': 2.1, 'South Asia': 2.5, 'Southeast Asia': 13.6, 'Sub-Saharan Africa': 15.9, 'Western Europe': 6.7}
+by comma: {'0': 17.6, '1': 14.9, '2': 5.8, '3': 3.8, '4+': 5.3}
+gross by region: {'East Asia': 2.9, 'Eastern Europe & Central Asia': 5.6, 'Latin America & Caribbean': 3.0, 'Middle East': 5.5, 'North Africa': 3.7, 'Northern America': 7.7, 'Oceania': 2.1, 'South Asia': 2.1, 'Southeast Asia': 4.4, 'Sub-Saharan Africa': 15.9, 'Western Europe': 5.7}
+top flows: [{'catalogue': 'US', 'geocoded': 'CN', 'n': 227}, {'catalogue': 'SG', 'geocoded': 'MY', 'n': 132}, {'catalogue': 'CN', 'geocoded': 'US', 'n': 114}, {'catalogue': 'CN', 'geocoded': 'MO', 'n': 110}, {'catalogue': 'GB', 'geocoded': 'US', 'n': 102}, {'catalogue': 'CN', 'geocoded': 'BR', 'n': 89}, {'catalogue': 'JP', 'geocoded': 'US', 'n': 80}, {'catalogue': 'US', 'geocoded': 'IN', 'n': 77}, {'catalogue': 'US', 'geocoded': 'JP', 'n': 55}, {'catalogue': 'GB', 'geocoded': 'CN', 'n': 51}, {'catalogue': 'JP', 'geocoded': 'LY', 'n': 44}, {'catalogue': 'CN', 'geocoded': 'HK', 'n': 40}]
+sensitivity: {
+ "all_geocoded": {
+  "n_pairs": 110116,
+  "mean_dist_km": 2127.5,
+  "median_dist_km": 339.8,
+  "intl_share_pct": 27.58,
+  "LA_share_pct": 2.498
+ },
+ "excluding_discordant": {
+  "n_pairs": 99210,
+  "mean_dist_km": 1886.2,
+  "median_dist_km": 265.6,
+  "intl_share_pct": 24.81,
+  "LA_share_pct": 2.6
+ },
+ "excluding_gross_discordant": {
+  "n_pairs": 101273,
+  "mean_dist_km": 1903.6,
+  "median_dist_km": 271.3,
+  "intl_share_pct": 25.38,
+  "LA_share_pct": 2.554
+ }
+}

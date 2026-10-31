@@ -1,0 +1,13 @@
+,OR,lo,hi,p
+Intercept,0.0889,0.0823,0.0959,0.0
+East Asia,1.4503,1.323,1.59,0.0
+Eastern Europe & Central Asia,1.5037,1.2185,1.8557,0.0001
+Latin America & Caribbean,3.6329,3.122,4.2276,0.0
+Middle East,2.8073,2.1272,3.7049,0.0
+North Africa,2.7839,2.2605,3.4286,0.0
+Oceania,1.7138,1.403,2.0934,0.0
+South Asia,1.7368,1.5864,1.9014,0.0
+Southeast Asia,2.2968,1.2855,4.1037,0.005
+Sub-Saharan Africa,1.8469,0.9997,3.4123,0.0501
+Western Europe,2.5164,1.7954,3.5268,0.0
+log_papers,0.7316,0.5201,1.029,0.0726

@@ -1,0 +1,246 @@
+{
+ "cart": {
+  "n_strings": 36892,
+  "fail_rate": 0.0904,
+  "country_known_failed_pct": 89.9,
+  "strings_0or1_comma_pct": 7.8,
+  "failures_from_0or1_comma_pct": 71.1,
+  "fail_html_ent": 47.1,
+  "fail_no_ent": 8.4,
+  "region_OR": {
+   "East Asia": [
+    1.299,
+    1.23,
+    1.372
+   ],
+   "Eastern Europe & Central Asia": [
+    1.467,
+    1.049,
+    2.049
+   ],
+   "Latin America & Caribbean": [
+    1.434,
+    0.742,
+    2.773
+   ],
+   "Middle East": [
+    2.251,
+    1.216,
+    4.165
+   ],
+   "North Africa": [
+    0.812,
+    0.654,
+    1.008
+   ],
+   "Oceania": [
+    1.077,
+    0.966,
+    1.201
+   ],
+   "South Asia": [
+    5.002,
+    3.53,
+    7.088
+   ],
+   "Southeast Asia": [
+    2.248,
+    1.765,
+    2.863
+   ],
+   "Sub-Saharan Africa": [
+    3.185,
+    0.504,
+    20.114
+   ],
+   "Western Europe": [
+    1.854,
+    1.413,
+    2.431
+   ]
+  }
+ },
+ "w_mean": 1.111,
+ "w_median": 1.039,
+ "w_cap": 2.607,
+ "w_untrimmed_max": 36.366,
+ "ESS": 59315,
+ "n_success": 62153,
+ "min_phat_by_region": {
+  "East Asia": [
+   0.002,
+   0.892
+  ],
+  "Eastern Europe & Central Asia": [
+   0.009,
+   0.889
+  ],
+  "Latin America & Caribbean": [
+   0.007,
+   0.762
+  ],
+  "Middle East": [
+   0.009,
+   0.818
+  ],
+  "North Africa": [
+   0.009,
+   0.807
+  ],
+  "Northern America": [
+   0.008,
+   0.929
+  ],
+  "Oceania": [
+   0.017,
+   0.875
+  ],
+  "South Asia": [
+   0.006,
+   0.872
+  ],
+  "Southeast Asia": [
+   0.01,
+   0.842
+  ],
+  "Sub-Saharan Africa": [
+   0.081,
+   0.873
+  ],
+  "Western Europe": [
+   0.001,
+   0.826
+  ]
+ },
+ "share_phat_below_0.2_pct": 3.09,
+ "wilson": {
+  "AR": [
+   64,
+   48.4,
+   36.6,
+   60.4
+  ],
+  "NP": [
+   35,
+   40.0,
+   25.6,
+   56.4
+  ],
+  "CO": [
+   99,
+   38.4,
+   29.4,
+   48.2
+  ],
+  "UZ": [
+   27,
+   37.0,
+   21.5,
+   55.8
+  ],
+  "FR": [
+   2918,
+   29.2,
+   27.6,
+   30.9
+  ],
+  "SG": [
+   374,
+   31.6,
+   27.0,
+   36.4
+  ],
+  "US": [
+   9741,
+   6.9,
+   6.4,
+   7.4
+  ],
+  "JP": [
+   4265,
+   9.3,
+   8.5,
+   10.2
+  ],
+  "TW": [
+   1401,
+   10.0,
+   8.5,
+   11.7
+  ],
+  "CN": [
+   16570,
+   11.1,
+   10.7,
+   11.6
+  ],
+  "MO": [
+   71,
+   7.0,
+   3.0,
+   15.4
+  ],
+  "EE": [
+   65,
+   6.2,
+   2.4,
+   14.8
+  ]
+ },
+ "fold_conservative_AR_over_US": 4.9,
+ "unknown_country": {
+  "n": 8798,
+  "share_pct": 11.0,
+  "fail_rate": 0.1702,
+  "known_fail_rate": 0.1292
+ },
+ "LA_share_bounds_pct": [
+  2.74,
+  13.72
+ ],
+ "kappa": {
+  "bothfail_obs_over_exp": 1.63,
+  "bothsuccess_all": 1.0126,
+  "bothsuccess_LA": 1.0307
+ },
+ "LA_pairshare": {
+  "raw": 2.586,
+  "ipw": 2.973,
+  "ipw_kappa_adj": 2.923
+ },
+ "boot_LA_raw": [
+  2.304,
+  2.836
+ ],
+ "boot_LA_ipw": [
+  2.632,
+  3.298
+ ],
+ "boot_dist_raw": [
+  1951.179,
+  2114.309
+ ],
+ "boot_dist_ipw": [
+  1973.613,
+  2140.545
+ ],
+ "boot_intl_raw": [
+  24.706,
+  26.995
+ ],
+ "boot_intl_ipw": [
+  25.093,
+  27.403
+ ],
+ "boot_LA_understatement_pct": [
+  9.2,
+  16.6
+ ],
+ "tipping_LA_share_by_lambda": {
+  "0.75": 2.776,
+  "0.5": 2.591,
+  "0.25": 2.419,
+  "0.0": 2.258
+ },
+ "india_unresolved": "run entity-resolution audit first (16_geocoding_mar_analysis.py)"
+}

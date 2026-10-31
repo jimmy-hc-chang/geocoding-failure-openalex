@@ -1,0 +1,17 @@
+,0
+mean_dist_raw,2127.5941
+mean_dist_ipw,2151.4321
+median_raw,339.7776
+median_ipw,351.7544
+intl_share_raw,0.2758
+intl_share_ipw,0.2816
+invshare_raw::Latin America & Caribbean,0.025
+invshare_ipw::Latin America & Caribbean,0.0286
+invshare_raw::North Africa,0.0186
+invshare_ipw::North Africa,0.0199
+invshare_raw::Middle East,0.0592
+invshare_ipw::Middle East,0.0589
+invshare_raw::Sub-Saharan Africa,0.008
+invshare_ipw::Sub-Saharan Africa,0.0082
+LA_share_of_intl_raw,0.0421
+LA_share_of_intl_ipw,0.0446

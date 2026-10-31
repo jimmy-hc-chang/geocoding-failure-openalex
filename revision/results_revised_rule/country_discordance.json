@@ -1,0 +1,395 @@
+{
+ "tie_rule_for_catalogue_country": "exclude",
+ "n_success_with_country": 62154,
+ "agreement_pct": 96.07,
+ "discordance_pct": 3.93,
+ "by_region": {
+  "East Asia": {
+   "n": 21935,
+   "disc_pct": 3.2
+  },
+  "Eastern Europe & Central Asia": {
+   "n": 2880,
+   "disc_pct": 3.8
+  },
+  "Latin America & Caribbean": {
+   "n": 1676,
+   "disc_pct": 2.8
+  },
+  "Middle East": {
+   "n": 2411,
+   "disc_pct": 2.2
+  },
+  "North Africa": {
+   "n": 1059,
+   "disc_pct": 2.2
+  },
+  "Northern America": {
+   "n": 10035,
+   "disc_pct": 5.4
+  },
+  "Oceania": {
+   "n": 736,
+   "disc_pct": 1.4
+  },
+  "South Asia": {
+   "n": 6888,
+   "disc_pct": 1.9
+  },
+  "Southeast Asia": {
+   "n": 1348,
+   "disc_pct": 10.5
+  },
+  "Sub-Saharan Africa": {
+   "n": 323,
+   "disc_pct": 7.7
+  },
+  "Western Europe": {
+   "n": 12862,
+   "disc_pct": 5.1
+  }
+ },
+ "by_comma_bin": {
+  "0": {
+   "n": 1988,
+   "disc_pct": 15.9
+  },
+  "1": {
+   "n": 1479,
+   "disc_pct": 12.5
+  },
+  "2": {
+   "n": 8978,
+   "disc_pct": 4.1
+  },
+  "3": {
+   "n": 26202,
+   "disc_pct": 2.4
+  },
+  "4+": {
+   "n": 23507,
+   "disc_pct": 4.0
+  }
+ },
+ "by_len_bin": {
+  "Q1 short": {
+   "n": 14095,
+   "disc_pct": 6.7
+  },
+  "Q2": {
+   "n": 15736,
+   "disc_pct": 3.3
+  },
+  "Q3": {
+   "n": 16396,
+   "disc_pct": 3.0
+  },
+  "Q4 long": {
+   "n": 15927,
+   "disc_pct": 3.0
+  }
+ },
+ "by_html_ent": {
+  "False": {
+   "n": 60480,
+   "disc_pct": 3.9
+  },
+  "True": {
+   "n": 1674,
+   "disc_pct": 5.9
+  }
+ },
+ "by_resolved": {
+  "True": {
+   "n": 62154,
+   "disc_pct": 3.9
+  }
+ },
+ "by_region_x_comma": {
+  "East Asia|<=1": {
+   "n": 1096,
+   "disc_pct": 12.7
+  },
+  "East Asia|>=2": {
+   "n": 20839,
+   "disc_pct": 2.7
+  },
+  "Eastern Europe & Central Asia|<=1": {
+   "n": 161,
+   "disc_pct": 19.3
+  },
+  "Eastern Europe & Central Asia|>=2": {
+   "n": 2719,
+   "disc_pct": 2.8
+  },
+  "Latin America & Caribbean|<=1": {
+   "n": 129,
+   "disc_pct": 14.7
+  },
+  "Latin America & Caribbean|>=2": {
+   "n": 1547,
+   "disc_pct": 1.8
+  },
+  "Middle East|<=1": {
+   "n": 157,
+   "disc_pct": 7.0
+  },
+  "Middle East|>=2": {
+   "n": 2254,
+   "disc_pct": 1.9
+  },
+  "North Africa|<=1": {
+   "n": 50,
+   "disc_pct": 2.0
+  },
+  "North Africa|>=2": {
+   "n": 1009,
+   "disc_pct": 2.2
+  },
+  "Northern America|<=1": {
+   "n": 559,
+   "disc_pct": 17.2
+  },
+  "Northern America|>=2": {
+   "n": 9476,
+   "disc_pct": 4.7
+  },
+  "Oceania|<=1": {
+   "n": 30,
+   "disc_pct": 20.0
+  },
+  "Oceania|>=2": {
+   "n": 706,
+   "disc_pct": 0.6
+  },
+  "South Asia|<=1": {
+   "n": 301,
+   "disc_pct": 8.0
+  },
+  "South Asia|>=2": {
+   "n": 6587,
+   "disc_pct": 1.6
+  },
+  "Southeast Asia|<=1": {
+   "n": 126,
+   "disc_pct": 19.8
+  },
+  "Southeast Asia|>=2": {
+   "n": 1222,
+   "disc_pct": 9.6
+  },
+  "Sub-Saharan Africa|<=1": {
+   "n": 21,
+   "disc_pct": 33.3
+  },
+  "Sub-Saharan Africa|>=2": {
+   "n": 302,
+   "disc_pct": 6.0
+  },
+  "Western Europe|<=1": {
+   "n": 837,
+   "disc_pct": 17.0
+  },
+  "Western Europe|>=2": {
+   "n": 12025,
+   "disc_pct": 4.2
+  }
+ },
+ "top_flows": [
+  {
+   "catalogue": "SG",
+   "geocoded": "MY",
+   "n": 125
+  },
+  {
+   "catalogue": "CN",
+   "geocoded": "US",
+   "n": 112
+  },
+  {
+   "catalogue": "CN",
+   "geocoded": "MO",
+   "n": 109
+  },
+  {
+   "catalogue": "US",
+   "geocoded": "CN",
+   "n": 109
+  },
+  {
+   "catalogue": "GB",
+   "geocoded": "US",
+   "n": 96
+  },
+  {
+   "catalogue": "CN",
+   "geocoded": "BR",
+   "n": 89
+  },
+  {
+   "catalogue": "JP",
+   "geocoded": "US",
+   "n": 80
+  },
+  {
+   "catalogue": "US",
+   "geocoded": "IN",
+   "n": 56
+  },
+  {
+   "catalogue": "JP",
+   "geocoded": "LY",
+   "n": 44
+  },
+  {
+   "catalogue": "US",
+   "geocoded": "JP",
+   "n": 41
+  },
+  {
+   "catalogue": "CN",
+   "geocoded": "HK",
+   "n": 36
+  },
+  {
+   "catalogue": "US",
+   "geocoded": "AU",
+   "n": 28
+  },
+  {
+   "catalogue": "CA",
+   "geocoded": "US",
+   "n": 25
+  },
+  {
+   "catalogue": "DE",
+   "geocoded": "US",
+   "n": 24
+  },
+  {
+   "catalogue": "IT",
+   "geocoded": "VA",
+   "n": 24
+  },
+  {
+   "catalogue": "GB",
+   "geocoded": "CN",
+   "n": 22
+  },
+  {
+   "catalogue": "US",
+   "geocoded": "VI",
+   "n": 21
+  },
+  {
+   "catalogue": "DE",
+   "geocoded": "NL",
+   "n": 20
+  },
+  {
+   "catalogue": "CN",
+   "geocoded": "LY",
+   "n": 20
+  },
+  {
+   "catalogue": "HK",
+   "geocoded": "CN",
+   "n": 20
+  },
+  {
+   "catalogue": "NP",
+   "geocoded": "IN",
+   "n": 20
+  },
+  {
+   "catalogue": "IN",
+   "geocoded": "IT",
+   "n": 18
+  },
+  {
+   "catalogue": "US",
+   "geocoded": "DE",
+   "n": 17
+  },
+  {
+   "catalogue": "US",
+   "geocoded": "LY",
+   "n": 17
+  },
+  {
+   "catalogue": "US",
+   "geocoded": "GB",
+   "n": 17
+  },
+  {
+   "catalogue": "IN",
+   "geocoded": "SG",
+   "n": 16
+  },
+  {
+   "catalogue": "US",
+   "geocoded": "CA",
+   "n": 16
+  },
+  {
+   "catalogue": "US",
+   "geocoded": "KR",
+   "n": 15
+  },
+  {
+   "catalogue": "US",
+   "geocoded": "IT",
+   "n": 15
+  },
+  {
+   "catalogue": "JP",
+   "geocoded": "IN",
+   "n": 14
+  }
+ ],
+ "discordant_adjacent_pct": 19.6,
+ "discordance_excl_adjacent_pct": 3.16,
+ "gross_discordance_by_region_pct": {
+  "East Asia": 2.5,
+  "Eastern Europe & Central Asia": 3.5,
+  "Latin America & Caribbean": 2.7,
+  "Middle East": 2.0,
+  "North Africa": 2.2,
+  "Northern America": 4.9,
+  "Oceania": 1.4,
+  "South Asia": 1.6,
+  "Southeast Asia": 1.2,
+  "Sub-Saharan Africa": 7.7,
+  "Western Europe": 4.3
+ },
+ "sensitivity": {
+  "all_geocoded": {
+   "n_pairs": 104143,
+   "mean_dist_km": 2032.1,
+   "median_dist_km": 301.1,
+   "intl_share_pct": 25.69,
+   "LA_share_pct": 2.586
+  },
+  "excluding_discordant": {
+   "n_pairs": 96975,
+   "mean_dist_km": 1842.7,
+   "median_dist_km": 255.1,
+   "intl_share_pct": 23.96,
+   "LA_share_pct": 2.637
+  },
+  "excluding_gross_discordant": {
+   "n_pairs": 98718,
+   "mean_dist_km": 1860.8,
+   "median_dist_km": 258.8,
+   "intl_share_pct": 24.45,
+   "LA_share_pct": 2.598
+  }
+ },
+ "tied": {
+  "n_tied": 2217,
+  "n_tied_geocoded": 1725,
+  "geocoded_country_is_one_of_tied_pct": 93.9,
+  "geocode_fail_rate_tied_pct": 22.2,
+  "geocode_fail_rate_untied_pct": 13.1
+ }
+}

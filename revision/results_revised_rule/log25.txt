@@ -1,0 +1,101 @@
+{
+ "tie_rule": "exclude",
+ "n_institutions_with_coords": 127783,
+ "resolved_strings_pct": 92.06,
+ "inst_coord_assigned_pct_all": 89.26,
+ "inst_coord_assigned_pct_failed": 86.2,
+ "inst_coord_assigned_pct_failed_with_region": 99.9,
+ "Q1_geocode_vs_institution_point": {
+  "n": 62324,
+  "quantiles_km": {
+   "0.25": 1.8,
+   "0.5": 5.8,
+   "0.75": 24.4,
+   "0.9": 587.8
+  },
+  "within_10km_pct": 61.9,
+  "within_50km_pct": 79.4,
+  "over_500km_pct": 10.7,
+  "median_by_region": {
+   "East Asia": 9.6,
+   "Eastern Europe & Central Asia": 2.5,
+   "Latin America & Caribbean": 6.1,
+   "Middle East": 5.5,
+   "North Africa": 2.7,
+   "Northern America": 3.7,
+   "Oceania": 5.0,
+   "South Asia": 7.2,
+   "Southeast Asia": 8.2,
+   "Sub-Saharan Africa": 4.7,
+   "Western Europe": 3.4
+  }
+ },
+ "Q3_distance_indicators": {
+  "complete_case": {
+   "n_pairs": 104139,
+   "n_works": 44930,
+   "mean_km": 2032.1,
+   "median_km": 300.6,
+   "share_over_1000km_pct": 35.06,
+   "intl_pct": 25.69
+  },
+  "ipw": {
+   "n_pairs": 104139,
+   "n_works": 44930,
+   "mean_km": 2055.8,
+   "median_km": 310.9,
+   "share_over_1000km_pct": 35.26,
+   "intl_pct": 26.14
+  },
+  "near_complete": {
+   "n_pairs": 133134,
+   "n_works": 47473,
+   "mean_km": 2011.8,
+   "median_km": 298.9,
+   "share_over_1000km_pct": 34.36,
+   "intl_pct": 26.24
+  },
+  "catalogue_only": {
+   "n_pairs": 132997,
+   "n_works": 47462,
+   "mean_km": 1906.4,
+   "median_km": 219.7,
+   "share_over_1000km_pct": 32.83,
+   "intl_pct": 26.23
+  },
+  "hybrid": {
+   "n_pairs": 133134,
+   "n_works": 47473,
+   "mean_km": 1907.2,
+   "median_km": 219.9,
+   "share_over_1000km_pct": 32.83,
+   "intl_pct": 26.24
+  }
+ },
+ "Q3_coverage": {
+  "complete_case_strings": 62153,
+  "near_complete_strings": 71368,
+  "catalogue_only_strings": 71310,
+  "hybrid_strings": 71368,
+  "all_strings_with_region": 71377
+ }
+}
+{
+ "n_countries": 41,
+ "log1p_dist_to_centroid_failed_minus_success": [
+  -0.092,
+  -0.132,
+  -0.053
+ ],
+ "top5_city_share_failed_minus_success_pp": [
+  -0.02,
+  -3.33,
+  3.3
+ ],
+ "like_for_like_inst_points_log1p_dist_failed_minus_success": [
+  -0.001,
+  -0.035,
+  0.033
+ ],
+ "note": "first contrast compares failed strings' institution points with successful strings' geocodes; the like-for-like contrast uses institution points on both sides"
+}

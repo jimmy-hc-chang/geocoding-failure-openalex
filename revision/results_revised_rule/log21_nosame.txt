@@ -1,0 +1,30 @@
+
+=== size filter on geocoded strings: 93,214 full pairs, 76,266 observed ===
+                       region  observed  ipw_region  ipw_kappa  ipw_countryFE  full_data  true_understatement_pct  recovered_region  recovered_kappa  recovered_cfe
+                    East Asia    39.467      37.732     37.567         37.716     37.196                    6.105             0.764            0.837          0.771
+Eastern Europe & Central Asia     5.455       5.519      5.443          5.539      5.270                    3.511            -0.350            0.060         -0.455
+    Latin America & Caribbean     2.941       3.353      3.225          3.335      3.068                   -4.145             3.241            2.229          3.096
+                  Middle East     6.313       6.186      6.347          6.197      6.812                   -7.323            -0.256            0.067         -0.233
+                 North Africa     1.815       1.948      1.950          1.971      2.010                   -9.736             0.682            0.689          0.799
+             Northern America    24.771      23.344     23.439         23.324     22.746                    8.906             0.705            0.658          0.714
+                      Oceania     2.528       2.525      2.539          2.510      2.625                   -3.701            -0.027            0.111         -0.186
+                   South Asia     8.472       8.411      8.439          8.404      8.705                   -2.677            -0.261           -0.139         -0.290
+               Southeast Asia     2.938       3.069      3.118          3.080      3.080                   -4.598             0.919            1.271          0.999
+           Sub-Saharan Africa     0.792       0.789      0.790          0.791      0.806                   -1.701            -0.191           -0.124         -0.043
+               Western Europe    31.061      33.698     34.094         33.790     34.854                  -10.883             0.695            0.800          0.719
+
+=== size filter on all strings: 97,518 full pairs, 76,266 observed ===
+                       region  observed  ipw_region  ipw_kappa  ipw_countryFE  full_data  true_understatement_pct  recovered_region  recovered_kappa  recovered_cfe
+                    East Asia    39.467      37.732     37.482         37.716     36.710                    7.510             0.629            0.720          0.635
+Eastern Europe & Central Asia     5.455       5.519      5.446          5.539      5.263                    3.648            -0.337            0.047         -0.438
+    Latin America & Caribbean     2.941       3.353      3.266          3.335      3.210                   -8.370             1.534            1.211          1.466
+                  Middle East     6.313       6.186      6.300          6.197      6.780                   -6.886            -0.273           -0.030         -0.249
+                 North Africa     1.815       1.948      2.001          1.971      2.085                  -12.953             0.494            0.692          0.579
+             Northern America    24.771      23.344     23.224         23.324     22.173                   11.716             0.549            0.596          0.557
+                      Oceania     2.528       2.525      2.501          2.510      2.588                   -2.328            -0.043           -0.440         -0.299
+                   South Asia     8.472       8.411      8.462          8.404      8.662                   -2.197            -0.320           -0.051         -0.356
+               Southeast Asia     2.938       3.069      3.110          3.080      3.036                   -3.226             1.329            1.751          1.444
+           Sub-Saharan Africa     0.792       0.789      0.805          0.791      0.819                   -3.341            -0.096            0.490         -0.021
+               Western Europe    31.061      33.698     34.321         33.790     35.640                  -12.847             0.576            0.712          0.596
+
+written validation_ground_truth.json

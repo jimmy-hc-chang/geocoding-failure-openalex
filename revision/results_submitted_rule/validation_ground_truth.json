@@ -1,0 +1,989 @@
+{
+ "tie_rule": "quicksort",
+ "B": 30,
+ "n_strings_with_region": 73594,
+ "size_on_geocoded": {
+  "n_pairs_full": 135186,
+  "n_pairs_observed": 110112,
+  "n_works": 26189,
+  "kappa_all": 1.0378485724619548,
+  "regions": [
+   {
+    "region": "East Asia",
+    "observed": 39.7794972392,
+    "ipw_region": 38.0348719113,
+    "ipw_kappa": 37.8946027621,
+    "ipw_countryFE": 38.0568310748,
+    "full_data": 37.5578832128,
+    "true_understatement_pct": 5.9151736903,
+    "est_understatement_region_pct": 4.5869099596,
+    "est_understatement_kappa_pct": 4.9740446915,
+    "est_understatement_cfe_pct": 4.5265622906,
+    "recovered_region": 0.7852963238,
+    "recovered_kappa": 0.8484347212,
+    "recovered_cfe": 0.775411995,
+    "kappa_r": 1.0440482835,
+    "ci_observed": [
+     38.4253230497,
+     40.5919144132
+    ],
+    "ci_full": [
+     36.4112996924,
+     38.5690950914
+    ],
+    "ci_ipw_region": [
+     36.8389726443,
+     38.9185030377
+    ],
+    "ci_ipw_cfe": [
+     36.8191953749,
+     38.9906519198
+    ],
+    "ci_true_gap_pp": [
+     -2.674145833,
+     -1.6589984104
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     0.0020243789,
+     1.1803127957
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     0.0055198368,
+     1.248796215
+    ]
+   },
+   {
+    "region": "Eastern Europe & Central Asia",
+    "observed": 5.2610069747,
+    "ipw_region": 5.281881349,
+    "ipw_kappa": 5.2428426178,
+    "ipw_countryFE": 5.3100104992,
+    "full_data": 5.074489962,
+    "true_understatement_pct": 3.67558147,
+    "est_understatement_region_pct": -0.3952071796,
+    "est_understatement_kappa_pct": 0.3464600831,
+    "est_understatement_cfe_pct": -0.9228517446,
+    "recovered_region": -0.1119167308,
+    "recovered_kappa": 0.0973871317,
+    "recovered_cfe": -0.2627295162,
+    "kappa_r": 1.0460074385,
+    "ci_observed": [
+     4.7460769838,
+     5.5610852485
+    ],
+    "ci_full": [
+     4.6771009941,
+     5.4237904305
+    ],
+    "ci_ipw_region": [
+     4.8178778039,
+     5.6150824127
+    ],
+    "ci_ipw_cfe": [
+     4.8316708658,
+     5.6629771862
+    ],
+    "ci_true_gap_pp": [
+     -0.3210226941,
+     0.0320309019
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     0.0006630221,
+     0.3212848996
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     0.0180854394,
+     0.3795581984
+    ]
+   },
+   {
+    "region": "Latin America & Caribbean",
+    "observed": 2.4983653008,
+    "ipw_region": 2.8591305924,
+    "ipw_kappa": 2.7621682822,
+    "ipw_countryFE": 2.8474779364,
+    "full_data": 2.6445046085,
+    "true_understatement_pct": -5.5261506149,
+    "est_understatement_region_pct": -12.6180067677,
+    "est_understatement_kappa_pct": -9.5505760132,
+    "est_understatement_cfe_pct": -12.2604158287,
+    "recovered_region": 2.4686396656,
+    "recovered_kappa": 1.8051473323,
+    "recovered_cfe": 2.3889030349,
+    "kappa_r": 1.0753531974,
+    "ci_observed": [
+     2.3167155156,
+     2.7671402987
+    ],
+    "ci_full": [
+     2.4290369873,
+     2.8947357074
+    ],
+    "ci_ipw_region": [
+     2.6305574792,
+     3.1399321522
+    ],
+    "ci_ipw_cfe": [
+     2.606044277,
+     3.1403180453
+    ],
+    "ci_true_gap_pp": [
+     -0.0135441895,
+     0.2751341427
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     0.02141902,
+     0.349312464
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     0.0151049548,
+     0.3276019318
+    ]
+   },
+   {
+    "region": "Middle East",
+    "observed": 5.9176111595,
+    "ipw_region": 5.8929932024,
+    "ipw_kappa": 6.1126024642,
+    "ipw_countryFE": 5.8903258186,
+    "full_data": 6.6796857663,
+    "true_understatement_pct": -11.4088391789,
+    "est_understatement_region_pct": 0.4177496266,
+    "est_understatement_kappa_pct": -3.1899883196,
+    "est_understatement_cfe_pct": 0.463222948,
+    "recovered_region": -0.0323038675,
+    "recovered_kappa": 0.2558690487,
+    "recovered_cfe": -0.0358040285,
+    "kappa_r": 0.9982265599,
+    "ci_observed": [
+     5.293508296,
+     6.5466852602
+    ],
+    "ci_full": [
+     6.1857395089,
+     7.42017898
+    ],
+    "ci_ipw_region": [
+     5.319330355,
+     6.4946349585
+    ],
+    "ci_ipw_cfe": [
+     5.3088596033,
+     6.5012788041
+    ],
+    "ci_true_gap_pp": [
+     0.5660625998,
+     0.9974497192
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -0.9998169339,
+     -0.5986688034
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -1.0086312102,
+     -0.5855459227
+    ]
+   },
+   {
+    "region": "North Africa",
+    "observed": 1.861740773,
+    "ipw_region": 1.9877843743,
+    "ipw_kappa": 1.9877433395,
+    "ipw_countryFE": 2.0123308088,
+    "full_data": 2.0675217848,
+    "true_understatement_pct": -9.953027498,
+    "est_understatement_region_pct": -6.3409091521,
+    "est_understatement_kappa_pct": -6.3389756613,
+    "est_understatement_cfe_pct": -7.4833638264,
+    "recovered_region": 0.6125132743,
+    "recovered_kappa": 0.6123138642,
+    "recovered_cfe": 0.7317975285,
+    "kappa_r": 1.0378704323,
+    "ci_observed": [
+     1.4601610109,
+     2.2184405175
+    ],
+    "ci_full": [
+     1.5664856039,
+     2.3666924298
+    ],
+    "ci_ipw_region": [
+     1.6173939206,
+     2.290396515
+    ],
+    "ci_ipw_cfe": [
+     1.6426300415,
+     2.314550438
+    ],
+    "ci_true_gap_pp": [
+     0.1044796834,
+     0.3461938632
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -0.199524258,
+     0.0421566891
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -0.179604502,
+     0.0687742518
+    ]
+   },
+   {
+    "region": "Northern America",
+    "observed": 23.6214036617,
+    "ipw_region": 22.3761792095,
+    "ipw_kappa": 22.5098241666,
+    "ipw_countryFE": 22.3419955502,
+    "full_data": 21.9246075777,
+    "true_understatement_pct": 7.7392312633,
+    "est_understatement_region_pct": 5.5649556637,
+    "est_understatement_kappa_pct": 4.9381971483,
+    "est_understatement_cfe_pct": 5.7264719649,
+    "recovered_region": 0.7338680611,
+    "recovered_kappa": 0.655104939,
+    "recovered_cfe": 0.7540140643,
+    "kappa_r": 1.0299104197,
+    "ci_observed": [
+     22.2532304428,
+     25.2038299205
+    ],
+    "ci_full": [
+     20.7974969158,
+     23.0768480098
+    ],
+    "ci_ipw_region": [
+     20.9162542866,
+     23.7840714983
+    ],
+    "ci_ipw_cfe": [
+     20.9178882816,
+     23.7243747416
+    ],
+    "ci_true_gap_pp": [
+     -2.1560624479,
+     -1.3393262618
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     0.0429378881,
+     0.8842670911
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     0.0445718831,
+     0.8640633022
+    ]
+   },
+   {
+    "region": "Oceania",
+    "observed": 2.097863993,
+    "ipw_region": 2.0896248163,
+    "ipw_kappa": 2.1134765893,
+    "ipw_countryFE": 2.0787281101,
+    "full_data": 2.2021511103,
+    "true_understatement_pct": -4.7356930598,
+    "est_understatement_region_pct": 0.3942897635,
+    "est_understatement_kappa_pct": -0.7387163102,
+    "est_understatement_cfe_pct": 0.9205572808,
+    "recovered_region": -0.0790047415,
+    "recovered_kappa": 0.1497078132,
+    "recovered_cfe": -0.1834922995,
+    "kappa_r": 1.025885892,
+    "ci_observed": [
+     1.9544172234,
+     2.2908128381
+    ],
+    "ci_full": [
+     2.006625226,
+     2.4310871681
+    ],
+    "ci_ipw_region": [
+     1.9094034368,
+     2.3290663342
+    ],
+    "ci_ipw_cfe": [
+     1.9124343454,
+     2.3152666317
+    ],
+    "ci_true_gap_pp": [
+     0.0105495422,
+     0.2557591781
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -0.2230573094,
+     -0.0352727389
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -0.2357546119,
+     -0.0448985141
+    ]
+   },
+   {
+    "region": "South Asia",
+    "observed": 8.4804562627,
+    "ipw_region": 8.482669371,
+    "ipw_kappa": 8.463059069,
+    "ipw_countryFE": 8.4695403012,
+    "full_data": 8.6569615197,
+    "true_understatement_pct": -2.0388823096,
+    "est_understatement_region_pct": -0.0260897625,
+    "est_understatement_kappa_pct": 0.205566256,
+    "est_understatement_cfe_pct": 0.1288849353,
+    "recovered_region": 0.0125384837,
+    "recovered_kappa": -0.0985647338,
+    "recovered_cfe": -0.0618449655,
+    "kappa_r": 1.0404763437,
+    "ci_observed": [
+     8.036223881,
+     9.0013362136
+    ],
+    "ci_full": [
+     8.2159910911,
+     9.1939845272
+    ],
+    "ci_ipw_region": [
+     8.0444585586,
+     8.9854715269
+    ],
+    "ci_ipw_cfe": [
+     8.0192338587,
+     8.9673933672
+    ],
+    "ci_true_gap_pp": [
+     -0.0033200652,
+     0.428662164
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -0.4830326246,
+     0.174527162
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -0.484285289,
+     0.1395524622
+    ]
+   },
+   {
+    "region": "Southeast Asia",
+    "observed": 3.0223772159,
+    "ipw_region": 3.1375419321,
+    "ipw_kappa": 3.1973393222,
+    "ipw_countryFE": 3.1431684269,
+    "full_data": 3.2074327223,
+    "true_understatement_pct": -5.7695834151,
+    "est_understatement_region_pct": -3.6705395072,
+    "est_understatement_kappa_pct": -5.4721156774,
+    "est_understatement_cfe_pct": -3.842976087,
+    "recovered_region": 0.6223252602,
+    "recovered_kappa": 0.9454574453,
+    "recovered_cfe": 0.6527296235,
+    "kappa_r": 1.0178097588,
+    "ci_observed": [
+     2.6973925885,
+     3.2538100208
+    ],
+    "ci_full": [
+     2.8826727567,
+     3.4510256071
+    ],
+    "ci_ipw_region": [
+     2.8016631585,
+     3.3214665959
+    ],
+    "ci_ipw_cfe": [
+     2.8089763525,
+     3.3218593032
+    ],
+    "ci_true_gap_pp": [
+     0.085938609,
+     0.3318630266
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -0.2173302469,
+     0.0509581349
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -0.198002263,
+     0.0572437654
+    ]
+   },
+   {
+    "region": "Sub-Saharan Africa",
+    "observed": 0.7991862831,
+    "ipw_region": 0.816237325,
+    "ipw_kappa": 0.8198728274,
+    "ipw_countryFE": 0.815639661,
+    "full_data": 0.8580770198,
+    "true_understatement_pct": -6.863106154,
+    "est_understatement_region_pct": -2.0889809197,
+    "est_understatement_kappa_pct": -2.5231406249,
+    "est_understatement_cfe_pct": -2.0172361322,
+    "recovered_region": 0.2895369106,
+    "recovered_kappa": 0.3512699199,
+    "recovered_cfe": 0.2793882172,
+    "kappa_r": 1.0332086432,
+    "ci_observed": [
+     0.7019783093,
+     0.9133884664
+    ],
+    "ci_full": [
+     0.7328683704,
+     0.980877061
+    ],
+    "ci_ipw_region": [
+     0.7052772774,
+     0.9409546669
+    ],
+    "ci_ipw_cfe": [
+     0.7033676587,
+     0.9462972115
+    ],
+    "ci_true_gap_pp": [
+     -0.0240747836,
+     0.1527103778
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -0.1282975012,
+     0.0406491317
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -0.1258878699,
+     0.0466241765
+    ]
+   },
+   {
+    "region": "Western Europe",
+    "observed": 27.7027027027,
+    "ipw_region": 30.2858612031,
+    "ipw_kappa": 30.5749316354,
+    "ipw_countryFE": 30.3270847593,
+    "full_data": 31.1252644505,
+    "true_understatement_pct": -10.9960888949,
+    "est_understatement_region_pct": -8.5292555594,
+    "est_understatement_kappa_pct": -9.3940649384,
+    "est_understatement_cfe_pct": -8.6535915913,
+    "recovered_region": 0.7547441626,
+    "recovered_kappa": 0.839204416,
+    "recovered_cfe": 0.766788812,
+    "kappa_r": 1.0237734785,
+    "ci_observed": [
+     26.3471500127,
+     29.3562050684
+    ],
+    "ci_full": [
+     29.485816294,
+     32.8482850322
+    ],
+    "ci_ipw_region": [
+     29.0474536926,
+     32.050020518
+    ],
+    "ci_ipw_cfe": [
+     29.0380461656,
+     32.054390741
+    ],
+    "ci_true_gap_pp": [
+     2.7564219742,
+     4.0364128829
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -1.7587753515,
+     -0.2967311703
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -1.8192434981,
+     -0.2248499426
+    ]
+   }
+  ]
+ },
+ "size_on_all": {
+  "n_pairs_full": 142378,
+  "n_pairs_observed": 110112,
+  "n_works": 29374,
+  "kappa_all": 1.0113843272621839,
+  "regions": [
+   {
+    "region": "East Asia",
+    "observed": 39.7794972392,
+    "ipw_region": 38.0348719113,
+    "ipw_kappa": 37.8015487136,
+    "ipw_countryFE": 38.0568310748,
+    "full_data": 37.0380255377,
+    "true_understatement_pct": 7.4017760443,
+    "est_understatement_region_pct": 4.5869099596,
+    "est_understatement_kappa_pct": 5.232453677,
+    "est_understatement_cfe_pct": 4.5265622906,
+    "recovered_region": 0.63638276,
+    "recovered_kappa": 0.7214914984,
+    "recovered_cfe": 0.6283727691,
+    "kappa_r": 1.021458681,
+    "ci_observed": [
+     38.2163636645,
+     40.9539523308
+    ],
+    "ci_full": [
+     35.800087388,
+     38.2067209635
+    ],
+    "ci_ipw_region": [
+     36.5954274506,
+     39.1786328615
+    ],
+    "ci_ipw_cfe": [
+     36.5870614307,
+     39.21209704
+    ],
+    "ci_true_gap_pp": [
+     -3.1298416704,
+     -2.1777943513
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     0.4762379225,
+     1.3604759016
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     0.4469977534,
+     1.4079866652
+    ]
+   },
+   {
+    "region": "Eastern Europe & Central Asia",
+    "observed": 5.2610069747,
+    "ipw_region": 5.281881349,
+    "ipw_kappa": 5.2403555262,
+    "ipw_countryFE": 5.3100104992,
+    "full_data": 5.0527469131,
+    "true_understatement_pct": 4.1217196339,
+    "est_understatement_region_pct": -0.3952071796,
+    "est_understatement_kappa_pct": 0.3940848748,
+    "est_understatement_cfe_pct": -0.9228517446,
+    "recovered_region": -0.1002322488,
+    "recovered_kappa": 0.0991618285,
+    "recovered_cfe": -0.2352996737,
+    "kappa_r": 1.0198456966,
+    "ci_observed": [
+     4.8051613813,
+     5.7249952646
+    ],
+    "ci_full": [
+     4.6400188313,
+     5.5426174106
+    ],
+    "ci_ipw_region": [
+     4.8344484443,
+     5.7584090877
+    ],
+    "ci_ipw_cfe": [
+     4.8529221454,
+     5.8376981707
+    ],
+    "ci_true_gap_pp": [
+     -0.3847616657,
+     -0.0583013065
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     0.1000314502,
+     0.3483846049
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     0.1247062987,
+     0.4221992147
+    ]
+   },
+   {
+    "region": "Latin America & Caribbean",
+    "observed": 2.4983653008,
+    "ipw_region": 2.8591305924,
+    "ipw_kappa": 2.8200536781,
+    "ipw_countryFE": 2.8474779364,
+    "full_data": 2.8178510725,
+    "true_understatement_pct": -11.3379225336,
+    "est_understatement_region_pct": -12.6180067677,
+    "est_understatement_kappa_pct": -11.4071721346,
+    "est_understatement_cfe_pct": -12.2604158287,
+    "recovered_region": 1.1292061293,
+    "recovered_kappa": 1.0068942214,
+    "recovered_cfe": 1.0927329682,
+    "kappa_r": 1.0258113634,
+    "ci_observed": [
+     2.3136740366,
+     2.7029259104
+    ],
+    "ci_full": [
+     2.647891063,
+     3.1085951047
+    ],
+    "ci_ipw_region": [
+     2.6528619204,
+     3.0972561991
+    ],
+    "ci_ipw_cfe": [
+     2.6377932381,
+     3.102631684
+    ],
+    "ci_true_gap_pp": [
+     0.1638296597,
+     0.4915037313
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -0.181515125,
+     0.2012802821
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -0.1757644325,
+     0.1774681033
+    ]
+   },
+   {
+    "region": "Middle East",
+    "observed": 5.9176111595,
+    "ipw_region": 5.8929932024,
+    "ipw_kappa": 6.0750495917,
+    "ipw_countryFE": 5.8903258186,
+    "full_data": 6.7334841057,
+    "true_understatement_pct": -12.1166536274,
+    "est_understatement_region_pct": 0.4177496266,
+    "est_understatement_kappa_pct": -2.5915579752,
+    "est_understatement_cfe_pct": 0.463222948,
+    "recovered_region": -0.0301737632,
+    "recovered_kappa": 0.1929693011,
+    "recovered_cfe": -0.033443125,
+    "kappa_r": 0.9791773211,
+    "ci_observed": [
+     5.365990538,
+     6.4513101483
+    ],
+    "ci_full": [
+     6.1093871973,
+     7.2696455455
+    ],
+    "ci_ipw_region": [
+     5.4178284848,
+     6.4743792307
+    ],
+    "ci_ipw_cfe": [
+     5.4062481909,
+     6.465830611
+    ],
+    "ci_true_gap_pp": [
+     0.5281878782,
+     1.1774522743
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -1.1365428887,
+     -0.5637915213
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -1.1277484169,
+     -0.5577270565
+    ]
+   },
+   {
+    "region": "North Africa",
+    "observed": 1.861740773,
+    "ipw_region": 1.9877843743,
+    "ipw_kappa": 2.0259988142,
+    "ipw_countryFE": 2.0123308088,
+    "full_data": 2.1211142171,
+    "true_understatement_pct": -12.2281696084,
+    "est_understatement_region_pct": -6.3409091521,
+    "est_understatement_kappa_pct": -8.1075092435,
+    "est_understatement_cfe_pct": -7.4833638264,
+    "recovered_region": 0.4859541491,
+    "recovered_kappa": 0.633287813,
+    "recovered_cfe": 0.5805915728,
+    "kappa_r": 0.9919206756,
+    "ci_observed": [
+     1.6852688863,
+     2.1158875498
+    ],
+    "ci_full": [
+     1.9643517982,
+     2.4346999244
+    ],
+    "ci_ipw_region": [
+     1.7682187943,
+     2.262148597
+    ],
+    "ci_ipw_cfe": [
+     1.7878031361,
+     2.2994861875
+    ],
+    "ci_true_gap_pp": [
+     0.1547096761,
+     0.4222203526
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -0.2941961295,
+     -0.0164143532
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -0.2739698978,
+     0.0138285289
+    ]
+   },
+   {
+    "region": "Northern America",
+    "observed": 23.6214036617,
+    "ipw_region": 22.3761792095,
+    "ipw_kappa": 22.2794700946,
+    "ipw_countryFE": 22.3419955502,
+    "full_data": 21.3108766804,
+    "true_understatement_pct": 10.8420081257,
+    "est_understatement_region_pct": 5.5649556637,
+    "est_understatement_kappa_pct": 6.0231843998,
+    "est_understatement_cfe_pct": 5.7264719649,
+    "recovered_region": 0.5389352569,
+    "recovered_kappa": 0.580791126,
+    "recovered_cfe": 0.5537300027,
+    "kappa_r": 1.0170399933,
+    "ci_observed": [
+     21.8959720723,
+     25.2681791498
+    ],
+    "ci_full": [
+     19.8162816929,
+     22.6987873091
+    ],
+    "ci_ipw_region": [
+     20.9214836892,
+     23.9571313721
+    ],
+    "ci_ipw_cfe": [
+     20.889331628,
+     23.9029663246
+    ],
+    "ci_true_gap_pp": [
+     -2.7543808652,
+     -1.867262954
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     0.6328088237,
+     1.5048998036
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     0.5921238399,
+     1.4905502878
+    ]
+   },
+   {
+    "region": "Oceania",
+    "observed": 2.097863993,
+    "ipw_region": 2.0896248163,
+    "ipw_kappa": 2.0813481515,
+    "ipw_countryFE": 2.0787281101,
+    "full_data": 2.1787073846,
+    "true_understatement_pct": -3.7106126373,
+    "est_understatement_region_pct": 0.3942897635,
+    "est_understatement_kappa_pct": 0.7935165233,
+    "est_understatement_cfe_pct": 0.9205572808,
+    "recovered_region": -0.1019152783,
+    "recovered_kappa": -0.2042942679,
+    "recovered_cfe": -0.2367031194,
+    "kappa_r": 1.0154920218,
+    "ci_observed": [
+     1.8009540476,
+     2.3170432042
+    ],
+    "ci_full": [
+     1.8840405377,
+     2.3696808403
+    ],
+    "ci_ipw_region": [
+     1.8023126434,
+     2.318963258
+    ],
+    "ci_ipw_cfe": [
+     1.7917384911,
+     2.2943409873
+    ],
+    "ci_true_gap_pp": [
+     -0.048094957,
+     0.1576820756
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -0.1635931906,
+     0.0593768464
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -0.1781151321,
+     0.0470904834
+    ]
+   },
+   {
+    "region": "South Asia",
+    "observed": 8.4804562627,
+    "ipw_region": 8.482669371,
+    "ipw_kappa": 8.5193341424,
+    "ipw_countryFE": 8.4695403012,
+    "full_data": 8.6958659343,
+    "true_understatement_pct": -2.4771503293,
+    "est_understatement_region_pct": -0.0260897625,
+    "est_understatement_kappa_pct": -0.4563488065,
+    "est_understatement_cfe_pct": 0.1288849353,
+    "recovered_region": 0.0102739504,
+    "recovered_kappa": 0.1804834453,
+    "recovered_cfe": -0.0506753548,
+    "kappa_r": 1.00662817,
+    "ci_observed": [
+     7.8914749572,
+     9.1172748807
+    ],
+    "ci_full": [
+     8.234651253,
+     9.3306355166
+    ],
+    "ci_ipw_region": [
+     7.8800246991,
+     9.2278368485
+    ],
+    "ci_ipw_cfe": [
+     7.8557989733,
+     9.2251243721
+    ],
+    "ci_true_gap_pp": [
+     -0.0943708052,
+     0.4714714457
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -0.5190197735,
+     0.0662128653
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -0.5206185603,
+     0.0376456243
+    ]
+   },
+   {
+    "region": "Southeast Asia",
+    "observed": 3.0223772159,
+    "ipw_region": 3.1375419321,
+    "ipw_kappa": 3.1994898956,
+    "ipw_countryFE": 3.1431684269,
+    "full_data": 3.1788619028,
+    "true_understatement_pct": -4.9226638866,
+    "est_understatement_region_pct": -3.6705395072,
+    "est_understatement_kappa_pct": -5.535653664,
+    "est_understatement_cfe_pct": -3.842976087,
+    "recovered_region": 0.7359487913,
+    "recovered_kappa": 1.1318211586,
+    "recovered_cfe": 0.7719043532,
+    "kappa_r": 0.9911677782,
+    "ci_observed": [
+     2.8520370181,
+     3.3326027573
+    ],
+    "ci_full": [
+     2.9965473756,
+     3.5359176017
+    ],
+    "ci_ipw_region": [
+     2.9112560878,
+     3.4048429053
+    ],
+    "ci_ipw_cfe": [
+     2.9070099814,
+     3.428011512
+    ],
+    "ci_true_gap_pp": [
+     0.0042125524,
+     0.2633219516
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -0.2013182555,
+     0.1249267614
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -0.18980448,
+     0.1450055288
+    ]
+   },
+   {
+    "region": "Sub-Saharan Africa",
+    "observed": 0.7991862831,
+    "ipw_region": 0.816237325,
+    "ipw_kappa": 0.8262633717,
+    "ipw_countryFE": 0.815639661,
+    "full_data": 0.8540645324,
+    "true_understatement_pct": -6.4255389728,
+    "est_understatement_region_pct": -2.0889809197,
+    "est_understatement_kappa_pct": -3.2770530008,
+    "est_understatement_cfe_pct": -2.0172361322,
+    "recovered_region": 0.3107067403,
+    "recovered_kappa": 0.4934029223,
+    "recovered_cfe": 0.2998160134,
+    "kappa_r": 0.9990109898,
+    "ci_observed": [
+     0.7038598276,
+     0.9260513096
+    ],
+    "ci_full": [
+     0.715663875,
+     1.0313994076
+    ],
+    "ci_ipw_region": [
+     0.7132750938,
+     0.9501221775
+    ],
+    "ci_ipw_cfe": [
+     0.7081588101,
+     0.951532049
+    ],
+    "ci_true_gap_pp": [
+     -0.0191566184,
+     0.1764957418
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -0.1668069485,
+     0.0166134787
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -0.179159698,
+     0.0208789427
+    ]
+   },
+   {
+    "region": "Western Europe",
+    "observed": 27.7027027027,
+    "ipw_region": 30.2858612031,
+    "ipw_kappa": 30.76501852,
+    "ipw_countryFE": 30.3270847593,
+    "full_data": 31.7324305721,
+    "true_understatement_pct": -12.6990835457,
+    "est_understatement_region_pct": -8.5292555594,
+    "est_understatement_kappa_pct": -9.9538890748,
+    "est_understatement_cfe_pct": -8.6535915913,
+    "recovered_region": 0.6410255442,
+    "recovered_kappa": 0.7599311707,
+    "recovered_cfe": 0.6512554052,
+    "kappa_r": 0.9887891217,
+    "ci_observed": [
+     25.9481392236,
+     29.8744650497
+    ],
+    "ci_full": [
+     29.9287191437,
+     33.7332493687
+    ],
+    "ci_ipw_region": [
+     28.3417084578,
+     32.2857010973
+    ],
+    "ci_ipw_cfe": [
+     28.3260659846,
+     32.3764464922
+    ],
+    "ci_true_gap_pp": [
+     3.2743742007,
+     4.6430364639
+    ],
+    "ci_ipw_region_minus_full_pp": [
+     -2.043649719,
+     -0.7325953161
+    ],
+    "ci_ipw_cfe_minus_full_pp": [
+     -2.1535082712,
+     -0.6314628552
+    ]
+   }
+  ]
+ }
+}

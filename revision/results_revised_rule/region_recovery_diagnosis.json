@@ -1,0 +1,1045 @@
+{
+ "tie_rule": "exclude",
+ "H1_string_level": {
+  "East Asia": {
+   "n": 24596,
+   "fail_pct": 10.8,
+   "obs_success": 0.8918,
+   "mean_pred_success": 0.8918,
+   "string_share_full_pct": 34.459,
+   "string_share_obs_pct": 35.292,
+   "string_share_ipw_pct": 34.536,
+   "string_level_recovery": 0.908
+  },
+  "Eastern Europe & Central Asia": {
+   "n": 3241,
+   "fail_pct": 11.1,
+   "obs_success": 0.8886,
+   "mean_pred_success": 0.8886,
+   "string_share_full_pct": 4.541,
+   "string_share_obs_pct": 4.634,
+   "string_share_ipw_pct": 4.588,
+   "string_level_recovery": 0.495
+  },
+  "Latin America & Caribbean": {
+   "n": 2200,
+   "fail_pct": 23.8,
+   "obs_success": 0.7618,
+   "mean_pred_success": 0.7618,
+   "string_share_full_pct": 3.082,
+   "string_share_obs_pct": 2.697,
+   "string_share_ipw_pct": 3.005,
+   "string_level_recovery": 0.8
+  },
+  "Middle East": {
+   "n": 2949,
+   "fail_pct": 18.2,
+   "obs_success": 0.8176,
+   "mean_pred_success": 0.8176,
+   "string_share_full_pct": 4.132,
+   "string_share_obs_pct": 3.879,
+   "string_share_ipw_pct": 3.989,
+   "string_level_recovery": 0.435
+  },
+  "North Africa": {
+   "n": 1312,
+   "fail_pct": 19.3,
+   "obs_success": 0.8072,
+   "mean_pred_success": 0.8072,
+   "string_share_full_pct": 1.838,
+   "string_share_obs_pct": 1.704,
+   "string_share_ipw_pct": 1.843,
+   "string_level_recovery": 1.037
+  },
+  "Northern America": {
+   "n": 10804,
+   "fail_pct": 7.1,
+   "obs_success": 0.9288,
+   "mean_pred_success": 0.9288,
+   "string_share_full_pct": 15.137,
+   "string_share_obs_pct": 16.146,
+   "string_share_ipw_pct": 15.337,
+   "string_level_recovery": 0.802
+  },
+  "Oceania": {
+   "n": 841,
+   "fail_pct": 12.5,
+   "obs_success": 0.8751,
+   "mean_pred_success": 0.8751,
+   "string_share_full_pct": 1.178,
+   "string_share_obs_pct": 1.184,
+   "string_share_ipw_pct": 1.152,
+   "string_level_recovery": 5.333
+  },
+  "South Asia": {
+   "n": 7895,
+   "fail_pct": 12.8,
+   "obs_success": 0.8725,
+   "mean_pred_success": 0.8725,
+   "string_share_full_pct": 11.061,
+   "string_share_obs_pct": 11.082,
+   "string_share_ipw_pct": 11.023,
+   "string_level_recovery": 2.81
+  },
+  "Southeast Asia": {
+   "n": 1600,
+   "fail_pct": 15.7,
+   "obs_success": 0.8425,
+   "mean_pred_success": 0.8425,
+   "string_share_full_pct": 2.242,
+   "string_share_obs_pct": 2.169,
+   "string_share_ipw_pct": 2.294,
+   "string_level_recovery": 1.712
+  },
+  "Sub-Saharan Africa": {
+   "n": 370,
+   "fail_pct": 12.7,
+   "obs_success": 0.873,
+   "mean_pred_success": 0.873,
+   "string_share_full_pct": 0.518,
+   "string_share_obs_pct": 0.52,
+   "string_share_ipw_pct": 0.526,
+   "string_level_recovery": -3.0
+  },
+  "Western Europe": {
+   "n": 15569,
+   "fail_pct": 17.4,
+   "obs_success": 0.8261,
+   "mean_pred_success": 0.8261,
+   "string_share_full_pct": 21.812,
+   "string_share_obs_pct": 20.694,
+   "string_share_ipw_pct": 21.706,
+   "string_level_recovery": 0.905
+  }
+ },
+ "H1_max_abs_calibration_gap_by_quintile": {
+  "East Asia": 0.0169,
+  "Eastern Europe & Central Asia": 0.0524,
+  "Latin America & Caribbean": 0.0768,
+  "Middle East": 0.0404,
+  "North Africa": 0.0591,
+  "Northern America": 0.0373,
+  "Oceania": 0.0317,
+  "South Asia": 0.0366,
+  "Southeast Asia": 0.0298,
+  "Sub-Saharan Africa": 0.0481,
+  "Western Europe": 0.0498
+ },
+ "pair_level": [
+  {
+   "region": "East Asia",
+   "full_pairs": 50249,
+   "obs_pairs": 42071,
+   "ipw_mass": 48331.4,
+   "share_full": 37.7369,
+   "share_obs": 40.3989,
+   "share_ipw": 38.7242,
+   "numerator_recovery": 0.7655,
+   "region_mass_ratio_ipw_over_full": 0.9618,
+   "total_mass_ratio_ipw_over_full": 0.9373,
+   "missing_pairs": 8178,
+   "missing_in_works_with_lt2_geocoded_pct": 23.1964,
+   "missing_both_endpoints_failed_pct": 24.9327,
+   "both_fail_obs_over_exp": 1.5414,
+   "both_ok_obs_over_exp": 1.0224,
+   "within_region_pair_pct": 79.1916,
+   "share_recovery": 0.6291
+  },
+  {
+   "region": "Eastern Europe & Central Asia",
+   "full_pairs": 6387,
+   "obs_pairs": 5219,
+   "ipw_mass": 6311.0,
+   "share_full": 4.7966,
+   "share_obs": 5.0116,
+   "share_ipw": 5.0565,
+   "numerator_recovery": 0.935,
+   "region_mass_ratio_ipw_over_full": 0.9881,
+   "total_mass_ratio_ipw_over_full": 0.9373,
+   "missing_pairs": 1168,
+   "missing_in_works_with_lt2_geocoded_pct": 25.7705,
+   "missing_both_endpoints_failed_pct": 21.3185,
+   "both_fail_obs_over_exp": 1.2318,
+   "both_ok_obs_over_exp": 1.0293,
+   "within_region_pair_pct": 54.8145,
+   "share_recovery": -0.2092
+  },
+  {
+   "region": "Latin America & Caribbean",
+   "full_pairs": 3900,
+   "obs_pairs": 2693,
+   "ipw_mass": 3710.6,
+   "share_full": 2.9289,
+   "share_obs": 2.586,
+   "share_ipw": 2.973,
+   "numerator_recovery": 0.8431,
+   "region_mass_ratio_ipw_over_full": 0.9514,
+   "total_mass_ratio_ipw_over_full": 0.9373,
+   "missing_pairs": 1207,
+   "missing_in_works_with_lt2_geocoded_pct": 35.7912,
+   "missing_both_endpoints_failed_pct": 37.4482,
+   "both_fail_obs_over_exp": 1.4325,
+   "both_ok_obs_over_exp": 1.0307,
+   "within_region_pair_pct": 61.7949,
+   "share_recovery": 1.1287
+  },
+  {
+   "region": "Middle East",
+   "full_pairs": 8142,
+   "obs_pairs": 5754,
+   "ipw_mass": 6847.2,
+   "share_full": 6.1146,
+   "share_obs": 5.5253,
+   "share_ipw": 5.4861,
+   "numerator_recovery": 0.4578,
+   "region_mass_ratio_ipw_over_full": 0.841,
+   "total_mass_ratio_ipw_over_full": 0.9373,
+   "missing_pairs": 2388,
+   "missing_in_works_with_lt2_geocoded_pct": 17.8392,
+   "missing_both_endpoints_failed_pct": 26.2563,
+   "both_fail_obs_over_exp": 1.4317,
+   "both_ok_obs_over_exp": 0.9873,
+   "within_region_pair_pct": 43.5765,
+   "share_recovery": -0.0665
+  },
+  {
+   "region": "North Africa",
+   "full_pairs": 2630,
+   "obs_pairs": 1799,
+   "ipw_mass": 2323.5,
+   "share_full": 1.9751,
+   "share_obs": 1.7275,
+   "share_ipw": 1.8617,
+   "numerator_recovery": 0.6312,
+   "region_mass_ratio_ipw_over_full": 0.8835,
+   "total_mass_ratio_ipw_over_full": 0.9373,
+   "missing_pairs": 831,
+   "missing_in_works_with_lt2_geocoded_pct": 25.9928,
+   "missing_both_endpoints_failed_pct": 33.3333,
+   "both_fail_obs_over_exp": 1.6248,
+   "both_ok_obs_over_exp": 0.9908,
+   "within_region_pair_pct": 48.7072,
+   "share_recovery": 0.5419
+  },
+  {
+   "region": "Northern America",
+   "full_pairs": 27514,
+   "obs_pairs": 24037,
+   "ipw_mass": 27062.9,
+   "share_full": 20.663,
+   "share_obs": 23.0817,
+   "share_ipw": 21.6834,
+   "numerator_recovery": 0.8703,
+   "region_mass_ratio_ipw_over_full": 0.9836,
+   "total_mass_ratio_ipw_over_full": 0.9373,
+   "missing_pairs": 3477,
+   "missing_in_works_with_lt2_geocoded_pct": 17.6301,
+   "missing_both_endpoints_failed_pct": 22.203,
+   "both_fail_obs_over_exp": 1.589,
+   "both_ok_obs_over_exp": 1.017,
+   "within_region_pair_pct": 65.9919,
+   "share_recovery": 0.5781
+  },
+  {
+   "region": "Oceania",
+   "full_pairs": 2908,
+   "obs_pairs": 2194,
+   "ipw_mass": 2623.8,
+   "share_full": 2.1839,
+   "share_obs": 2.1068,
+   "share_ipw": 2.1023,
+   "numerator_recovery": 0.602,
+   "region_mass_ratio_ipw_over_full": 0.9023,
+   "total_mass_ratio_ipw_over_full": 0.9373,
+   "missing_pairs": 714,
+   "missing_in_works_with_lt2_geocoded_pct": 16.8067,
+   "missing_both_endpoints_failed_pct": 28.5714,
+   "both_fail_obs_over_exp": 1.3006,
+   "both_ok_obs_over_exp": 1.0208,
+   "within_region_pair_pct": 28.0261,
+   "share_recovery": -0.0588
+  },
+  {
+   "region": "South Asia",
+   "full_pairs": 11628,
+   "obs_pairs": 8876,
+   "ipw_mass": 10623.8,
+   "share_full": 8.7326,
+   "share_obs": 8.5232,
+   "share_ipw": 8.5121,
+   "numerator_recovery": 0.6351,
+   "region_mass_ratio_ipw_over_full": 0.9136,
+   "total_mass_ratio_ipw_over_full": 0.9373,
+   "missing_pairs": 2752,
+   "missing_in_works_with_lt2_geocoded_pct": 23.0378,
+   "missing_both_endpoints_failed_pct": 26.9259,
+   "both_fail_obs_over_exp": 1.531,
+   "both_ok_obs_over_exp": 1.0084,
+   "within_region_pair_pct": 65.6003,
+   "share_recovery": -0.0533
+  },
+  {
+   "region": "Southeast Asia",
+   "full_pairs": 3808,
+   "obs_pairs": 2893,
+   "ipw_mass": 3615.4,
+   "share_full": 2.8598,
+   "share_obs": 2.778,
+   "share_ipw": 2.8967,
+   "numerator_recovery": 0.7895,
+   "region_mass_ratio_ipw_over_full": 0.9494,
+   "total_mass_ratio_ipw_over_full": 0.9373,
+   "missing_pairs": 915,
+   "missing_in_works_with_lt2_geocoded_pct": 17.9235,
+   "missing_both_endpoints_failed_pct": 19.7814,
+   "both_fail_obs_over_exp": 1.3167,
+   "both_ok_obs_over_exp": 0.9933,
+   "within_region_pair_pct": 40.5987,
+   "share_recovery": 1.4514
+  },
+  {
+   "region": "Sub-Saharan Africa",
+   "full_pairs": 916,
+   "obs_pairs": 685,
+   "ipw_mass": 820.0,
+   "share_full": 0.6879,
+   "share_obs": 0.6578,
+   "share_ipw": 0.657,
+   "numerator_recovery": 0.5844,
+   "region_mass_ratio_ipw_over_full": 0.8952,
+   "total_mass_ratio_ipw_over_full": 0.9373,
+   "missing_pairs": 231,
+   "missing_in_works_with_lt2_geocoded_pct": 22.5108,
+   "missing_both_endpoints_failed_pct": 45.4545,
+   "both_fail_obs_over_exp": 1.8629,
+   "both_ok_obs_over_exp": 0.9949,
+   "within_region_pair_pct": 32.5328,
+   "share_recovery": -0.0258
+  },
+  {
+   "region": "Western Europe",
+   "full_pairs": 41483,
+   "obs_pairs": 28238,
+   "ipw_mass": 36988.6,
+   "share_full": 31.1537,
+   "share_obs": 27.1157,
+   "share_ipw": 29.6361,
+   "numerator_recovery": 0.6607,
+   "region_mass_ratio_ipw_over_full": 0.8917,
+   "total_mass_ratio_ipw_over_full": 0.9373,
+   "missing_pairs": 13245,
+   "missing_in_works_with_lt2_geocoded_pct": 22.1367,
+   "missing_both_endpoints_failed_pct": 32.0196,
+   "both_fail_obs_over_exp": 1.737,
+   "both_ok_obs_over_exp": 0.9894,
+   "within_region_pair_pct": 66.9431,
+   "share_recovery": 0.6242
+  }
+ ],
+ "totals": {
+  "full_pairs": 133156,
+  "obs_pairs": 104139,
+  "ipw_mass": 124809.3,
+  "total_mass_ratio_ipw_over_full": 0.9373,
+  "obs_over_full": 0.7821
+ },
+ "H5_pair_degree": {
+  "East Asia": {
+   "mean_pairs_per_failed_string": 3.37,
+   "mean_pairs_per_successful_string": 3.7,
+   "degree_ratio_failed_over_success": 0.913,
+   "weighted_success_degree_over_full_degree": 0.965,
+   "trimmed_weight_mass_lost_pct": 0.79
+  },
+  "Eastern Europe & Central Asia": {
+   "mean_pairs_per_failed_string": 2.56,
+   "mean_pairs_per_successful_string": 3.11,
+   "degree_ratio_failed_over_success": 0.823,
+   "weighted_success_degree_over_full_degree": 0.996,
+   "trimmed_weight_mass_lost_pct": 0.87
+  },
+  "Latin America & Caribbean": {
+   "mean_pairs_per_failed_string": 2.78,
+   "mean_pairs_per_successful_string": 2.89,
+   "degree_ratio_failed_over_success": 0.961,
+   "weighted_success_degree_over_full_degree": 0.923,
+   "trimmed_weight_mass_lost_pct": 5.03
+  },
+  "Middle East": {
+   "mean_pairs_per_failed_string": 4.15,
+   "mean_pairs_per_successful_string": 3.92,
+   "degree_ratio_failed_over_success": 1.058,
+   "weighted_success_degree_over_full_degree": 0.887,
+   "trimmed_weight_mass_lost_pct": 1.44
+  },
+  "North Africa": {
+   "mean_pairs_per_failed_string": 3.28,
+   "mean_pairs_per_successful_string": 2.91,
+   "degree_ratio_failed_over_success": 1.128,
+   "weighted_success_degree_over_full_degree": 0.923,
+   "trimmed_weight_mass_lost_pct": 3.25
+  },
+  "Northern America": {
+   "mean_pairs_per_failed_string": 3.88,
+   "mean_pairs_per_successful_string": 4.25,
+   "degree_ratio_failed_over_success": 0.913,
+   "weighted_success_degree_over_full_degree": 0.983,
+   "trimmed_weight_mass_lost_pct": 0.17
+  },
+  "Oceania": {
+   "mean_pairs_per_failed_string": 5.15,
+   "mean_pairs_per_successful_string": 4.32,
+   "degree_ratio_failed_over_success": 1.192,
+   "weighted_success_degree_over_full_degree": 0.923,
+   "trimmed_weight_mass_lost_pct": 0.12
+  },
+  "South Asia": {
+   "mean_pairs_per_failed_string": 2.82,
+   "mean_pairs_per_successful_string": 2.38,
+   "degree_ratio_failed_over_success": 1.184,
+   "weighted_success_degree_over_full_degree": 0.937,
+   "trimmed_weight_mass_lost_pct": 0.73
+  },
+  "Southeast Asia": {
+   "mean_pairs_per_failed_string": 3.13,
+   "mean_pairs_per_successful_string": 3.39,
+   "degree_ratio_failed_over_success": 0.925,
+   "weighted_success_degree_over_full_degree": 0.96,
+   "trimmed_weight_mass_lost_pct": 0.53
+  },
+  "Sub-Saharan Africa": {
+   "mean_pairs_per_failed_string": 4.77,
+   "mean_pairs_per_successful_string": 3.07,
+   "degree_ratio_failed_over_success": 1.555,
+   "weighted_success_degree_over_full_degree": 0.905,
+   "trimmed_weight_mass_lost_pct": 0.59
+  },
+  "Western Europe": {
+   "mean_pairs_per_failed_string": 5.78,
+   "mean_pairs_per_successful_string": 4.17,
+   "degree_ratio_failed_over_success": 1.387,
+   "weighted_success_degree_over_full_degree": 0.899,
+   "trimmed_weight_mass_lost_pct": 2.21
+  }
+ },
+ "H5_degree_beyond_propensity": {
+  "East Asia": {
+   "OR_log_degree_given_propensity": 1.016,
+   "p": 0.6633
+  },
+  "Eastern Europe & Central Asia": {
+   "OR_log_degree_given_propensity": 1.32,
+   "p": 0.0074
+  },
+  "Latin America & Caribbean": {
+   "OR_log_degree_given_propensity": 0.931,
+   "p": 0.4803
+  },
+  "Middle East": {
+   "OR_log_degree_given_propensity": 1.004,
+   "p": 0.9673
+  },
+  "North Africa": {
+   "OR_log_degree_given_propensity": 0.809,
+   "p": 0.0936
+  },
+  "Northern America": {
+   "OR_log_degree_given_propensity": 1.138,
+   "p": 0.043
+  },
+  "Oceania": {
+   "OR_log_degree_given_propensity": 1.439,
+   "p": 0.0824
+  },
+  "South Asia": {
+   "OR_log_degree_given_propensity": 1.041,
+   "p": 0.5306
+  },
+  "Southeast Asia": {
+   "OR_log_degree_given_propensity": 0.862,
+   "p": 0.1905
+  },
+  "Sub-Saharan Africa": {
+   "OR_log_degree_given_propensity": 0.468,
+   "p": 0.0056
+  },
+  "Western Europe": {
+   "OR_log_degree_given_propensity": 0.813,
+   "p": 0.0
+  }
+ },
+ "ME_by_country": {
+  "IR": {
+   "full": 3124,
+   "obs": 2022,
+   "ipw": 2343.6642,
+   "work_lost": 0.0698,
+   "obs_over_full": 0.6472,
+   "ipw_over_full": 0.7502
+  },
+  "SA": {
+   "full": 1180,
+   "obs": 903,
+   "ipw": 1113.2674,
+   "work_lost": 0.0339,
+   "obs_over_full": 0.7653,
+   "ipw_over_full": 0.9434
+  },
+  "IL": {
+   "full": 902,
+   "obs": 767,
+   "ipw": 866.3467,
+   "work_lost": 0.0089,
+   "obs_over_full": 0.8503,
+   "ipw_over_full": 0.9605
+  },
+  "TR": {
+   "full": 842,
+   "obs": 682,
+   "ipw": 869.1565,
+   "work_lost": 0.0748,
+   "obs_over_full": 0.81,
+   "ipw_over_full": 1.0323
+  },
+  "QA": {
+   "full": 817,
+   "obs": 462,
+   "ipw": 527.0179,
+   "work_lost": 0.0514,
+   "obs_over_full": 0.5655,
+   "ipw_over_full": 0.6451
+  },
+  "AE": {
+   "full": 448,
+   "obs": 337,
+   "ipw": 395.4138,
+   "work_lost": 0.0737,
+   "obs_over_full": 0.7522,
+   "ipw_over_full": 0.8826
+  },
+  "IQ": {
+   "full": 280,
+   "obs": 202,
+   "ipw": 259.6586,
+   "work_lost": 0.0357,
+   "obs_over_full": 0.7214,
+   "ipw_over_full": 0.9274
+  },
+  "LB": {
+   "full": 257,
+   "obs": 162,
+   "ipw": 201.0561,
+   "work_lost": 0.0039,
+   "obs_over_full": 0.6304,
+   "ipw_over_full": 0.7823
+  },
+  "JO": {
+   "full": 131,
+   "obs": 109,
+   "ipw": 133.7867,
+   "work_lost": 0.0229,
+   "obs_over_full": 0.8321,
+   "ipw_over_full": 1.0213
+  },
+  "KW": {
+   "full": 77,
+   "obs": 42,
+   "ipw": 54.1035,
+   "work_lost": 0.0649,
+   "obs_over_full": 0.5455,
+   "ipw_over_full": 0.7026
+  }
+ },
+ "ME_by_pair_type": {
+  "ME with other region": {
+   "full": 4594,
+   "obs": 3423,
+   "ipw": 4013.4193,
+   "work_lost": 0.0311,
+   "obs_over_full": 0.7451,
+   "ipw_over_full": 0.8736
+  },
+  "within ME": {
+   "full": 3548,
+   "obs": 2331,
+   "ipw": 2833.7348,
+   "work_lost": 0.0798,
+   "obs_over_full": 0.657,
+   "ipw_over_full": 0.7987
+  }
+ },
+ "ME_country_string_level": {
+  "IR": {
+   "n": 1145,
+   "fail": 0.2253,
+   "pred_fail": 0.2125
+  },
+  "TR": {
+   "n": 669,
+   "fail": 0.154,
+   "pred_fail": 0.1685
+  },
+  "SA": {
+   "n": 328,
+   "fail": 0.125,
+   "pred_fail": 0.1423
+  },
+  "IL": {
+   "n": 177,
+   "fail": 0.1751,
+   "pred_fail": 0.1555
+  },
+  "AE": {
+   "n": 174,
+   "fail": 0.1609,
+   "pred_fail": 0.1635
+  },
+  "IQ": {
+   "n": 163,
+   "fail": 0.1411,
+   "pred_fail": 0.1608
+  },
+  "QA": {
+   "n": 100,
+   "fail": 0.24,
+   "pred_fail": 0.2239
+  },
+  "LB": {
+   "n": 77,
+   "fail": 0.1299,
+   "pred_fail": 0.1382
+  },
+  "JO": {
+   "n": 50,
+   "fail": 0.1,
+   "pred_fail": 0.1631
+  },
+  "KW": {
+   "n": 27,
+   "fail": 0.2593,
+   "pred_fail": 0.1997
+  }
+ },
+ "T1_propensity_variants": {
+  "main": {
+   "aic": 34153.2,
+   "recovery": {
+    "East Asia": 0.629,
+    "Eastern Europe & Central Asia": -0.209,
+    "Latin America & Caribbean": 1.129,
+    "Middle East": -0.067,
+    "North Africa": 0.542,
+    "Northern America": 0.578,
+    "Oceania": -0.059,
+    "South Asia": -0.053,
+    "Southeast Asia": 1.451,
+    "Sub-Saharan Africa": -0.026,
+    "Western Europe": 0.624
+   },
+   "residual_pp": {
+    "East Asia": 0.987,
+    "Eastern Europe & Central Asia": 0.26,
+    "Latin America & Caribbean": 0.044,
+    "Middle East": -0.629,
+    "North Africa": -0.113,
+    "Northern America": 1.02,
+    "Oceania": -0.082,
+    "South Asia": -0.221,
+    "Southeast Asia": 0.037,
+    "Sub-Saharan Africa": -0.031,
+    "Western Europe": -1.518
+   }
+  },
+  "categorical_comma": {
+   "aic": 32997.0,
+   "recovery": {
+    "East Asia": 0.637,
+    "Eastern Europe & Central Asia": -0.048,
+    "Latin America & Caribbean": 1.132,
+    "Middle East": -0.051,
+    "North Africa": 0.425,
+    "Northern America": 0.651,
+    "Oceania": -0.196,
+    "South Asia": -0.256,
+    "Southeast Asia": 2.842,
+    "Sub-Saharan Africa": -0.107,
+    "Western Europe": 0.649
+   },
+   "residual_pp": {
+    "East Asia": 0.965,
+    "Eastern Europe & Central Asia": 0.225,
+    "Latin America & Caribbean": 0.045,
+    "Middle East": -0.619,
+    "North Africa": -0.142,
+    "Northern America": 0.844,
+    "Oceania": -0.092,
+    "South Asia": -0.263,
+    "Southeast Asia": 0.151,
+    "Sub-Saharan Africa": -0.033,
+    "Western Europe": -1.416
+   }
+  },
+  "region_x_cat_comma": {
+   "aic": 32617.6,
+   "recovery": {
+    "East Asia": 0.546,
+    "Eastern Europe & Central Asia": -0.076,
+    "Latin America & Caribbean": 1.006,
+    "Middle East": -0.059,
+    "North Africa": 0.417,
+    "Northern America": 0.561,
+    "Oceania": -0.044,
+    "South Asia": -0.275,
+    "Southeast Asia": 1.331,
+    "Sub-Saharan Africa": -0.219,
+    "Western Europe": 0.587
+   },
+   "residual_pp": {
+    "East Asia": 1.207,
+    "Eastern Europe & Central Asia": 0.231,
+    "Latin America & Caribbean": 0.002,
+    "Middle East": -0.624,
+    "North Africa": -0.144,
+    "Northern America": 1.061,
+    "Oceania": -0.08,
+    "South Asia": -0.267,
+    "Southeast Asia": 0.027,
+    "Sub-Saharan Africa": -0.037,
+    "Western Europe": -1.668
+   }
+  },
+  "region_x_cat_comma_x_html": {
+   "aic": 32216.2,
+   "recovery": {
+    "East Asia": 0.582,
+    "Eastern Europe & Central Asia": -0.087,
+    "Latin America & Caribbean": 1.027,
+    "Middle East": -0.095,
+    "North Africa": 0.41,
+    "Northern America": 0.553,
+    "Oceania": -0.144,
+    "South Asia": -0.349,
+    "Southeast Asia": 1.298,
+    "Sub-Saharan Africa": -0.248,
+    "Western Europe": 0.613
+   },
+   "residual_pp": {
+    "East Asia": 1.114,
+    "Eastern Europe & Central Asia": 0.234,
+    "Latin America & Caribbean": 0.009,
+    "Middle East": -0.645,
+    "North Africa": -0.146,
+    "Northern America": 1.081,
+    "Oceania": -0.088,
+    "South Asia": -0.282,
+    "Southeast Asia": 0.024,
+    "Sub-Saharan Africa": -0.038,
+    "Western Europe": -1.562
+   }
+  },
+  "region_x_log_degree": {
+   "aic": 34093.3,
+   "recovery": {
+    "East Asia": 0.821,
+    "Eastern Europe & Central Asia": 0.419,
+    "Latin America & Caribbean": 1.149,
+    "Middle East": -0.116,
+    "North Africa": 0.56,
+    "Northern America": 0.662,
+    "Oceania": -0.448,
+    "South Asia": -0.119,
+    "Southeast Asia": 1.413,
+    "Sub-Saharan Africa": 0.283,
+    "Western Europe": 0.842
+   },
+   "residual_pp": {
+    "East Asia": 0.477,
+    "Eastern Europe & Central Asia": 0.125,
+    "Latin America & Caribbean": 0.051,
+    "Middle East": -0.658,
+    "North Africa": -0.109,
+    "Northern America": 0.818,
+    "Oceania": -0.112,
+    "South Asia": -0.234,
+    "Southeast Asia": 0.034,
+    "Sub-Saharan Africa": -0.022,
+    "Western Europe": -0.64
+   }
+  },
+  "degree_weighted_fit": {
+   "recovery": {
+    "East Asia": 0.903,
+    "Eastern Europe & Central Asia": 0.515,
+    "Latin America & Caribbean": 1.238,
+    "Middle East": -0.075,
+    "North Africa": 0.745,
+    "Northern America": 0.758,
+    "Oceania": -0.463,
+    "South Asia": -0.428,
+    "Southeast Asia": 1.831,
+    "Sub-Saharan Africa": 0.889,
+    "Western Europe": 0.956
+   },
+   "residual_pp": {
+    "East Asia": 0.257,
+    "Eastern Europe & Central Asia": 0.104,
+    "Latin America & Caribbean": 0.082,
+    "Middle East": -0.633,
+    "North Africa": -0.063,
+    "Northern America": 0.586,
+    "Oceania": -0.113,
+    "South Asia": -0.299,
+    "Southeast Asia": 0.068,
+    "Sub-Saharan Africa": -0.003,
+    "Western Europe": -0.177
+   }
+  }
+ },
+ "T2_hubs": {
+  "East Asia": {
+   "top5_failed_share_of_missing_pct": 2.2,
+   "top5_strings": [
+    "National Institute of Advanced Industrial Science and Technology (AIST)",
+    "National Institutes for Quantum and Radiological Science and Technology (QST)",
+    "College of Electrical and Information Engineering Hunan University  Changsha China",
+    "Lanzhou University - School of Nuclear Science and Technology",
+    "Southwest University of Science and Technology - State Key Laboratory for Environment-frie"
+   ],
+   "recovery": 0.629,
+   "recovery_without_top5": 0.611
+  },
+  "Eastern Europe & Central Asia": {
+   "top5_failed_share_of_missing_pct": 8.8,
+   "top5_strings": [
+    "Czech Technical University - Department of Control Engineering",
+    "St. Petersburg State Polytechnical University",
+    "SynQor Inc",
+    "Nikolaev Institute of Inorganic Chemistry Russian Academy of Sciences Siberian Branch Novo",
+    "Research Centre \u0158e\u017e"
+   ],
+   "recovery": -0.209,
+   "recovery_without_top5": -0.156
+  },
+  "Latin America & Caribbean": {
+   "top5_failed_share_of_missing_pct": 4.6,
+   "top5_strings": [
+    "Group of Intelligence in Lighting (GEDRE), Federal University of Santa Maria, Brazil",
+    "Pertenecen a la L&#x00ED",
+    "n Aislada Sostenible del Laboratorio de Control Autom&#x00E1",
+    "Universidad de Talca,Trabaja en la Facultad de Ingenier&#x00ED;a,Chile",
+    "o Cuarto, R&#x00ED"
+   ],
+   "recovery": 1.129,
+   "recovery_without_top5": 1.26
+  },
+  "Middle East": {
+   "top5_failed_share_of_missing_pct": 16.0,
+   "top5_strings": [
+    "Department of Electrical Engineering Qatar University  Doha Qatar",
+    "Faculty of Electrical and Computer Engineering University of Tabriz  Tabriz Iran",
+    "Department of Electrical Engineering Qatar University Doha Qatar",
+    "Faculty of Electrical and Computer Engineering University of Tabriz Tabriz Iran",
+    "Center of Research Excellence in Renewable Energy and Power Systems King Abdulaziz Univers"
+   ],
+   "recovery": -0.067,
+   "recovery_without_top5": -0.121
+  },
+  "North Africa": {
+   "top5_failed_share_of_missing_pct": 7.5,
+   "top5_strings": [
+    "Department of Electrical Engineering Alexandria University Alexandria Egypt",
+    "Electrical and Control Department College of Engineering and Technology Arab Academy for S",
+    "Centre Universitaire Ain Temouchent, Institut des Sciences et Technologies, B.P. 284 46000",
+    "Institute of Nanoscience and Nanotechnology, Kafrelsheikh University  Kafrelskeikh Egypt",
+    "LATIS- Laboratory of Advanced Technology and Intelligent Systems, Universit&#x00E9"
+   ],
+   "recovery": 0.542,
+   "recovery_without_top5": 0.662
+  },
+  "Northern America": {
+   "top5_failed_share_of_missing_pct": 3.6,
+   "top5_strings": [
+    "Laboratoire Nanotechnologies Nanosyst\u00e8mes",
+    "CUSIC, Sento-Kaikan 5F, 2-2-10 Chuo, Aoba-ku, 980-0021Sendai, Japan",
+    "Navitas Semiconductor",
+    "Virginia Tech [Blacksburg] (Virginia Polytechnic Institute and State University Blacksburg",
+    "John Theurer Cancer Center at Hackensack Meridian Health, NJ"
+   ],
+   "recovery": 0.578,
+   "recovery_without_top5": 0.561
+  },
+  "Oceania": {
+   "top5_failed_share_of_missing_pct": 15.1,
+   "top5_strings": [
+    "School of Software and Electrical Engineering Swinburne University of Technology  Melbourn",
+    "Queensland Micro-Nanotechnology Centre",
+    "School of Electrical and Data Engineering University of Technology Sydney  Sydney New Sout",
+    "School of Science, Computing and Engineering Technologies Swinburne University of Technolo",
+    "School of Science RMIT University  Melbourne Victoria 3000 Australia"
+   ],
+   "recovery": -0.059,
+   "recovery_without_top5": 2.908
+  },
+  "South Asia": {
+   "top5_failed_share_of_missing_pct": 3.2,
+   "top5_strings": [
+    "Department of Electrical Engineering Aligarh Muslim University  Aligarh India",
+    "Department of Electrical Engineering, ZHCET Aligarh Muslim University  Aligarh India",
+    "Renewable Energy Lab Prince Sultan University  Riyadh Saudi Arabia",
+    "Department of Electrical and Instrumentation Engineering Thapar Institute of Engineering a",
+    "School of Electrical Engineering KIIT University  Bhubaneswar India"
+   ],
+   "recovery": -0.053,
+   "recovery_without_top5": -0.075
+  },
+  "Southeast Asia": {
+   "top5_failed_share_of_missing_pct": 11.5,
+   "top5_strings": [
+    "Newcastle University in Singapore, Singapore",
+    "Power Electronics and Renewable Energy Research Laboratory, Department of Electrical Engin",
+    "Power Electronics and Renewable Energy Research Laboratory (PEARL) Department of Electrica",
+    "Energy Research Institute at NTU (ERI@N), Nanyang Technological University, Singapore",
+    "University Malaysia Perlis,Advanced Computing, Centre of Excellence (AdvComp), Faculty of "
+   ],
+   "recovery": 1.451,
+   "recovery_without_top5": 20.269
+  },
+  "Sub-Saharan Africa": {
+   "top5_failed_share_of_missing_pct": 25.1,
+   "top5_strings": [
+    "Department of Electrical and Computer Engineering Hawassa University  Hawassa Ethiopia",
+    "ur des Sciences et Techniques d &#x2018",
+    "Ab&#x00E9",
+    "de N&#x0027",
+    "na, N&#x0027"
+   ],
+   "recovery": -0.026,
+   "recovery_without_top5": 0.09
+  },
+  "Western Europe": {
+   "top5_failed_share_of_missing_pct": 5.9,
+   "top5_strings": [
+    "LAPLACE-CS - Convertisseurs Statiques (LAPLACE\r\n118 Route de Narbonne\r\n31062 TOULOUSE CEDE",
+    "EE - Amp\u00e8re, D\u00e9partement Energie Electrique (France)",
+    "SuperGrid Institute SAS (23 rue Cyprian CS 50289\r\n69628 Villeurbanne Cedex - France)",
+    "LAPLACE - LAboratoire PLasma et Conversion d'Energie (118 Route de Narbonne 31062 TOULOUSE",
+    "Amp\u00e8re, D\u00e9partement Energie Electrique"
+   ],
+   "recovery": 0.624,
+   "recovery_without_top5": 0.687
+  }
+ },
+ "T4_pair_weighted_calibration": {
+  "East Asia": {
+   "string_obs": 0.8918,
+   "string_pred": 0.8918,
+   "pair_weighted_obs": 0.9003,
+   "pair_weighted_pred": 0.8983,
+   "pair_weighted_gap_pp": 0.2
+  },
+  "Eastern Europe & Central Asia": {
+   "string_obs": 0.8886,
+   "string_pred": 0.8886,
+   "pair_weighted_obs": 0.9065,
+   "pair_weighted_pred": 0.8946,
+   "pair_weighted_gap_pp": 1.19
+  },
+  "Latin America & Caribbean": {
+   "string_obs": 0.7618,
+   "string_pred": 0.7618,
+   "pair_weighted_obs": 0.7689,
+   "pair_weighted_pred": 0.7739,
+   "pair_weighted_gap_pp": -0.5
+  },
+  "Middle East": {
+   "string_obs": 0.8176,
+   "string_pred": 0.8176,
+   "pair_weighted_obs": 0.8091,
+   "pair_weighted_pred": 0.8253,
+   "pair_weighted_gap_pp": -1.62
+  },
+  "North Africa": {
+   "string_obs": 0.8072,
+   "string_pred": 0.8072,
+   "pair_weighted_obs": 0.7878,
+   "pair_weighted_pred": 0.8016,
+   "pair_weighted_gap_pp": -1.38
+  },
+  "Northern America": {
+   "string_obs": 0.9288,
+   "string_pred": 0.9288,
+   "pair_weighted_obs": 0.9346,
+   "pair_weighted_pred": 0.9314,
+   "pair_weighted_gap_pp": 0.32
+  },
+  "Oceania": {
+   "string_obs": 0.8751,
+   "string_pred": 0.8751,
+   "pair_weighted_obs": 0.8547,
+   "pair_weighted_pred": 0.8506,
+   "pair_weighted_gap_pp": 0.41
+  },
+  "South Asia": {
+   "string_obs": 0.8725,
+   "string_pred": 0.8725,
+   "pair_weighted_obs": 0.8525,
+   "pair_weighted_pred": 0.8553,
+   "pair_weighted_gap_pp": -0.28
+  },
+  "Southeast Asia": {
+   "string_obs": 0.8425,
+   "string_pred": 0.8425,
+   "pair_weighted_obs": 0.8526,
+   "pair_weighted_pred": 0.8627,
+   "pair_weighted_gap_pp": -1.01
+  },
+  "Sub-Saharan Africa": {
+   "string_obs": 0.873,
+   "string_pred": 0.873,
+   "pair_weighted_obs": 0.8155,
+   "pair_weighted_pred": 0.8474,
+   "pair_weighted_gap_pp": -3.19
+  },
+  "Western Europe": {
+   "string_obs": 0.8261,
+   "string_pred": 0.8261,
+   "pair_weighted_obs": 0.774,
+   "pair_weighted_pred": 0.8029,
+   "pair_weighted_gap_pp": -2.89
+  }
+ },
+ "T4_ME_by_country": {
+  "AE": {
+   "pair_weighted_obs": 0.806,
+   "pair_weighted_pred": 0.802
+  },
+  "IL": {
+   "pair_weighted_obs": 0.873,
+   "pair_weighted_pred": 0.859
+  },
+  "IQ": {
+   "pair_weighted_obs": 0.914,
+   "pair_weighted_pred": 0.877
+  },
+  "IR": {
+   "pair_weighted_obs": 0.77,
+   "pair_weighted_pred": 0.801
+  },
+  "LB": {
+   "pair_weighted_obs": 0.825,
+   "pair_weighted_pred": 0.822
+  },
+  "QA": {
+   "pair_weighted_obs": 0.703,
+   "pair_weighted_pred": 0.812
+  },
+  "SA": {
+   "pair_weighted_obs": 0.847,
+   "pair_weighted_pred": 0.831
+  },
+  "TR": {
+   "pair_weighted_obs": 0.874,
+   "pair_weighted_pred": 0.86
+  }
+ }
+}

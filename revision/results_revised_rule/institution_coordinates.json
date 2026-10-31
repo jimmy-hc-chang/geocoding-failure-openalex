@@ -1,0 +1,472 @@
+{
+ "tie_rule": "exclude",
+ "n_institutions_with_coords": 127783,
+ "resolved_strings_pct": 92.06,
+ "inst_coord_assigned_pct_all": 89.26,
+ "inst_coord_assigned_pct_failed": 86.2,
+ "inst_coord_assigned_pct_failed_with_region": 99.9,
+ "Q1_geocode_vs_institution_point": {
+  "n": 62324,
+  "quantiles_km": {
+   "0.25": 1.8,
+   "0.5": 5.8,
+   "0.75": 24.4,
+   "0.9": 587.8
+  },
+  "within_10km_pct": 61.9,
+  "within_50km_pct": 79.4,
+  "over_500km_pct": 10.7,
+  "median_by_region": {
+   "East Asia": 9.6,
+   "Eastern Europe & Central Asia": 2.5,
+   "Latin America & Caribbean": 6.1,
+   "Middle East": 5.5,
+   "North Africa": 2.7,
+   "Northern America": 3.7,
+   "Oceania": 5.0,
+   "South Asia": 7.2,
+   "Southeast Asia": 8.2,
+   "Sub-Saharan Africa": 4.7,
+   "Western Europe": 3.4
+  }
+ },
+ "Q2_within_country": {
+  "n_countries": 41,
+  "log1p_dist_to_centroid_failed_minus_success": [
+   -0.092,
+   -0.132,
+   -0.053
+  ],
+  "top5_city_share_failed_minus_success_pp": [
+   -0.02,
+   -3.33,
+   3.3
+  ],
+  "per_country": [
+   {
+    "country": "AR",
+    "n_fail": 31,
+    "n_ok": 33,
+    "median_d_fail": 1262.0,
+    "median_d_ok": 1485.0,
+    "top5_fail_pct": 96.8,
+    "top5_ok_pct": 90.9
+   },
+   {
+    "country": "AT",
+    "n_fail": 50,
+    "n_ok": 433,
+    "median_d_fail": 144.9,
+    "median_d_ok": 115.9,
+    "top5_fail_pct": 94.0,
+    "top5_ok_pct": 91.0
+   },
+   {
+    "country": "AU",
+    "n_fail": 88,
+    "n_ok": 677,
+    "median_d_fail": 617.6,
+    "median_d_ok": 617.3,
+    "top5_fail_pct": 87.5,
+    "top5_ok_pct": 81.5
+   },
+   {
+    "country": "BD",
+    "n_fail": 49,
+    "n_ok": 213,
+    "median_d_fail": 79.3,
+    "median_d_ok": 96.2,
+    "top5_fail_pct": 93.9,
+    "top5_ok_pct": 93.9
+   },
+   {
+    "country": "BE",
+    "n_fail": 65,
+    "n_ok": 472,
+    "median_d_fail": 48.2,
+    "median_d_ok": 49.4,
+    "top5_fail_pct": 81.5,
+    "top5_ok_pct": 90.5
+   },
+   {
+    "country": "BR",
+    "n_fail": 280,
+    "n_ok": 914,
+    "median_d_fail": 560.2,
+    "median_d_ok": 712.7,
+    "top5_fail_pct": 42.1,
+    "top5_ok_pct": 46.4
+   },
+   {
+    "country": "CA",
+    "n_fail": 95,
+    "n_ok": 968,
+    "median_d_fail": 763.8,
+    "median_d_ok": 765.2,
+    "top5_fail_pct": 51.6,
+    "top5_ok_pct": 53.4
+   },
+   {
+    "country": "CH",
+    "n_fail": 110,
+    "n_ok": 457,
+    "median_d_fail": 217.5,
+    "median_d_ok": 231.9,
+    "top5_fail_pct": 81.8,
+    "top5_ok_pct": 87.7
+   },
+   {
+    "country": "CL",
+    "n_fail": 60,
+    "n_ok": 252,
+    "median_d_fail": 185.8,
+    "median_d_ok": 106.3,
+    "top5_fail_pct": 100.0,
+    "top5_ok_pct": 96.8
+   },
+   {
+    "country": "CN",
+    "n_fail": 1846,
+    "n_ok": 14722,
+    "median_d_fail": 800.9,
+    "median_d_ok": 830.4,
+    "top5_fail_pct": 54.7,
+    "top5_ok_pct": 48.2
+   },
+   {
+    "country": "CO",
+    "n_fail": 38,
+    "n_ok": 61,
+    "median_d_fail": 446.6,
+    "median_d_ok": 601.6,
+    "top5_fail_pct": 84.2,
+    "top5_ok_pct": 80.3
+   },
+   {
+    "country": "CZ",
+    "n_fail": 44,
+    "n_ok": 217,
+    "median_d_fail": 403.0,
+    "median_d_ok": 405.4,
+    "top5_fail_pct": 93.2,
+    "top5_ok_pct": 95.9
+   },
+   {
+    "country": "DE",
+    "n_fail": 434,
+    "n_ok": 2700,
+    "median_d_fail": 238.4,
+    "median_d_ok": 244.6,
+    "top5_fail_pct": 40.6,
+    "top5_ok_pct": 36.9
+   },
+   {
+    "country": "DK",
+    "n_fail": 111,
+    "n_ok": 429,
+    "median_d_fail": 205.5,
+    "median_d_ok": 193.4,
+    "top5_fail_pct": 95.5,
+    "top5_ok_pct": 92.3
+   },
+   {
+    "country": "DZ",
+    "n_fail": 137,
+    "n_ok": 477,
+    "median_d_fail": 319.4,
+    "median_d_ok": 242.2,
+    "top5_fail_pct": 43.8,
+    "top5_ok_pct": 52.8
+   },
+   {
+    "country": "EG",
+    "n_fail": 48,
+    "n_ok": 288,
+    "median_d_fail": 181.2,
+    "median_d_ok": 200.4,
+    "top5_fail_pct": 79.2,
+    "top5_ok_pct": 69.1
+   },
+   {
+    "country": "ES",
+    "n_fail": 190,
+    "n_ok": 971,
+    "median_d_fail": 397.1,
+    "median_d_ok": 386.8,
+    "top5_fail_pct": 51.1,
+    "top5_ok_pct": 49.3
+   },
+   {
+    "country": "FR",
+    "n_fail": 852,
+    "n_ok": 2061,
+    "median_d_fail": 374.5,
+    "median_d_ok": 339.2,
+    "top5_fail_pct": 56.8,
+    "top5_ok_pct": 62.7
+   },
+   {
+    "country": "GB",
+    "n_fail": 256,
+    "n_ok": 1763,
+    "median_d_fail": 320.3,
+    "median_d_ok": 316.9,
+    "top5_fail_pct": 43.8,
+    "top5_ok_pct": 45.4
+   },
+   {
+    "country": "ID",
+    "n_fail": 30,
+    "n_ok": 131,
+    "median_d_fail": 288.6,
+    "median_d_ok": 275.2,
+    "top5_fail_pct": 40.0,
+    "top5_ok_pct": 58.0
+   },
+   {
+    "country": "IL",
+    "n_fail": 31,
+    "n_ok": 146,
+    "median_d_fail": 130.0,
+    "median_d_ok": 133.1,
+    "top5_fail_pct": 64.5,
+    "top5_ok_pct": 85.6
+   },
+   {
+    "country": "IN",
+    "n_fail": 912,
+    "n_ok": 6361,
+    "median_d_fail": 853.6,
+    "median_d_ok": 856.0,
+    "top5_fail_pct": 25.5,
+    "top5_ok_pct": 26.4
+   },
+   {
+    "country": "IR",
+    "n_fail": 258,
+    "n_ok": 887,
+    "median_d_fail": 243.2,
+    "median_d_ok": 227.0,
+    "top5_fail_pct": 57.4,
+    "top5_ok_pct": 63.6
+   },
+   {
+    "country": "IT",
+    "n_fail": 339,
+    "n_ok": 2007,
+    "median_d_fail": 423.7,
+    "median_d_ok": 423.2,
+    "top5_fail_pct": 49.0,
+    "top5_ok_pct": 55.5
+   },
+   {
+    "country": "JP",
+    "n_fail": 398,
+    "n_ok": 3859,
+    "median_d_fail": 924.2,
+    "median_d_ok": 798.1,
+    "top5_fail_pct": 64.1,
+    "top5_ok_pct": 61.8
+   },
+   {
+    "country": "KR",
+    "n_fail": 242,
+    "n_ok": 1769,
+    "median_d_fail": 126.4,
+    "median_d_ok": 123.7,
+    "top5_fail_pct": 70.2,
+    "top5_ok_pct": 62.6
+   },
+   {
+    "country": "MX",
+    "n_fail": 95,
+    "n_ok": 278,
+    "median_d_fail": 483.3,
+    "median_d_ok": 511.8,
+    "top5_fail_pct": 63.2,
+    "top5_ok_pct": 66.2
+   },
+   {
+    "country": "MY",
+    "n_fail": 61,
+    "n_ok": 568,
+    "median_d_fail": 164.6,
+    "median_d_ok": 129.2,
+    "top5_fail_pct": 67.2,
+    "top5_ok_pct": 61.6
+   },
+   {
+    "country": "NL",
+    "n_fail": 65,
+    "n_ok": 380,
+    "median_d_fail": 194.6,
+    "median_d_ok": 197.5,
+    "top5_fail_pct": 80.0,
+    "top5_ok_pct": 84.2
+   },
+   {
+    "country": "NO",
+    "n_fail": 41,
+    "n_ok": 165,
+    "median_d_fail": 93.5,
+    "median_d_ok": 437.4,
+    "top5_fail_pct": 95.1,
+    "top5_ok_pct": 89.7
+   },
+   {
+    "country": "PL",
+    "n_fail": 63,
+    "n_ok": 435,
+    "median_d_fail": 173.6,
+    "median_d_ok": 170.0,
+    "top5_fail_pct": 69.8,
+    "top5_ok_pct": 70.3
+   },
+   {
+    "country": "PT",
+    "n_fail": 60,
+    "n_ok": 220,
+    "median_d_fail": 112.8,
+    "median_d_ok": 115.6,
+    "top5_fail_pct": 75.0,
+    "top5_ok_pct": 85.9
+   },
+   {
+    "country": "RO",
+    "n_fail": 31,
+    "n_ok": 281,
+    "median_d_fail": 173.8,
+    "median_d_ok": 151.6,
+    "top5_fail_pct": 87.1,
+    "top5_ok_pct": 87.5
+   },
+   {
+    "country": "RU",
+    "n_fail": 97,
+    "n_ok": 1009,
+    "median_d_fail": 441.7,
+    "median_d_ok": 932.7,
+    "top5_fail_pct": 66.0,
+    "top5_ok_pct": 68.8
+   },
+   {
+    "country": "SA",
+    "n_fail": 41,
+    "n_ok": 287,
+    "median_d_fail": 625.6,
+    "median_d_ok": 595.1,
+    "top5_fail_pct": 82.9,
+    "top5_ok_pct": 79.1
+   },
+   {
+    "country": "SE",
+    "n_fail": 68,
+    "n_ok": 409,
+    "median_d_fail": 182.3,
+    "median_d_ok": 186.0,
+    "top5_fail_pct": 80.9,
+    "top5_ok_pct": 80.2
+   },
+   {
+    "country": "SG",
+    "n_fail": 118,
+    "n_ok": 256,
+    "median_d_fail": 71.5,
+    "median_d_ok": 65.5,
+    "top5_fail_pct": 100.0,
+    "top5_ok_pct": 100.0
+   },
+   {
+    "country": "TN",
+    "n_fail": 45,
+    "n_ok": 153,
+    "median_d_fail": 119.4,
+    "median_d_ok": 119.5,
+    "top5_fail_pct": 97.8,
+    "top5_ok_pct": 98.7
+   },
+   {
+    "country": "TR",
+    "n_fail": 101,
+    "n_ok": 564,
+    "median_d_fail": 285.3,
+    "median_d_ok": 278.6,
+    "top5_fail_pct": 46.5,
+    "top5_ok_pct": 59.2
+   },
+   {
+    "country": "TW",
+    "n_fail": 140,
+    "n_ok": 1261,
+    "median_d_fail": 250.5,
+    "median_d_ok": 250.2,
+    "top5_fail_pct": 82.9,
+    "top5_ok_pct": 81.9
+   },
+   {
+    "country": "US",
+    "n_fail": 674,
+    "n_ok": 9060,
+    "median_d_fail": 982.2,
+    "median_d_ok": 921.8,
+    "top5_fail_pct": 8.0,
+    "top5_ok_pct": 12.9
+   }
+  ],
+  "like_for_like_inst_points_log1p_dist_failed_minus_success": [
+   -0.001,
+   -0.035,
+   0.033
+  ],
+  "note": "first contrast compares failed strings' institution points with successful strings' geocodes; the like-for-like contrast uses institution points on both sides"
+ },
+ "Q3_distance_indicators": {
+  "complete_case": {
+   "n_pairs": 104139,
+   "n_works": 44930,
+   "mean_km": 2032.1,
+   "median_km": 300.6,
+   "share_over_1000km_pct": 35.06,
+   "intl_pct": 25.69
+  },
+  "ipw": {
+   "n_pairs": 104139,
+   "n_works": 44930,
+   "mean_km": 2055.8,
+   "median_km": 310.9,
+   "share_over_1000km_pct": 35.26,
+   "intl_pct": 26.14
+  },
+  "near_complete": {
+   "n_pairs": 133134,
+   "n_works": 47473,
+   "mean_km": 2011.8,
+   "median_km": 298.9,
+   "share_over_1000km_pct": 34.36,
+   "intl_pct": 26.24
+  },
+  "catalogue_only": {
+   "n_pairs": 132997,
+   "n_works": 47462,
+   "mean_km": 1906.4,
+   "median_km": 219.7,
+   "share_over_1000km_pct": 32.83,
+   "intl_pct": 26.23
+  },
+  "hybrid": {
+   "n_pairs": 133134,
+   "n_works": 47473,
+   "mean_km": 1907.2,
+   "median_km": 219.9,
+   "share_over_1000km_pct": 32.83,
+   "intl_pct": 26.24
+  }
+ },
+ "Q3_coverage": {
+  "complete_case_strings": 62153,
+  "near_complete_strings": 71368,
+  "catalogue_only_strings": 71310,
+  "hybrid_strings": 71368,
+  "all_strings_with_region": 71377
+ }
+}

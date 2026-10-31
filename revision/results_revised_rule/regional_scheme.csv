@@ -1,0 +1,163 @@
+iso2,country,region,in_corpus_n_strings
+CN,China,East Asia,16570
+HK,Hong Kong,East Asia,265
+JP,Japan,East Asia,4265
+KP,"Korea, Democratic People's Republic of",East Asia,4
+KR,"Korea, Republic of",East Asia,2011
+MO,Macao,East Asia,71
+MN,Mongolia,East Asia,9
+TW,"Taiwan, Province of China",East Asia,1401
+AL,Albania,Eastern Europe & Central Asia,0
+AM,Armenia,Eastern Europe & Central Asia,10
+AZ,Azerbaijan,Eastern Europe & Central Asia,30
+BY,Belarus,Eastern Europe & Central Asia,22
+BA,Bosnia and Herzegovina,Eastern Europe & Central Asia,0
+BG,Bulgaria,Eastern Europe & Central Asia,112
+HR,Croatia,Eastern Europe & Central Asia,82
+CZ,Czechia,Eastern Europe & Central Asia,261
+EE,Estonia,Eastern Europe & Central Asia,65
+GE,Georgia,Eastern Europe & Central Asia,2
+HU,Hungary,Eastern Europe & Central Asia,135
+KZ,Kazakhstan,Eastern Europe & Central Asia,52
+KG,Kyrgyzstan,Eastern Europe & Central Asia,0
+LV,Latvia,Eastern Europe & Central Asia,36
+LT,Lithuania,Eastern Europe & Central Asia,22
+MD,"Moldova, Republic of",Eastern Europe & Central Asia,6
+ME,Montenegro,Eastern Europe & Central Asia,3
+MK,North Macedonia,Eastern Europe & Central Asia,2
+PL,Poland,Eastern Europe & Central Asia,498
+RO,Romania,Eastern Europe & Central Asia,312
+RU,Russian Federation,Eastern Europe & Central Asia,1107
+RS,Serbia,Eastern Europe & Central Asia,76
+SK,Slovakia,Eastern Europe & Central Asia,171
+SI,Slovenia,Eastern Europe & Central Asia,36
+TJ,Tajikistan,Eastern Europe & Central Asia,4
+TM,Turkmenistan,Eastern Europe & Central Asia,0
+UA,Ukraine,Eastern Europe & Central Asia,168
+UZ,Uzbekistan,Eastern Europe & Central Asia,27
+XK,XK,Eastern Europe & Central Asia,2
+AR,Argentina,Latin America & Caribbean,64
+BS,Bahamas,Latin America & Caribbean,0
+BB,Barbados,Latin America & Caribbean,0
+BO,"Bolivia, Plurinational State of",Latin America & Caribbean,0
+BR,Brazil,Latin America & Caribbean,1194
+CL,Chile,Latin America & Caribbean,312
+CO,Colombia,Latin America & Caribbean,99
+CR,Costa Rica,Latin America & Caribbean,13
+CU,Cuba,Latin America & Caribbean,4
+DO,Dominican Republic,Latin America & Caribbean,0
+EC,Ecuador,Latin America & Caribbean,62
+SV,El Salvador,Latin America & Caribbean,0
+GT,Guatemala,Latin America & Caribbean,1
+GY,Guyana,Latin America & Caribbean,0
+HT,Haiti,Latin America & Caribbean,0
+HN,Honduras,Latin America & Caribbean,0
+JM,Jamaica,Latin America & Caribbean,1
+MX,Mexico,Latin America & Caribbean,374
+NI,Nicaragua,Latin America & Caribbean,0
+PA,Panama,Latin America & Caribbean,5
+PY,Paraguay,Latin America & Caribbean,26
+PE,Peru,Latin America & Caribbean,18
+PR,Puerto Rico,Latin America & Caribbean,7
+SR,Suriname,Latin America & Caribbean,0
+TT,Trinidad and Tobago,Latin America & Caribbean,0
+UY,Uruguay,Latin America & Caribbean,12
+VE,"Venezuela, Bolivarian Republic of",Latin America & Caribbean,8
+BH,Bahrain,Middle East,3
+IR,"Iran, Islamic Republic of",Middle East,1145
+IQ,Iraq,Middle East,163
+IL,Israel,Middle East,177
+JO,Jordan,Middle East,50
+KW,Kuwait,Middle East,27
+LB,Lebanon,Middle East,77
+OM,Oman,Middle East,13
+PS,"Palestine, State of",Middle East,5
+QA,Qatar,Middle East,100
+SA,Saudi Arabia,Middle East,328
+SY,Syrian Arab Republic,Middle East,16
+TR,Türkiye,Middle East,669
+AE,United Arab Emirates,Middle East,174
+YE,Yemen,Middle East,2
+DZ,Algeria,North Africa,623
+EG,Egypt,North Africa,336
+LY,Libya,North Africa,16
+MR,Mauritania,North Africa,2
+MA,Morocco,North Africa,135
+SD,Sudan,North Africa,2
+TN,Tunisia,North Africa,198
+CA,Canada,Northern America,1063
+US,United States,Northern America,9741
+AU,Australia,Oceania,766
+FJ,Fiji,Oceania,13
+NZ,New Zealand,Oceania,62
+PG,Papua New Guinea,Oceania,0
+AF,Afghanistan,South Asia,3
+BD,Bangladesh,South Asia,264
+BT,Bhutan,South Asia,0
+IN,India,South Asia,7274
+MV,Maldives,South Asia,1
+NP,Nepal,South Asia,35
+PK,Pakistan,South Asia,293
+LK,Sri Lanka,South Asia,25
+BN,Brunei Darussalam,Southeast Asia,13
+KH,Cambodia,Southeast Asia,3
+ID,Indonesia,Southeast Asia,161
+LA,Lao People's Democratic Republic,Southeast Asia,0
+MY,Malaysia,Southeast Asia,629
+MM,Myanmar,Southeast Asia,3
+PH,Philippines,Southeast Asia,22
+SG,Singapore,Southeast Asia,374
+TH,Thailand,Southeast Asia,195
+TL,Timor-Leste,Southeast Asia,1
+VN,Viet Nam,Southeast Asia,199
+AO,Angola,Sub-Saharan Africa,0
+BJ,Benin,Sub-Saharan Africa,4
+BW,Botswana,Sub-Saharan Africa,4
+BF,Burkina Faso,Sub-Saharan Africa,6
+CM,Cameroon,Sub-Saharan Africa,22
+TD,Chad,Sub-Saharan Africa,10
+CG,Congo,Sub-Saharan Africa,0
+CD,"Congo, The Democratic Republic of the",Sub-Saharan Africa,2
+CI,Côte d'Ivoire,Sub-Saharan Africa,3
+SZ,Eswatini,Sub-Saharan Africa,1
+ET,Ethiopia,Sub-Saharan Africa,37
+GA,Gabon,Sub-Saharan Africa,0
+GH,Ghana,Sub-Saharan Africa,5
+KE,Kenya,Sub-Saharan Africa,6
+MG,Madagascar,Sub-Saharan Africa,1
+MW,Malawi,Sub-Saharan Africa,0
+ML,Mali,Sub-Saharan Africa,0
+MU,Mauritius,Sub-Saharan Africa,6
+MZ,Mozambique,Sub-Saharan Africa,0
+NE,Niger,Sub-Saharan Africa,0
+NG,Nigeria,Sub-Saharan Africa,72
+RW,Rwanda,Sub-Saharan Africa,1
+SN,Senegal,Sub-Saharan Africa,5
+SO,Somalia,Sub-Saharan Africa,0
+ZA,South Africa,Sub-Saharan Africa,166
+SS,South Sudan,Sub-Saharan Africa,3
+TZ,"Tanzania, United Republic of",Sub-Saharan Africa,4
+TG,Togo,Sub-Saharan Africa,3
+UG,Uganda,Sub-Saharan Africa,2
+ZM,Zambia,Sub-Saharan Africa,1
+ZW,Zimbabwe,Sub-Saharan Africa,6
+AT,Austria,Western Europe,486
+BE,Belgium,Western Europe,537
+CY,Cyprus,Western Europe,30
+DK,Denmark,Western Europe,540
+FI,Finland,Western Europe,156
+FR,France,Western Europe,2918
+DE,Germany,Western Europe,3137
+GR,Greece,Western Europe,119
+IS,Iceland,Western Europe,13
+IE,Ireland,Western Europe,87
+IT,Italy,Western Europe,2353
+LU,Luxembourg,Western Europe,13
+MT,Malta,Western Europe,19
+NL,Netherlands,Western Europe,445
+NO,Norway,Western Europe,206
+PT,Portugal,Western Europe,280
+ES,Spain,Western Europe,1163
+SE,Sweden,Western Europe,477
+CH,Switzerland,Western Europe,571
+GB,United Kingdom,Western Europe,2019

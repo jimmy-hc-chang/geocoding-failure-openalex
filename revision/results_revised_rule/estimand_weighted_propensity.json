@@ -1,0 +1,908 @@
+{
+ "tie_rule": "exclude",
+ "n_strings": 71377,
+ "n_pairs": 133156,
+ "check_sw_equals_manuscript_fit_maxabsdiff": 2.6079138848444927e-13,
+ "V1_string_weighted": {
+  "East Asia": {
+   "obs": 40.399,
+   "ipw": 38.724,
+   "full": 37.737,
+   "residual_pp": 0.987,
+   "recovery": 0.629
+  },
+  "Eastern Europe & Central Asia": {
+   "obs": 5.012,
+   "ipw": 5.057,
+   "full": 4.797,
+   "residual_pp": 0.26,
+   "recovery": -0.209
+  },
+  "Latin America & Caribbean": {
+   "obs": 2.586,
+   "ipw": 2.973,
+   "full": 2.929,
+   "residual_pp": 0.044,
+   "recovery": 1.129
+  },
+  "Middle East": {
+   "obs": 5.525,
+   "ipw": 5.486,
+   "full": 6.115,
+   "residual_pp": -0.629,
+   "recovery": -0.067
+  },
+  "North Africa": {
+   "obs": 1.727,
+   "ipw": 1.862,
+   "full": 1.975,
+   "residual_pp": -0.113,
+   "recovery": 0.542
+  },
+  "Northern America": {
+   "obs": 23.082,
+   "ipw": 21.683,
+   "full": 20.663,
+   "residual_pp": 1.02,
+   "recovery": 0.578
+  },
+  "Oceania": {
+   "obs": 2.107,
+   "ipw": 2.102,
+   "full": 2.184,
+   "residual_pp": -0.082,
+   "recovery": -0.059
+  },
+  "South Asia": {
+   "obs": 8.523,
+   "ipw": 8.512,
+   "full": 8.733,
+   "residual_pp": -0.221,
+   "recovery": -0.053
+  },
+  "Southeast Asia": {
+   "obs": 2.778,
+   "ipw": 2.897,
+   "full": 2.86,
+   "residual_pp": 0.037,
+   "recovery": 1.451
+  },
+  "Sub-Saharan Africa": {
+   "obs": 0.658,
+   "ipw": 0.657,
+   "full": 0.688,
+   "residual_pp": -0.031,
+   "recovery": -0.026
+  },
+  "Western Europe": {
+   "obs": 27.116,
+   "ipw": 29.636,
+   "full": 31.154,
+   "residual_pp": -1.518,
+   "recovery": 0.624
+  }
+ },
+ "V1_estimand_weighted": {
+  "East Asia": {
+   "obs": 40.399,
+   "ipw": 37.994,
+   "full": 37.737,
+   "residual_pp": 0.257,
+   "recovery": 0.903
+  },
+  "Eastern Europe & Central Asia": {
+   "obs": 5.012,
+   "ipw": 4.901,
+   "full": 4.797,
+   "residual_pp": 0.104,
+   "recovery": 0.515
+  },
+  "Latin America & Caribbean": {
+   "obs": 2.586,
+   "ipw": 3.011,
+   "full": 2.929,
+   "residual_pp": 0.082,
+   "recovery": 1.238
+  },
+  "Middle East": {
+   "obs": 5.525,
+   "ipw": 5.481,
+   "full": 6.115,
+   "residual_pp": -0.633,
+   "recovery": -0.075
+  },
+  "North Africa": {
+   "obs": 1.727,
+   "ipw": 1.912,
+   "full": 1.975,
+   "residual_pp": -0.063,
+   "recovery": 0.745
+  },
+  "Northern America": {
+   "obs": 23.082,
+   "ipw": 21.249,
+   "full": 20.663,
+   "residual_pp": 0.586,
+   "recovery": 0.758
+  },
+  "Oceania": {
+   "obs": 2.107,
+   "ipw": 2.071,
+   "full": 2.184,
+   "residual_pp": -0.113,
+   "recovery": -0.463
+  },
+  "South Asia": {
+   "obs": 8.523,
+   "ipw": 8.434,
+   "full": 8.733,
+   "residual_pp": -0.299,
+   "recovery": -0.428
+  },
+  "Southeast Asia": {
+   "obs": 2.778,
+   "ipw": 2.928,
+   "full": 2.86,
+   "residual_pp": 0.068,
+   "recovery": 1.831
+  },
+  "Sub-Saharan Africa": {
+   "obs": 0.658,
+   "ipw": 0.685,
+   "full": 0.688,
+   "residual_pp": -0.003,
+   "recovery": 0.889
+  },
+  "Western Europe": {
+   "obs": 27.116,
+   "ipw": 30.976,
+   "full": 31.154,
+   "residual_pp": -0.177,
+   "recovery": 0.956
+  }
+ },
+ "V2_calibration": {
+  "East Asia": {
+   "pairw_obs": 0.9003,
+   "pairw_pred_SW": 0.89826,
+   "pairw_pred_EW": 0.9003,
+   "stringw_obs": 0.89181,
+   "stringw_pred_EW": 0.89784
+  },
+  "Eastern Europe & Central Asia": {
+   "pairw_obs": 0.90645,
+   "pairw_pred_SW": 0.89456,
+   "pairw_pred_EW": 0.90645,
+   "stringw_obs": 0.88861,
+   "stringw_pred_EW": 0.90334
+  },
+  "Latin America & Caribbean": {
+   "pairw_obs": 0.76894,
+   "pairw_pred_SW": 0.77391,
+   "pairw_pred_EW": 0.76894,
+   "stringw_obs": 0.76182,
+   "stringw_pred_EW": 0.75828
+  },
+  "Middle East": {
+   "pairw_obs": 0.80907,
+   "pairw_pred_SW": 0.82533,
+   "pairw_pred_EW": 0.80907,
+   "stringw_obs": 0.81757,
+   "stringw_pred_EW": 0.81092
+  },
+  "North Africa": {
+   "pairw_obs": 0.78778,
+   "pairw_pred_SW": 0.80158,
+   "pairw_pred_EW": 0.78778,
+   "stringw_obs": 0.80716,
+   "stringw_pred_EW": 0.79409
+  },
+  "Northern America": {
+   "pairw_obs": 0.93462,
+   "pairw_pred_SW": 0.93137,
+   "pairw_pred_EW": 0.93462,
+   "stringw_obs": 0.92882,
+   "stringw_pred_EW": 0.9346
+  },
+  "Oceania": {
+   "pairw_obs": 0.85469,
+   "pairw_pred_SW": 0.85065,
+   "pairw_pred_EW": 0.85469,
+   "stringw_obs": 0.87515,
+   "stringw_pred_EW": 0.88433
+  },
+  "South Asia": {
+   "pairw_obs": 0.85246,
+   "pairw_pred_SW": 0.85526,
+   "pairw_pred_EW": 0.85246,
+   "stringw_obs": 0.87245,
+   "stringw_pred_EW": 0.87302
+  },
+  "Southeast Asia": {
+   "pairw_obs": 0.85263,
+   "pairw_pred_SW": 0.86265,
+   "pairw_pred_EW": 0.85263,
+   "stringw_obs": 0.8425,
+   "stringw_pred_EW": 0.83986
+  },
+  "Sub-Saharan Africa": {
+   "pairw_obs": 0.81549,
+   "pairw_pred_SW": 0.84743,
+   "pairw_pred_EW": 0.81549,
+   "stringw_obs": 0.87297,
+   "stringw_pred_EW": 0.84137
+  },
+  "Western Europe": {
+   "pairw_obs": 0.77405,
+   "pairw_pred_SW": 0.80285,
+   "pairw_pred_EW": 0.77405,
+   "stringw_obs": 0.82613,
+   "stringw_pred_EW": 0.81058
+  }
+ },
+ "V2_strings_with_zero_degree": 9539,
+ "V3_weights_n_papers": {
+  "East Asia": {
+   "obs": 40.399,
+   "ipw": 38.436,
+   "full": 37.737,
+   "residual_pp": 0.699,
+   "recovery": 0.737
+  },
+  "Eastern Europe & Central Asia": {
+   "obs": 5.012,
+   "ipw": 5.037,
+   "full": 4.797,
+   "residual_pp": 0.24,
+   "recovery": -0.117
+  },
+  "Latin America & Caribbean": {
+   "obs": 2.586,
+   "ipw": 2.968,
+   "full": 2.929,
+   "residual_pp": 0.039,
+   "recovery": 1.115
+  },
+  "Middle East": {
+   "obs": 5.525,
+   "ipw": 5.465,
+   "full": 6.115,
+   "residual_pp": -0.649,
+   "recovery": -0.102
+  },
+  "North Africa": {
+   "obs": 1.727,
+   "ipw": 1.876,
+   "full": 1.975,
+   "residual_pp": -0.099,
+   "recovery": 0.599
+  },
+  "Northern America": {
+   "obs": 23.082,
+   "ipw": 21.408,
+   "full": 20.663,
+   "residual_pp": 0.745,
+   "recovery": 0.692
+  },
+  "Oceania": {
+   "obs": 2.107,
+   "ipw": 2.081,
+   "full": 2.184,
+   "residual_pp": -0.102,
+   "recovery": -0.329
+  },
+  "South Asia": {
+   "obs": 8.523,
+   "ipw": 8.455,
+   "full": 8.733,
+   "residual_pp": -0.278,
+   "recovery": -0.328
+  },
+  "Southeast Asia": {
+   "obs": 2.778,
+   "ipw": 2.889,
+   "full": 2.86,
+   "residual_pp": 0.029,
+   "recovery": 1.354
+  },
+  "Sub-Saharan Africa": {
+   "obs": 0.658,
+   "ipw": 0.648,
+   "full": 0.688,
+   "residual_pp": -0.04,
+   "recovery": -0.332
+  },
+  "Western Europe": {
+   "obs": 27.116,
+   "ipw": 30.357,
+   "full": 31.154,
+   "residual_pp": -0.796,
+   "recovery": 0.803
+  }
+ },
+ "V3_weights_sqrt_degree": {
+  "East Asia": {
+   "obs": 40.399,
+   "ipw": 38.296,
+   "full": 37.737,
+   "residual_pp": 0.559,
+   "recovery": 0.79
+  },
+  "Eastern Europe & Central Asia": {
+   "obs": 5.012,
+   "ipw": 4.967,
+   "full": 4.797,
+   "residual_pp": 0.17,
+   "recovery": 0.207
+  },
+  "Latin America & Caribbean": {
+   "obs": 2.586,
+   "ipw": 3.018,
+   "full": 2.929,
+   "residual_pp": 0.089,
+   "recovery": 1.261
+  },
+  "Middle East": {
+   "obs": 5.525,
+   "ipw": 5.471,
+   "full": 6.115,
+   "residual_pp": -0.643,
+   "recovery": -0.091
+  },
+  "North Africa": {
+   "obs": 1.727,
+   "ipw": 1.884,
+   "full": 1.975,
+   "residual_pp": -0.091,
+   "recovery": 0.633
+  },
+  "Northern America": {
+   "obs": 23.082,
+   "ipw": 21.469,
+   "full": 20.663,
+   "residual_pp": 0.806,
+   "recovery": 0.667
+  },
+  "Oceania": {
+   "obs": 2.107,
+   "ipw": 2.084,
+   "full": 2.184,
+   "residual_pp": -0.1,
+   "recovery": -0.293
+  },
+  "South Asia": {
+   "obs": 8.523,
+   "ipw": 8.5,
+   "full": 8.733,
+   "residual_pp": -0.233,
+   "recovery": -0.112
+  },
+  "Southeast Asia": {
+   "obs": 2.778,
+   "ipw": 2.919,
+   "full": 2.86,
+   "residual_pp": 0.059,
+   "recovery": 1.725
+  },
+  "Sub-Saharan Africa": {
+   "obs": 0.658,
+   "ipw": 0.671,
+   "full": 0.688,
+   "residual_pp": -0.017,
+   "recovery": 0.448
+  },
+  "Western Europe": {
+   "obs": 27.116,
+   "ipw": 30.342,
+   "full": 31.154,
+   "residual_pp": -0.811,
+   "recovery": 0.799
+  }
+ },
+ "V4_trim": {
+  "0.95": {
+   "SW": {
+    "East Asia": {
+     "obs": 40.399,
+     "ipw": 39.61,
+     "full": 37.737,
+     "residual_pp": 1.873,
+     "recovery": 0.296
+    },
+    "Eastern Europe & Central Asia": {
+     "obs": 5.012,
+     "ipw": 5.051,
+     "full": 4.797,
+     "residual_pp": 0.255,
+     "recovery": -0.185
+    },
+    "Latin America & Caribbean": {
+     "obs": 2.586,
+     "ipw": 2.782,
+     "full": 2.929,
+     "residual_pp": -0.147,
+     "recovery": 0.572
+    },
+    "Middle East": {
+     "obs": 5.525,
+     "ipw": 5.463,
+     "full": 6.115,
+     "residual_pp": -0.651,
+     "recovery": -0.105
+    },
+    "North Africa": {
+     "obs": 1.727,
+     "ipw": 1.807,
+     "full": 1.975,
+     "residual_pp": -0.169,
+     "recovery": 0.319
+    },
+    "Northern America": {
+     "obs": 23.082,
+     "ipw": 22.095,
+     "full": 20.663,
+     "residual_pp": 1.432,
+     "recovery": 0.408
+    },
+    "Oceania": {
+     "obs": 2.107,
+     "ipw": 2.093,
+     "full": 2.184,
+     "residual_pp": -0.091,
+     "recovery": -0.175
+    },
+    "South Asia": {
+     "obs": 8.523,
+     "ipw": 8.51,
+     "full": 8.733,
+     "residual_pp": -0.222,
+     "recovery": -0.062
+    },
+    "Southeast Asia": {
+     "obs": 2.778,
+     "ipw": 2.852,
+     "full": 2.86,
+     "residual_pp": -0.008,
+     "recovery": 0.905
+    },
+    "Sub-Saharan Africa": {
+     "obs": 0.658,
+     "ipw": 0.657,
+     "full": 0.688,
+     "residual_pp": -0.031,
+     "recovery": -0.034
+    },
+    "Western Europe": {
+     "obs": 27.116,
+     "ipw": 28.616,
+     "full": 31.154,
+     "residual_pp": -2.537,
+     "recovery": 0.372
+    }
+   },
+   "EW": {
+    "East Asia": {
+     "obs": 40.399,
+     "ipw": 39.36,
+     "full": 37.737,
+     "residual_pp": 1.624,
+     "recovery": 0.39
+    },
+    "Eastern Europe & Central Asia": {
+     "obs": 5.012,
+     "ipw": 4.977,
+     "full": 4.797,
+     "residual_pp": 0.181,
+     "recovery": 0.16
+    },
+    "Latin America & Caribbean": {
+     "obs": 2.586,
+     "ipw": 2.78,
+     "full": 2.929,
+     "residual_pp": -0.149,
+     "recovery": 0.565
+    },
+    "Middle East": {
+     "obs": 5.525,
+     "ipw": 5.469,
+     "full": 6.115,
+     "residual_pp": -0.646,
+     "recovery": -0.095
+    },
+    "North Africa": {
+     "obs": 1.727,
+     "ipw": 1.822,
+     "full": 1.975,
+     "residual_pp": -0.153,
+     "recovery": 0.382
+    },
+    "Northern America": {
+     "obs": 23.082,
+     "ipw": 21.955,
+     "full": 20.663,
+     "residual_pp": 1.292,
+     "recovery": 0.466
+    },
+    "Oceania": {
+     "obs": 2.107,
+     "ipw": 2.083,
+     "full": 2.184,
+     "residual_pp": -0.101,
+     "recovery": -0.308
+    },
+    "South Asia": {
+     "obs": 8.523,
+     "ipw": 8.483,
+     "full": 8.733,
+     "residual_pp": -0.249,
+     "recovery": -0.19
+    },
+    "Southeast Asia": {
+     "obs": 2.778,
+     "ipw": 2.88,
+     "full": 2.86,
+     "residual_pp": 0.02,
+     "recovery": 1.247
+    },
+    "Sub-Saharan Africa": {
+     "obs": 0.658,
+     "ipw": 0.677,
+     "full": 0.688,
+     "residual_pp": -0.011,
+     "recovery": 0.644
+    },
+    "Western Europe": {
+     "obs": 27.116,
+     "ipw": 29.114,
+     "full": 31.154,
+     "residual_pp": -2.04,
+     "recovery": 0.495
+    }
+   }
+  },
+  "None": {
+   "SW": {
+    "East Asia": {
+     "obs": 40.399,
+     "ipw": 37.854,
+     "full": 37.737,
+     "residual_pp": 0.117,
+     "recovery": 0.956
+    },
+    "Eastern Europe & Central Asia": {
+     "obs": 5.012,
+     "ipw": 4.987,
+     "full": 4.797,
+     "residual_pp": 0.19,
+     "recovery": 0.115
+    },
+    "Latin America & Caribbean": {
+     "obs": 2.586,
+     "ipw": 3.364,
+     "full": 2.929,
+     "residual_pp": 0.435,
+     "recovery": 2.269
+    },
+    "Middle East": {
+     "obs": 5.525,
+     "ipw": 5.4,
+     "full": 6.115,
+     "residual_pp": -0.715,
+     "recovery": -0.213
+    },
+    "North Africa": {
+     "obs": 1.727,
+     "ipw": 1.923,
+     "full": 1.975,
+     "residual_pp": -0.052,
+     "recovery": 0.789
+    },
+    "Northern America": {
+     "obs": 23.082,
+     "ipw": 21.128,
+     "full": 20.663,
+     "residual_pp": 0.465,
+     "recovery": 0.808
+    },
+    "Oceania": {
+     "obs": 2.107,
+     "ipw": 2.054,
+     "full": 2.184,
+     "residual_pp": -0.13,
+     "recovery": -0.691
+    },
+    "South Asia": {
+     "obs": 8.523,
+     "ipw": 8.394,
+     "full": 8.733,
+     "residual_pp": -0.338,
+     "recovery": -0.615
+    },
+    "Southeast Asia": {
+     "obs": 2.778,
+     "ipw": 2.832,
+     "full": 2.86,
+     "residual_pp": -0.028,
+     "recovery": 0.654
+    },
+    "Sub-Saharan Africa": {
+     "obs": 0.658,
+     "ipw": 0.637,
+     "full": 0.688,
+     "residual_pp": -0.05,
+     "recovery": -0.674
+    },
+    "Western Europe": {
+     "obs": 27.116,
+     "ipw": 30.711,
+     "full": 31.154,
+     "residual_pp": -0.442,
+     "recovery": 0.89
+    }
+   },
+   "EW": {
+    "East Asia": {
+     "obs": 40.399,
+     "ipw": 35.516,
+     "full": 37.737,
+     "residual_pp": -2.221,
+     "recovery": 1.834
+    },
+    "Eastern Europe & Central Asia": {
+     "obs": 5.012,
+     "ipw": 4.649,
+     "full": 4.797,
+     "residual_pp": -0.148,
+     "recovery": 1.689
+    },
+    "Latin America & Caribbean": {
+     "obs": 2.586,
+     "ipw": 3.755,
+     "full": 2.929,
+     "residual_pp": 0.826,
+     "recovery": 3.409
+    },
+    "Middle East": {
+     "obs": 5.525,
+     "ipw": 5.207,
+     "full": 6.115,
+     "residual_pp": -0.907,
+     "recovery": -0.54
+    },
+    "North Africa": {
+     "obs": 1.727,
+     "ipw": 2.043,
+     "full": 1.975,
+     "residual_pp": 0.068,
+     "recovery": 1.274
+    },
+    "Northern America": {
+     "obs": 23.082,
+     "ipw": 19.695,
+     "full": 20.663,
+     "residual_pp": -0.968,
+     "recovery": 1.4
+    },
+    "Oceania": {
+     "obs": 2.107,
+     "ipw": 1.924,
+     "full": 2.184,
+     "residual_pp": -0.26,
+     "recovery": -2.37
+    },
+    "South Asia": {
+     "obs": 8.523,
+     "ipw": 7.953,
+     "full": 8.733,
+     "residual_pp": -0.78,
+     "recovery": -2.723
+    },
+    "Southeast Asia": {
+     "obs": 2.778,
+     "ipw": 2.714,
+     "full": 2.86,
+     "residual_pp": -0.145,
+     "recovery": -0.777
+    },
+    "Sub-Saharan Africa": {
+     "obs": 0.658,
+     "ipw": 0.638,
+     "full": 0.688,
+     "residual_pp": -0.05,
+     "recovery": -0.664
+    },
+    "Western Europe": {
+     "obs": 27.116,
+     "ipw": 34.497,
+     "full": 31.154,
+     "residual_pp": 3.343,
+     "recovery": 1.828
+    }
+   }
+  }
+ },
+ "V4_size_filter_on_geocoded": {
+  "SW": {
+   "East Asia": {
+    "obs": 40.399,
+    "ipw": 38.724,
+    "full": 38.271,
+    "residual_pp": 0.453,
+    "recovery": 0.787
+   },
+   "Eastern Europe & Central Asia": {
+    "obs": 5.012,
+    "ipw": 5.057,
+    "full": 4.817,
+    "residual_pp": 0.239,
+    "recovery": -0.231
+   },
+   "Latin America & Caribbean": {
+    "obs": 2.586,
+    "ipw": 2.973,
+    "full": 2.745,
+    "residual_pp": 0.228,
+    "recovery": 2.435
+   },
+   "Middle East": {
+    "obs": 5.525,
+    "ipw": 5.486,
+    "full": 6.107,
+    "residual_pp": -0.621,
+    "recovery": -0.067
+   },
+   "North Africa": {
+    "obs": 1.727,
+    "ipw": 1.862,
+    "full": 1.911,
+    "residual_pp": -0.049,
+    "recovery": 0.732
+   },
+   "Northern America": {
+    "obs": 23.082,
+    "ipw": 21.683,
+    "full": 21.292,
+    "residual_pp": 0.391,
+    "recovery": 0.781
+   },
+   "Oceania": {
+    "obs": 2.107,
+    "ipw": 2.102,
+    "full": 2.207,
+    "residual_pp": -0.104,
+    "recovery": -0.045
+   },
+   "South Asia": {
+    "obs": 8.523,
+    "ipw": 8.512,
+    "full": 8.702,
+    "residual_pp": -0.19,
+    "recovery": -0.063
+   },
+   "Southeast Asia": {
+    "obs": 2.778,
+    "ipw": 2.897,
+    "full": 2.884,
+    "residual_pp": 0.012,
+    "recovery": 1.118
+   },
+   "Sub-Saharan Africa": {
+    "obs": 0.658,
+    "ipw": 0.657,
+    "full": 0.684,
+    "residual_pp": -0.027,
+    "recovery": -0.03
+   },
+   "Western Europe": {
+    "obs": 27.116,
+    "ipw": 29.636,
+    "full": 30.513,
+    "residual_pp": -0.877,
+    "recovery": 0.742
+   }
+  },
+  "EW_refit_on_this_pairing": {
+   "East Asia": {
+    "obs": 40.399,
+    "ipw": 38.523,
+    "full": 38.271,
+    "residual_pp": 0.253,
+    "recovery": 0.881
+   },
+   "Eastern Europe & Central Asia": {
+    "obs": 5.012,
+    "ipw": 4.907,
+    "full": 4.817,
+    "residual_pp": 0.09,
+    "recovery": 0.536
+   },
+   "Latin America & Caribbean": {
+    "obs": 2.586,
+    "ipw": 2.805,
+    "full": 2.745,
+    "residual_pp": 0.06,
+    "recovery": 1.378
+   },
+   "Middle East": {
+    "obs": 5.525,
+    "ipw": 5.54,
+    "full": 6.107,
+    "residual_pp": -0.568,
+    "recovery": 0.025
+   },
+   "North Africa": {
+    "obs": 1.727,
+    "ipw": 1.808,
+    "full": 1.911,
+    "residual_pp": -0.103,
+    "recovery": 0.44
+   },
+   "Northern America": {
+    "obs": 23.082,
+    "ipw": 21.885,
+    "full": 21.292,
+    "residual_pp": 0.592,
+    "recovery": 0.669
+   },
+   "Oceania": {
+    "obs": 2.107,
+    "ipw": 2.095,
+    "full": 2.207,
+    "residual_pp": -0.112,
+    "recovery": -0.119
+   },
+   "South Asia": {
+    "obs": 8.523,
+    "ipw": 8.361,
+    "full": 8.702,
+    "residual_pp": -0.341,
+    "recovery": -0.91
+   },
+   "Southeast Asia": {
+    "obs": 2.778,
+    "ipw": 2.91,
+    "full": 2.884,
+    "residual_pp": 0.026,
+    "recovery": 1.244
+   },
+   "Sub-Saharan Africa": {
+    "obs": 0.658,
+    "ipw": 0.673,
+    "full": 0.684,
+    "residual_pp": -0.01,
+    "recovery": 0.601
+   },
+   "Western Europe": {
+    "obs": 27.116,
+    "ipw": 30.113,
+    "full": 30.513,
+    "residual_pp": -0.4,
+    "recovery": 0.882
+   }
+  }
+ },
+ "V5_distance": {
+  "complete_case": {
+   "mean_km": 2032.1,
+   "median_km": 300.6,
+   "intl_pct": 25.69
+  },
+  "ipw_SW": {
+   "mean_km": 2055.8,
+   "median_km": 310.9,
+   "intl_pct": 26.14
+  },
+  "ipw_EW": {
+   "mean_km": 2061.3,
+   "median_km": 315.0,
+   "intl_pct": 26.45
+  },
+  "near_complete": {
+   "mean_km": 2011.8,
+   "median_km": 298.9,
+   "intl_pct": 26.24,
+   "pair_coverage_pct": 99.98
+  },
+  "note": "same pair set as V1 (size filter on all strings with region); near-complete uses the institution point for failed strings"
+ }
+}

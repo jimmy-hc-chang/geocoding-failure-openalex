@@ -1,0 +1,27 @@
+{
+ "calibration_max_abs_gap": 0.0321,
+ "LA_share_main_effects": 2.973,
+ "LA_share_region_x_ent": 2.979,
+ "LA_share_region_x_ent_commas": 2.965,
+ "LA_share_t95": 2.782,
+ "LA_share_t975": 2.869,
+ "LA_share_t99": 2.973,
+ "LA_share_untrimmed": 3.364,
+ "LA_share_stabilized": 2.973,
+ "fail_le1_comma_pct": 62.3,
+ "fail_ge2_comma_pct": 37.7,
+ "LA_fail_ge2_comma_pct": 51.5,
+ "unk_reclaimed_n": 7297,
+ "unk_doublemissing_n": 1497,
+ "LA_share_raw_augmented": 2.471,
+ "LA_share_ipw_augmented": 2.8,
+ "pairs_augmented": 122519,
+ "boot2000_understatement_CI": [
+  9.1,
+  14.9
+ ],
+ "boot2000_diff_CI": [
+  0.243,
+  0.435
+ ]
+}

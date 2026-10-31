@@ -1,0 +1,138 @@
+country,n,failed,fail_pct,wilson_lo,wilson_hi,region,name
+CN,16570,1846,11.1,10.7,11.6,East Asia,China
+US,9741,674,6.9,6.4,7.4,Northern America,United States
+IN,7274,912,12.5,11.8,13.3,South Asia,India
+JP,4265,398,9.3,8.5,10.2,East Asia,Japan
+DE,3137,435,13.9,12.7,15.1,Western Europe,Germany
+FR,2918,853,29.2,27.6,30.9,Western Europe,France
+IT,2353,340,14.4,13.1,15.9,Western Europe,Italy
+GB,2019,256,12.7,11.3,14.2,Western Europe,United Kingdom
+KR,2011,242,12.0,10.7,13.5,East Asia,"Korea, Republic of"
+TW,1401,140,10.0,8.5,11.7,East Asia,"Taiwan, Province of China"
+BR,1194,280,23.5,21.1,25.9,Latin America & Caribbean,Brazil
+ES,1163,190,16.3,14.3,18.6,Western Europe,Spain
+IR,1145,258,22.5,20.2,25.0,Middle East,"Iran, Islamic Republic of"
+RU,1107,97,8.8,7.2,10.6,Eastern Europe & Central Asia,Russian Federation
+CA,1063,95,8.9,7.4,10.8,Northern America,Canada
+AU,766,88,11.5,9.4,13.9,Oceania,Australia
+TR,669,103,15.4,12.9,18.3,Middle East,Türkiye
+MY,629,61,9.7,7.6,12.3,Southeast Asia,Malaysia
+DZ,623,137,22.0,18.9,25.4,North Africa,Algeria
+CH,571,112,19.6,16.6,23.1,Western Europe,Switzerland
+DK,540,111,20.6,17.4,24.2,Western Europe,Denmark
+BE,537,65,12.1,9.6,15.1,Western Europe,Belgium
+PL,498,63,12.7,10.0,15.9,Eastern Europe & Central Asia,Poland
+AT,486,50,10.3,7.9,13.3,Western Europe,Austria
+SE,477,68,14.3,11.4,17.7,Western Europe,Sweden
+NL,445,65,14.6,11.6,18.2,Western Europe,Netherlands
+MX,374,95,25.4,21.3,30.0,Latin America & Caribbean,Mexico
+SG,374,118,31.6,27.0,36.4,Southeast Asia,Singapore
+EG,336,48,14.3,10.9,18.4,North Africa,Egypt
+SA,328,41,12.5,9.3,16.5,Middle East,Saudi Arabia
+CL,312,60,19.2,15.2,24.0,Latin America & Caribbean,Chile
+RO,312,31,9.9,7.1,13.8,Eastern Europe & Central Asia,Romania
+PK,293,27,9.2,6.4,13.1,South Asia,Pakistan
+PT,280,60,21.4,17.0,26.6,Western Europe,Portugal
+HK,265,28,10.6,7.4,14.8,East Asia,Hong Kong
+BD,264,49,18.6,14.3,23.7,South Asia,Bangladesh
+CZ,261,44,16.9,12.8,21.9,Eastern Europe & Central Asia,Czechia
+NO,206,41,19.9,15.0,25.9,Western Europe,Norway
+VN,199,21,10.6,7.0,15.6,Southeast Asia,Viet Nam
+TN,198,45,22.7,17.4,29.1,North Africa,Tunisia
+TH,195,17,8.7,5.5,13.5,Southeast Asia,Thailand
+IL,177,31,17.5,12.6,23.8,Middle East,Israel
+AE,174,28,16.1,11.4,22.3,Middle East,United Arab Emirates
+SK,171,22,12.9,8.7,18.7,Eastern Europe & Central Asia,Slovakia
+UA,168,10,6.0,3.3,10.6,Eastern Europe & Central Asia,Ukraine
+ZA,166,8,4.8,2.5,9.2,Sub-Saharan Africa,South Africa
+IQ,163,23,14.1,9.6,20.3,Middle East,Iraq
+ID,161,30,18.6,13.4,25.4,Southeast Asia,Indonesia
+FI,156,20,12.8,8.5,19.0,Western Europe,Finland
+HU,135,23,17.0,11.6,24.3,Eastern Europe & Central Asia,Hungary
+MA,135,22,16.3,11.0,23.4,North Africa,Morocco
+GR,119,17,14.3,9.1,21.7,Western Europe,Greece
+BG,112,13,11.6,6.9,18.9,Eastern Europe & Central Asia,Bulgaria
+QA,100,24,24.0,16.7,33.2,Middle East,Qatar
+CO,99,38,38.4,29.4,48.2,Latin America & Caribbean,Colombia
+IE,87,11,12.6,7.2,21.2,Western Europe,Ireland
+HR,82,7,8.5,4.2,16.6,Eastern Europe & Central Asia,Croatia
+LB,77,10,13.0,7.2,22.3,Middle East,Lebanon
+RS,76,9,11.8,6.4,21.0,Eastern Europe & Central Asia,Serbia
+NG,72,6,8.3,3.9,17.0,Sub-Saharan Africa,Nigeria
+MO,71,5,7.0,3.0,15.4,East Asia,Macao
+EE,65,4,6.2,2.4,14.8,Eastern Europe & Central Asia,Estonia
+AR,64,31,48.4,36.6,60.4,Latin America & Caribbean,Argentina
+NZ,62,12,19.4,11.4,30.9,Oceania,New Zealand
+EC,62,5,8.1,3.5,17.5,Latin America & Caribbean,Ecuador
+KZ,52,6,11.5,5.4,23.0,Eastern Europe & Central Asia,Kazakhstan
+JO,50,5,10.0,4.3,21.4,Middle East,Jordan
+ET,37,9,24.3,13.4,40.1,Sub-Saharan Africa,Ethiopia
+LV,36,5,13.9,6.1,28.7,Eastern Europe & Central Asia,Latvia
+SI,36,3,8.3,2.9,21.8,Eastern Europe & Central Asia,Slovenia
+NP,35,14,40.0,25.6,56.4,South Asia,Nepal
+AZ,30,3,10.0,3.5,25.6,Eastern Europe & Central Asia,Azerbaijan
+CY,30,5,16.7,7.3,33.6,Western Europe,Cyprus
+UZ,27,10,37.0,21.5,55.8,Eastern Europe & Central Asia,Uzbekistan
+KW,27,7,25.9,13.2,44.7,Middle East,Kuwait
+PY,26,1,3.8,0.7,18.9,Latin America & Caribbean,Paraguay
+LK,25,4,16.0,6.4,34.7,South Asia,Sri Lanka
+PH,22,2,9.1,2.5,27.8,Southeast Asia,Philippines
+CM,22,3,13.6,4.7,33.3,Sub-Saharan Africa,Cameroon
+BY,22,6,27.3,13.2,48.2,Eastern Europe & Central Asia,Belarus
+LT,22,1,4.5,0.8,21.8,Eastern Europe & Central Asia,Lithuania
+MT,19,6,31.6,15.4,54.0,Western Europe,Malta
+PE,18,3,16.7,5.8,39.2,Latin America & Caribbean,Peru
+LY,16,1,6.2,1.1,28.3,North Africa,Libya
+SY,16,1,6.2,1.1,28.3,Middle East,Syrian Arab Republic
+FJ,13,5,38.5,17.7,64.5,Oceania,Fiji
+IS,13,1,7.7,1.4,33.3,Western Europe,Iceland
+OM,13,3,23.1,8.2,50.3,Middle East,Oman
+CR,13,2,15.4,4.3,42.2,Latin America & Caribbean,Costa Rica
+BN,13,3,23.1,8.2,50.3,Southeast Asia,Brunei Darussalam
+LU,13,1,7.7,1.4,33.3,Western Europe,Luxembourg
+UY,12,2,16.7,4.7,44.8,Latin America & Caribbean,Uruguay
+AM,10,2,20.0,5.7,51.0,Eastern Europe & Central Asia,Armenia
+TD,10,7,70.0,39.7,89.2,Sub-Saharan Africa,Chad
+MN,9,0,0.0,0.0,29.9,East Asia,Mongolia
+VE,8,1,12.5,2.2,47.1,Latin America & Caribbean,"Venezuela, Bolivarian Republic of"
+PR,7,1,14.3,2.6,51.3,Latin America & Caribbean,Puerto Rico
+KE,6,4,66.7,30.0,90.3,Sub-Saharan Africa,Kenya
+MU,6,1,16.7,3.0,56.4,Sub-Saharan Africa,Mauritius
+ZW,6,1,16.7,3.0,56.4,Sub-Saharan Africa,Zimbabwe
+MD,6,1,16.7,3.0,56.4,Eastern Europe & Central Asia,"Moldova, Republic of"
+BF,6,0,0.0,0.0,39.0,Sub-Saharan Africa,Burkina Faso
+PS,5,1,20.0,3.6,62.4,Middle East,"Palestine, State of"
+GH,5,0,0.0,0.0,43.4,Sub-Saharan Africa,Ghana
+SN,5,0,0.0,0.0,43.4,Sub-Saharan Africa,Senegal
+PA,5,4,80.0,37.6,96.4,Latin America & Caribbean,Panama
+CU,4,0,0.0,0.0,49.0,Latin America & Caribbean,Cuba
+BJ,4,2,50.0,15.0,85.0,Sub-Saharan Africa,Benin
+BW,4,1,25.0,4.6,69.9,Sub-Saharan Africa,Botswana
+TJ,4,0,0.0,0.0,49.0,Eastern Europe & Central Asia,Tajikistan
+KP,4,2,50.0,15.0,85.0,East Asia,"Korea, Democratic People's Republic of"
+TZ,4,2,50.0,15.0,85.0,Sub-Saharan Africa,"Tanzania, United Republic of"
+AF,3,0,0.0,0.0,56.1,South Asia,Afghanistan
+ME,3,0,0.0,0.0,56.1,Eastern Europe & Central Asia,Montenegro
+MM,3,0,0.0,0.0,56.1,Southeast Asia,Myanmar
+SS,3,0,0.0,0.0,56.1,Sub-Saharan Africa,South Sudan
+TG,3,0,0.0,0.0,56.1,Sub-Saharan Africa,Togo
+CI,3,0,0.0,0.0,56.1,Sub-Saharan Africa,Côte d'Ivoire
+KH,3,0,0.0,0.0,56.1,Southeast Asia,Cambodia
+BH,3,1,33.3,6.1,79.2,Middle East,Bahrain
+CD,2,0,0.0,0.0,65.8,Sub-Saharan Africa,"Congo, The Democratic Republic of the"
+YE,2,2,100.0,34.2,100.0,Middle East,Yemen
+SD,2,0,0.0,0.0,65.8,North Africa,Sudan
+MK,2,0,0.0,0.0,65.8,Eastern Europe & Central Asia,North Macedonia
+GE,2,0,0.0,0.0,65.8,Eastern Europe & Central Asia,Georgia
+UG,2,1,50.0,9.5,90.5,Sub-Saharan Africa,Uganda
+XK,2,1,50.0,9.5,90.5,Eastern Europe & Central Asia,XK
+MR,2,0,0.0,0.0,65.8,North Africa,Mauritania
+GT,1,1,100.0,20.7,100.0,Latin America & Caribbean,Guatemala
+LI,1,0,0.0,0.0,79.3,,Liechtenstein
+JM,1,0,0.0,0.0,79.3,Latin America & Caribbean,Jamaica
+MG,1,1,100.0,20.7,100.0,Sub-Saharan Africa,Madagascar
+MV,1,1,100.0,20.7,100.0,South Asia,Maldives
+TL,1,0,0.0,0.0,79.3,Southeast Asia,Timor-Leste
+SZ,1,1,100.0,20.7,100.0,Sub-Saharan Africa,Eswatini
+RW,1,0,0.0,0.0,79.3,Sub-Saharan Africa,Rwanda
+ZM,1,0,0.0,0.0,79.3,Sub-Saharan Africa,Zambia

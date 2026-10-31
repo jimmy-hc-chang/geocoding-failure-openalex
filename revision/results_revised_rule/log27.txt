@@ -1,0 +1,46 @@
+check SW == manuscript fit, max |diff|: 2.6079138848444927e-13
+
+region                              obs   full |  SW ipw    res   rec |  EW ipw    res   rec | pairw obs / SW / EW
+East Asia                        40.399 37.737 |  38.724 +0.987 0.629 |  37.994 +0.257 0.903 | 0.9003 / 0.8983 / 0.9003
+Eastern Europe & Central Asia     5.012  4.797 |   5.057 +0.260 -0.209 |   4.901 +0.104 0.515 | 0.9064 / 0.8946 / 0.9064
+Latin America & Caribbean         2.586  2.929 |   2.973 +0.044 1.129 |   3.011 +0.082 1.238 | 0.7689 / 0.7739 / 0.7689
+Middle East                       5.525  6.115 |   5.486 -0.629 -0.067 |   5.481 -0.633 -0.075 | 0.8091 / 0.8253 / 0.8091
+North Africa                      1.727  1.975 |   1.862 -0.113 0.542 |   1.912 -0.063 0.745 | 0.7878 / 0.8016 / 0.7878
+Northern America                 23.082 20.663 |  21.683 +1.020 0.578 |  21.249 +0.586 0.758 | 0.9346 / 0.9314 / 0.9346
+Oceania                           2.107  2.184 |   2.102 -0.082 -0.059 |   2.071 -0.113 -0.463 | 0.8547 / 0.8507 / 0.8547
+South Asia                        8.523  8.733 |   8.512 -0.221 -0.053 |   8.434 -0.299 -0.428 | 0.8525 / 0.8553 / 0.8525
+Southeast Asia                    2.778  2.860 |   2.897 +0.037 1.451 |   2.928 +0.068 1.831 | 0.8526 / 0.8627 / 0.8526
+Sub-Saharan Africa                0.658  0.688 |   0.657 -0.031 -0.026 |   0.685 -0.003 0.889 | 0.8155 / 0.8474 / 0.8155
+Western Europe                   27.116 31.154 |  29.636 -1.518 0.624 |  30.976 -0.177 0.956 | 0.7741 / 0.8028 / 0.7741
+V3_weights_n_papers {'East Asia': 0.699, 'Eastern Europe': 0.24, 'Latin America ': 0.039, 'Middle East': -0.649, 'North Africa': -0.099, 'Northern Ameri': 0.745, 'Oceania': -0.102, 'South Asia': -0.278, 'Southeast Asia': 0.029, 'Sub-Saharan Af': -0.04, 'Western Europe': -0.796}
+V3_weights_sqrt_degree {'East Asia': 0.559, 'Eastern Europe': 0.17, 'Latin America ': 0.089, 'Middle East': -0.643, 'North Africa': -0.091, 'Northern Ameri': 0.806, 'Oceania': -0.1, 'South Asia': -0.233, 'Southeast Asia': 0.059, 'Sub-Saharan Af': -0.017, 'Western Europe': -0.811}
+trim 0.95 SW {'East Asia': 1.873, 'Eastern Eu': 0.255, 'Latin Amer': -0.147, 'Middle Eas': -0.651, 'North Afri': -0.169, 'Northern A': 1.432, 'Oceania': -0.091, 'South Asia': -0.222, 'Southeast ': -0.008, 'Sub-Sahara': -0.031, 'Western Eu': -2.537}
+trim 0.95 EW {'East Asia': 1.624, 'Eastern Eu': 0.181, 'Latin Amer': -0.149, 'Middle Eas': -0.646, 'North Afri': -0.153, 'Northern A': 1.292, 'Oceania': -0.101, 'South Asia': -0.249, 'Southeast ': 0.02, 'Sub-Sahara': -0.011, 'Western Eu': -2.04}
+trim None SW {'East Asia': 0.117, 'Eastern Eu': 0.19, 'Latin Amer': 0.435, 'Middle Eas': -0.715, 'North Afri': -0.052, 'Northern A': 0.465, 'Oceania': -0.13, 'South Asia': -0.338, 'Southeast ': -0.028, 'Sub-Sahara': -0.05, 'Western Eu': -0.442}
+trim None EW {'East Asia': -2.221, 'Eastern Eu': -0.148, 'Latin Amer': 0.826, 'Middle Eas': -0.907, 'North Afri': 0.068, 'Northern A': -0.968, 'Oceania': -0.26, 'South Asia': -0.78, 'Southeast ': -0.145, 'Sub-Sahara': -0.05, 'Western Eu': 3.343}
+size filter on geocoded: SW {'East Asia': 0.453, 'Eastern Eu': 0.239, 'Latin Amer': 0.228, 'Middle Eas': -0.621, 'North Afri': -0.049, 'Northern A': 0.391, 'Oceania': -0.104, 'South Asia': -0.19, 'Southeast ': 0.012, 'Sub-Sahara': -0.027, 'Western Eu': -0.877}
+size filter on geocoded: EW {'East Asia': 0.253, 'Eastern Eu': 0.09, 'Latin Amer': 0.06, 'Middle Eas': -0.568, 'North Afri': -0.103, 'Northern A': 0.592, 'Oceania': -0.112, 'South Asia': -0.341, 'Southeast ': 0.026, 'Sub-Sahara': -0.01, 'Western Eu': -0.4}
+V5: {
+ "complete_case": {
+  "mean_km": 2032.1,
+  "median_km": 300.6,
+  "intl_pct": 25.69
+ },
+ "ipw_SW": {
+  "mean_km": 2055.8,
+  "median_km": 310.9,
+  "intl_pct": 26.14
+ },
+ "ipw_EW": {
+  "mean_km": 2061.3,
+  "median_km": 315.0,
+  "intl_pct": 26.45
+ },
+ "near_complete": {
+  "mean_km": 2011.8,
+  "median_km": 298.9,
+  "intl_pct": 26.24,
+  "pair_coverage_pct": 99.98
+ },
+ "note": "same pair set as V1 (size filter on all strings with region); near-complete uses the institution point for failed strings"
+}

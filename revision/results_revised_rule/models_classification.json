@@ -1,0 +1,915 @@
+{
+ "tie_rule": "exclude",
+ "n": 71377,
+ "n_countries": 136,
+ "major5_classification": {
+  "custom_scheme_counts": {
+   "global_south_strings": 33208,
+   "global_south_share_CN_pct": 49.9,
+   "global_south_and_nonlatin_pct": 83.1,
+   "custom_south_but_WB_HIC": [
+    "AE",
+    "BH",
+    "BN",
+    "CL",
+    "CR",
+    "HK",
+    "KW",
+    "MO",
+    "OM",
+    "PA",
+    "PR",
+    "QA",
+    "SA",
+    "SG",
+    "UY"
+   ],
+   "custom_north_but_WB_nonHIC": [
+    "BY",
+    "MD",
+    "ME",
+    "MK",
+    "RS",
+    "UA"
+   ]
+  },
+  "wb_counts": {
+   "wb_nonhic_strings": 31768,
+   "wb_nonhic_and_nonlatin_pct": 84.6,
+   "phi_custom_vs_script": 0.582,
+   "phi_wb_vs_script": 0.586
+  },
+  "M1_custom": {
+   "Intercept": {
+    "coef": 0.163,
+    "lo": 0.1096,
+    "hi": 0.2424,
+    "p": 0.0
+   },
+   "global_south": {
+    "coef": 1.4191,
+    "lo": 1.0581,
+    "hi": 1.9035,
+    "p": 0.0195
+   },
+   "non_latin": {
+    "coef": 0.6544,
+    "lo": 0.4885,
+    "hi": 0.8766,
+    "p": 0.0045
+   },
+   "log_papers": {
+    "coef": 0.7231,
+    "lo": 0.5078,
+    "hi": 1.0297,
+    "p": 0.0722
+   }
+  },
+  "M1_worldbank": {
+   "Intercept": {
+    "coef": 0.1667,
+    "lo": 0.1125,
+    "hi": 0.2471,
+    "p": 0.0
+   },
+   "wb_nonhic": {
+    "coef": 1.3042,
+    "lo": 0.9971,
+    "hi": 1.7058,
+    "p": 0.0525
+   },
+   "non_latin": {
+    "coef": 0.6872,
+    "lo": 0.5056,
+    "hi": 0.9339,
+    "p": 0.0165
+   },
+   "log_papers": {
+    "coef": 0.7226,
+    "lo": 0.5076,
+    "hi": 1.0286,
+    "p": 0.0713
+   }
+  },
+  "M1_worldbank_only": {
+   "Intercept": {
+    "coef": 0.1531,
+    "lo": 0.1115,
+    "hi": 0.2102,
+    "p": 0.0
+   },
+   "wb_nonhic": {
+    "coef": 1.0436,
+    "lo": 0.7002,
+    "hi": 1.5556,
+    "p": 0.8339
+   },
+   "log_papers": {
+    "coef": 0.7149,
+    "lo": 0.5036,
+    "hi": 1.015,
+    "p": 0.0606
+   }
+  },
+  "M1_script_only": {
+   "Intercept": {
+    "coef": 0.174,
+    "lo": 0.1192,
+    "hi": 0.254,
+    "p": 0.0
+   },
+   "non_latin": {
+    "coef": 0.8035,
+    "lo": 0.5308,
+    "hi": 1.2161,
+    "p": 0.3008
+   },
+   "log_papers": {
+    "coef": 0.717,
+    "lo": 0.5026,
+    "hi": 1.0227,
+    "p": 0.0663
+   }
+  },
+  "cell_fail_rates": {
+   "HIC_Latin": {
+    "n": 29429,
+    "fail_pct": 13.4,
+    "n_countries": 39
+   },
+   "HIC_nonLatin": {
+    "n": 10180,
+    "fail_pct": 10.6,
+    "n_countries": 16
+   },
+   "nonHIC_Latin": {
+    "n": 4885,
+    "fail_pct": 19.0,
+    "n_countries": 38
+   },
+   "nonHIC_nonLatin": {
+    "n": 26883,
+    "fail_pct": 12.2,
+    "n_countries": 43
+   }
+  },
+  "M1_2x2_cells": {
+   "Intercept": {
+    "coef": 0.163,
+    "lo": 0.106,
+    "hi": 0.2507,
+    "p": 0.0
+   },
+   "HIC_nonLatin": {
+    "coef": 0.7619,
+    "lo": 0.4734,
+    "hi": 1.2262,
+    "p": 0.2627
+   },
+   "nonHIC_Latin": {
+    "coef": 1.4794,
+    "lo": 0.8873,
+    "hi": 2.4666,
+    "p": 0.1332
+   },
+   "nonHIC_nonLatin": {
+    "coef": 0.8925,
+    "lo": 0.5539,
+    "hi": 1.438,
+    "p": 0.6402
+   },
+   "log_papers": {
+    "coef": 0.7256,
+    "lo": 0.5123,
+    "hi": 1.0278,
+    "p": 0.071
+   }
+  },
+  "within_HIC_spread": {
+   "n_countries_n100": 35,
+   "min": [
+    "US",
+    6.9
+   ],
+   "max": [
+    "SG",
+    31.6
+   ],
+   "FR": 29.2,
+   "US": 6.9
+  },
+  "nonHIC_n100_rates": {
+   "ZA": 4.8,
+   "UA": 6.0,
+   "TH": 8.7,
+   "PK": 9.2,
+   "MY": 9.7,
+   "VN": 10.6,
+   "CN": 11.1,
+   "IN": 12.5,
+   "IQ": 14.1,
+   "EG": 14.3,
+   "TR": 15.4,
+   "MA": 16.3,
+   "BD": 18.6,
+   "ID": 18.6,
+   "DZ": 22.0,
+   "IR": 22.5,
+   "TN": 22.7,
+   "BR": 23.5,
+   "MX": 25.4
+  },
+  "M3cat_custom": {
+   "Intercept": {
+    "coef": 0.0478,
+    "lo": 0.0301,
+    "hi": 0.0759,
+    "p": 0.0
+   },
+   "c0": {
+    "coef": 18.2126,
+    "lo": 13.7794,
+    "hi": 24.0722,
+    "p": 0.0
+   },
+   "c1": {
+    "coef": 9.2351,
+    "lo": 7.9525,
+    "hi": 10.7245,
+    "p": 0.0
+   },
+   "c3": {
+    "coef": 0.1998,
+    "lo": 0.1355,
+    "hi": 0.2947,
+    "p": 0.0
+   },
+   "c4plus": {
+    "coef": 0.0703,
+    "lo": 0.0437,
+    "hi": 0.1131,
+    "p": 0.0
+   },
+   "global_south": {
+    "coef": 1.2239,
+    "lo": 0.8828,
+    "hi": 1.6969,
+    "p": 0.2255
+   },
+   "non_latin": {
+    "coef": 0.5917,
+    "lo": 0.4246,
+    "hi": 0.8247,
+    "p": 0.0019
+   },
+   "log_papers": {
+    "coef": 0.5947,
+    "lo": 0.4762,
+    "hi": 0.7427,
+    "p": 0.0
+   },
+   "strlen": {
+    "coef": 1.0205,
+    "lo": 1.0149,
+    "hi": 1.0261,
+    "p": 0.0
+   }
+  },
+  "M3cat_worldbank": {
+   "Intercept": {
+    "coef": 0.0484,
+    "lo": 0.0306,
+    "hi": 0.0766,
+    "p": 0.0
+   },
+   "c0": {
+    "coef": 18.1716,
+    "lo": 13.7891,
+    "hi": 23.947,
+    "p": 0.0
+   },
+   "c1": {
+    "coef": 9.2084,
+    "lo": 7.912,
+    "hi": 10.7173,
+    "p": 0.0
+   },
+   "c3": {
+    "coef": 0.1994,
+    "lo": 0.135,
+    "hi": 0.2946,
+    "p": 0.0
+   },
+   "c4plus": {
+    "coef": 0.0694,
+    "lo": 0.0428,
+    "hi": 0.1127,
+    "p": 0.0
+   },
+   "wb_nonhic": {
+    "coef": 1.1221,
+    "lo": 0.8205,
+    "hi": 1.5347,
+    "p": 0.4707
+   },
+   "non_latin": {
+    "coef": 0.6187,
+    "lo": 0.4385,
+    "hi": 0.873,
+    "p": 0.0063
+   },
+   "log_papers": {
+    "coef": 0.5926,
+    "lo": 0.4749,
+    "hi": 0.7396,
+    "p": 0.0
+   },
+   "strlen": {
+    "coef": 1.0206,
+    "lo": 1.0151,
+    "hi": 1.0262,
+    "p": 0.0
+   }
+  },
+  "M3lin_worldbank": {
+   "Intercept": {
+    "coef": 0.7242,
+    "lo": 0.4775,
+    "hi": 1.0982,
+    "p": 0.1287
+   },
+   "wb_nonhic": {
+    "coef": 1.0018,
+    "lo": 0.754,
+    "hi": 1.3312,
+    "p": 0.9899
+   },
+   "non_latin": {
+    "coef": 0.6001,
+    "lo": 0.4412,
+    "hi": 0.8162,
+    "p": 0.0011
+   },
+   "log_papers": {
+    "coef": 0.578,
+    "lo": 0.4614,
+    "hi": 0.724,
+    "p": 0.0
+   },
+   "strlen": {
+    "coef": 1.0264,
+    "lo": 1.0207,
+    "hi": 1.0321,
+    "p": 0.0
+   },
+   "n_commas": {
+    "coef": 0.2337,
+    "lo": 0.2023,
+    "hi": 0.27,
+    "p": 0.0
+   }
+  }
+ },
+ "major4b_comma_spec": {
+  "linear": {
+   "aic": 35754.0,
+   "bic": 35809.1,
+   "llf": -17871.0,
+   "coefs": {
+    "Intercept": {
+     "coef": 0.7174,
+     "lo": 0.4727,
+     "hi": 1.0887,
+     "p": 0.1186
+    },
+    "global_south": {
+     "coef": 1.0922,
+     "lo": 0.805,
+     "hi": 1.4819,
+     "p": 0.5709
+    },
+    "non_latin": {
+     "coef": 0.5734,
+     "lo": 0.4226,
+     "hi": 0.7779,
+     "p": 0.0004
+    },
+    "log_papers": {
+     "coef": 0.5803,
+     "lo": 0.4633,
+     "hi": 0.7268,
+     "p": 0.0
+    },
+    "strlen": {
+     "coef": 1.0262,
+     "lo": 1.0205,
+     "hi": 1.0319,
+     "p": 0.0
+    },
+    "n_commas": {
+     "coef": 0.2341,
+     "lo": 0.2026,
+     "hi": 0.2705,
+     "p": 0.0
+    }
+   }
+  },
+  "categorical": {
+   "aic": 34870.2,
+   "bic": 34952.7,
+   "llf": -17426.1,
+   "coefs": {
+    "Intercept": {
+     "coef": 0.0478,
+     "lo": 0.0301,
+     "hi": 0.0759,
+     "p": 0.0
+    },
+    "c0": {
+     "coef": 18.2126,
+     "lo": 13.7794,
+     "hi": 24.0722,
+     "p": 0.0
+    },
+    "c1": {
+     "coef": 9.2351,
+     "lo": 7.9525,
+     "hi": 10.7245,
+     "p": 0.0
+    },
+    "c3": {
+     "coef": 0.1998,
+     "lo": 0.1355,
+     "hi": 0.2947,
+     "p": 0.0
+    },
+    "c4plus": {
+     "coef": 0.0703,
+     "lo": 0.0437,
+     "hi": 0.1131,
+     "p": 0.0
+    },
+    "global_south": {
+     "coef": 1.2239,
+     "lo": 0.8828,
+     "hi": 1.6969,
+     "p": 0.2255
+    },
+    "non_latin": {
+     "coef": 0.5917,
+     "lo": 0.4246,
+     "hi": 0.8247,
+     "p": 0.0019
+    },
+    "log_papers": {
+     "coef": 0.5947,
+     "lo": 0.4762,
+     "hi": 0.7427,
+     "p": 0.0
+    },
+    "strlen": {
+     "coef": 1.0205,
+     "lo": 1.0149,
+     "hi": 1.0261,
+     "p": 0.0
+    }
+   }
+  },
+  "spline": {
+   "aic": 35162.9,
+   "bic": 35236.3,
+   "llf": -17573.4,
+   "coefs": {
+    "Intercept": {
+     "coef": 0.0,
+     "lo": NaN,
+     "hi": NaN,
+     "p": NaN
+    },
+    "global_south": {
+     "coef": 1.1274,
+     "lo": 0.827,
+     "hi": 1.5367,
+     "p": 0.4482
+    },
+    "non_latin": {
+     "coef": 0.5786,
+     "lo": 0.4199,
+     "hi": 0.7972,
+     "p": 0.0008
+    },
+    "log_papers": {
+     "coef": 0.5606,
+     "lo": 0.4464,
+     "hi": 0.704,
+     "p": 0.0
+    },
+    "strlen": {
+     "coef": 1.0243,
+     "lo": 1.0185,
+     "hi": 1.0301,
+     "p": 0.0
+    },
+    "cr(n_commas, df=4)[0": {
+     "coef": 584382.7334,
+     "lo": NaN,
+     "hi": NaN,
+     "p": NaN
+    },
+    "cr(n_commas, df=4)[1": {
+     "coef": 268.6038,
+     "lo": NaN,
+     "hi": NaN,
+     "p": NaN
+    },
+    "cr(n_commas, df=4)[2": {
+     "coef": 18.587,
+     "lo": NaN,
+     "hi": NaN,
+     "p": NaN
+    },
+    "cr(n_commas, df=4)[3": {
+     "coef": 0.0,
+     "lo": NaN,
+     "hi": NaN,
+     "p": NaN
+    }
+   }
+  },
+  "M2_region_linear_comma": {
+   "aic": 35287.5,
+   "LA_OR": {
+    "coef": 2.695,
+    "lo": 2.1409,
+    "hi": 3.3926,
+    "p": 0.0
+   }
+  },
+  "M2_region_cat_comma": {
+   "aic": 34335.0,
+   "LA_OR": {
+    "coef": 3.5018,
+    "lo": 2.7352,
+    "hi": 4.4834,
+    "p": 0.0
+   }
+  }
+ },
+ "major4a_inference": {
+  "cluster_country": {
+   "Intercept": {
+    "coef": 0.0806,
+    "lo": 0.0735,
+    "hi": 0.0883,
+    "p": 0.0
+   },
+   "East Asia": {
+    "coef": 1.5891,
+    "lo": 1.4261,
+    "hi": 1.7708,
+    "p": 0.0
+   },
+   "Eastern Europe & Central Asia": {
+    "coef": 1.6123,
+    "lo": 1.2811,
+    "hi": 2.0291,
+    "p": 0.0
+   },
+   "Latin America & Caribbean": {
+    "coef": 3.9956,
+    "lo": 3.4051,
+    "hi": 4.6884,
+    "p": 0.0
+   },
+   "Middle East": {
+    "coef": 2.9029,
+    "lo": 2.1764,
+    "hi": 3.872,
+    "p": 0.0
+   },
+   "North Africa": {
+    "coef": 3.0216,
+    "lo": 2.3648,
+    "hi": 3.8609,
+    "p": 0.0
+   },
+   "Oceania": {
+    "coef": 1.8659,
+    "lo": 1.5079,
+    "hi": 2.3089,
+    "p": 0.0
+   },
+   "South Asia": {
+    "coef": 1.8855,
+    "lo": 1.7072,
+    "hi": 2.0824,
+    "p": 0.0
+   },
+   "Southeast Asia": {
+    "coef": 2.4201,
+    "lo": 1.2125,
+    "hi": 4.8303,
+    "p": 0.0122
+   },
+   "Sub-Saharan Africa": {
+    "coef": 1.8678,
+    "lo": 0.8827,
+    "hi": 3.9522,
+    "p": 0.1023
+   },
+   "Western Europe": {
+    "coef": 2.7407,
+    "lo": 1.9295,
+    "hi": 3.8931,
+    "p": 0.0
+   },
+   "log_papers": {
+    "coef": 0.7317,
+    "lo": 0.5158,
+    "hi": 1.038,
+    "p": 0.08
+   }
+  },
+  "wild_cluster_bootstrap": {
+   "East Asia": {
+    "OR": 1.5891,
+    "lo_percentile_t": 1.4199,
+    "hi_percentile_t": 1.7769,
+    "lo_percentile": 1.4212,
+    "hi_percentile": 1.7786,
+    "n_countries_in_region": 8
+   },
+   "Eastern Europe & Central Asia": {
+    "OR": 1.6123,
+    "lo_percentile_t": 1.3116,
+    "hi_percentile_t": 1.9926,
+    "lo_percentile": 1.3045,
+    "hi_percentile": 1.9819,
+    "n_countries_in_region": 25
+   },
+   "Latin America & Caribbean": {
+    "OR": 3.9956,
+    "lo_percentile_t": 3.4008,
+    "hi_percentile_t": 4.731,
+    "lo_percentile": 3.3745,
+    "hi_percentile": 4.6944,
+    "n_countries_in_region": 16
+   },
+   "Middle East": {
+    "OR": 2.9029,
+    "lo_percentile_t": 2.2346,
+    "hi_percentile_t": 3.7617,
+    "lo_percentile": 2.2402,
+    "hi_percentile": 3.7711,
+    "n_countries_in_region": 15
+   },
+   "North Africa": {
+    "OR": 3.0216,
+    "lo_percentile_t": 2.4236,
+    "hi_percentile_t": 3.8064,
+    "lo_percentile": 2.3987,
+    "hi_percentile": 3.7672,
+    "n_countries_in_region": 7
+   },
+   "Oceania": {
+    "OR": 1.8659,
+    "lo_percentile_t": 1.4995,
+    "hi_percentile_t": 2.3249,
+    "lo_percentile": 1.4975,
+    "hi_percentile": 2.3218,
+    "n_countries_in_region": 3
+   },
+   "South Asia": {
+    "OR": 1.8855,
+    "lo_percentile_t": 1.7112,
+    "hi_percentile_t": 2.0671,
+    "lo_percentile": 1.7199,
+    "hi_percentile": 2.0775,
+    "n_countries_in_region": 7
+   },
+   "Southeast Asia": {
+    "OR": 2.4201,
+    "lo_percentile_t": 1.3377,
+    "hi_percentile_t": 4.3554,
+    "lo_percentile": 1.3447,
+    "hi_percentile": 4.3782,
+    "n_countries_in_region": 10
+   },
+   "Sub-Saharan Africa": {
+    "OR": 1.8678,
+    "lo_percentile_t": 0.9752,
+    "hi_percentile_t": 3.8199,
+    "lo_percentile": 0.9133,
+    "hi_percentile": 3.5775,
+    "n_countries_in_region": 23
+   },
+   "Western Europe": {
+    "OR": 2.7407,
+    "lo_percentile_t": 2.0564,
+    "hi_percentile_t": 3.6927,
+    "lo_percentile": 2.0342,
+    "hi_percentile": 3.6529,
+    "n_countries_in_region": 20
+   }
+  },
+  "wild_B": 999,
+  "mixed_country_RE": {
+   "East Asia": {
+    "OR": 1.14,
+    "lo": 1.0952,
+    "hi": 1.1866
+   },
+   "Eastern Europe & Central Asia": {
+    "OR": 1.2986,
+    "lo": 1.1639,
+    "hi": 1.4488
+   },
+   "Latin America & Caribbean": {
+    "OR": 2.8442,
+    "lo": 2.5777,
+    "hi": 3.1383
+   },
+   "Middle East": {
+    "OR": 1.9752,
+    "lo": 1.7986,
+    "hi": 2.1691
+   },
+   "North Africa": {
+    "OR": 1.9656,
+    "lo": 1.7137,
+    "hi": 2.2545
+   },
+   "Oceania": {
+    "OR": 1.9571,
+    "lo": 1.5955,
+    "hi": 2.4007
+   },
+   "South Asia": {
+    "OR": 1.8729,
+    "lo": 1.7534,
+    "hi": 2.0005
+   },
+   "Southeast Asia": {
+    "OR": 1.5932,
+    "lo": 1.3882,
+    "hi": 1.8285
+   },
+   "Sub-Saharan Africa": {
+    "OR": 1.8853,
+    "lo": 1.3819,
+    "hi": 2.5719
+   },
+   "Western Europe": {
+    "OR": 1.8547,
+    "lo": 1.7788,
+    "hi": 1.934
+   }
+  },
+  "mixed_country_RE_sd": 0.4039,
+  "country_level_quasibinomial": {
+   "East Asia": {
+    "coef": 1.5591,
+    "lo": 1.4711,
+    "hi": 1.6523,
+    "p": 0.0
+   },
+   "Eastern Europe & Central Asia": {
+    "coef": 1.742,
+    "lo": 1.5865,
+    "hi": 1.9127,
+    "p": 0.0
+   },
+   "Latin America & Caribbean": {
+    "coef": 4.4961,
+    "lo": 4.106,
+    "hi": 4.9233,
+    "p": 0.0
+   },
+   "Middle East": {
+    "coef": 2.9579,
+    "lo": 2.7242,
+    "hi": 3.2116,
+    "p": 0.0
+   },
+   "North Africa": {
+    "coef": 3.5802,
+    "lo": 3.1843,
+    "hi": 4.0252,
+    "p": 0.0
+   },
+   "Oceania": {
+    "coef": 1.856,
+    "lo": 1.5971,
+    "hi": 2.1569,
+    "p": 0.0
+   },
+   "South Asia": {
+    "coef": 2.0171,
+    "lo": 1.8791,
+    "hi": 2.1652,
+    "p": 0.0
+   },
+   "Southeast Asia": {
+    "coef": 2.5353,
+    "lo": 2.2786,
+    "hi": 2.8208,
+    "p": 0.0
+   },
+   "Sub-Saharan Africa": {
+    "coef": 2.0477,
+    "lo": 1.6449,
+    "hi": 2.5493,
+    "p": 0.0
+   },
+   "Western Europe": {
+    "coef": 2.7856,
+    "lo": 2.6275,
+    "hi": 2.9532,
+    "p": 0.0
+   }
+  },
+  "country_level_quasibinomial_dispersion": 0.48,
+  "country_level_n_countries": 136,
+  "sum_contrast_cluster": {
+   "C(region, Sum)[S.East Asia": {
+    "coef": 0.7491,
+    "lo": 0.6581,
+    "hi": 0.8528,
+    "p": 0.0
+   },
+   "C(region, Sum)[S.Eastern Europe & Central Asia": {
+    "coef": 0.7601,
+    "lo": 0.6089,
+    "hi": 0.9487,
+    "p": 0.0153
+   },
+   "C(region, Sum)[S.Latin America & Caribbean": {
+    "coef": 1.8836,
+    "lo": 1.6004,
+    "hi": 2.2168,
+    "p": 0.0
+   },
+   "C(region, Sum)[S.Middle East": {
+    "coef": 1.3685,
+    "lo": 1.0414,
+    "hi": 1.7982,
+    "p": 0.0244
+   },
+   "C(region, Sum)[S.North Africa": {
+    "coef": 1.4244,
+    "lo": 1.1287,
+    "hi": 1.7976,
+    "p": 0.0029
+   },
+   "C(region, Sum)[S.Northern America": {
+    "coef": 0.4714,
+    "lo": 0.4135,
+    "hi": 0.5374,
+    "p": 0.0
+   },
+   "C(region, Sum)[S.Oceania": {
+    "coef": 0.8796,
+    "lo": 0.713,
+    "hi": 1.0851,
+    "p": 0.2311
+   },
+   "C(region, Sum)[S.South Asia": {
+    "coef": 0.8889,
+    "lo": 0.7891,
+    "hi": 1.0012,
+    "p": 0.0523
+   },
+   "C(region, Sum)[S.Southeast Asia": {
+    "coef": 1.1409,
+    "lo": 0.6075,
+    "hi": 2.1424,
+    "p": 0.6819
+   },
+   "C(region, Sum)[S.Sub-Saharan Africa": {
+    "coef": 0.8805,
+    "lo": 0.4451,
+    "hi": 1.7419,
+    "p": 0.7147
+   }
+  }
+ },
+ "minor3_chi2": {
+  "asymptotic": {
+   "chi2": 2122.0,
+   "dof": 135,
+   "cramer_v": 0.172
+  },
+  "monte_carlo": {
+   "B": 2000,
+   "p": 0.0004997501249375312,
+   "chi2_obs": 2122.0
+  },
+  "n_ge_30": {
+   "n_countries": 73,
+   "chi2": 1947.1,
+   "dof": 72,
+   "cramer_v": 0.166,
+   "p": 0.0
+  }
+ }
+}

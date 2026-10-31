@@ -1,0 +1,44 @@
+rep 0 elapsed 0s
+rep 200 elapsed 30s
+{
+ "LA_share_country_FE": 2.964,
+ "n_country_FE_cells": 77,
+ "calib_AR": {
+  "n": 64,
+  "pred_success": 0.516,
+  "obs_success": 0.516
+ },
+ "calib_CO": {
+  "n": 99,
+  "pred_success": 0.616,
+  "obs_success": 0.616
+ },
+ "calib_FR": {
+  "n": 2918,
+  "pred_success": 0.708,
+  "obs_success": 0.708
+ },
+ "calib_NP": {
+  "n": 35,
+  "pred_success": 0.621,
+  "obs_success": 0.6
+ },
+ "boot_reps_effective": 400,
+ "boot2000_refit_LA_raw": [
+  2.327,
+  2.846
+ ],
+ "boot2000_refit_LA_ipw": [
+  2.645,
+  3.25
+ ],
+ "boot2000_refit_understatement": [
+  9.0,
+  16.7
+ ],
+ "boot2000_refit_diff": [
+  0.259,
+  0.509
+ ],
+ "elapsed_s": 58.4
+}

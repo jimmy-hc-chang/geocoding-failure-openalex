@@ -1,0 +1,43 @@
+{
+ "n_strings": 36892,
+ "fail_pct": 9.04,
+ "fail_by_commas_pct": {
+  "0": 78.52,
+  "1": 75.76,
+  "2": 10.3,
+  "3": 2.35,
+  "4": 1.85
+ },
+ "le1_comma_share_pct": 8.23,
+ "le1_comma_share_of_failures_pct": 70.65,
+ "html_entity_share_pct": 0.3,
+ "fail_with_entity_pct": 45.95,
+ "fail_without_entity_pct": 8.93,
+ "failed_entity_strings": 51,
+ "entity_share_by_region_pct": {
+  "East Asia": 0.33,
+  "Eastern Europe & Central Asia": 0.71,
+  "Latin America & Caribbean": 1.53,
+  "Middle East": 0.28,
+  "North Africa": 2.7,
+  "Northern America": 0.14,
+  "Oceania": 0.39,
+  "South Asia": 0.0,
+  "Southeast Asia": 0.97,
+  "Sub-Saharan Africa": 0.0,
+  "Western Europe": 0.45
+ },
+ "composition_distortion_pct": {
+  "East Asia": 0.25,
+  "Eastern Europe & Central Asia": -0.69,
+  "Latin America & Caribbean": -0.66,
+  "Middle East": -5.27,
+  "North Africa": 3.45,
+  "Northern America": 2.35,
+  "Oceania": 1.74,
+  "South Asia": -18.91,
+  "Southeast Asia": -5.5,
+  "Sub-Saharan Africa": -10.52,
+  "Western Europe": -3.16
+ }
+}
